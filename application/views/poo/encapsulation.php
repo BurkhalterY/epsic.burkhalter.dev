@@ -8,7 +8,7 @@
 <p>On a donc mis en place un système de "droit" entre les objets :</p>
 <ul>
 	<li><strong>public</strong> : l'élément est visible depuis toutes les classes</li>
-	<li><strong>protected</strong> : l'élément n'est visible que dans le package et les classe don elle <a href="heritage.php">hérite</a></li>
+	<li><strong>protected</strong> : l'élément n'est visible que dans le package et les classe don elle <a href="<?=base_url('poo/heritage')?>">hérite</a></li>
 	<li><strong>private</strong> : l'élément est visible uniquement dans la classe en cours</li>
 </ul>
 
