@@ -13,6 +13,6 @@ INNER JOIN t_sexe ON fk_sexe = id_sexe</code></pre>
 <pre><code class="language-sql">SELECT nom, prenom, adresse FROM t_avoir_email
 INNER JOIN t_personne ON fk_personne = id_personne
 INNER JOIN t_email ON fk_email = id_email</code></pre>
-<p>On peut bien évidement ajouté les même options supplémentaires qu'<a href="<?=base_url('bdd/sql_select.php')?>">ici</a>. Simplement les rajouter à la fin.</p>
+<p>On peut bien évidement ajouté les même options supplémentaires qu'<a href="<?=base_url('bdd/sql_select')?>">ici</a>. Simplement les rajouter à la fin.</p>
 
 <p>La base de données utilisée est disponible <a href="<?=base_url('medias/bdd/tuto.sql')?>">ici</a>.</p>
