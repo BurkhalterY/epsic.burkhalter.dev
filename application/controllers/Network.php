@@ -2,7 +2,7 @@
 
 class Network extends MY_Controller {
 
-	public $description = "Module 117, réseau et IP.";
+	public $description = "Module 117 : réseau et IP";
 	public $dir = 'network';
 
 	public function index() {

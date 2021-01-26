@@ -24,11 +24,11 @@
 <img src="<?=base_url('medias/access/icud_c3.png')?>" />
 <p>L'éditeur VBA s'ouvre, collez-y le code suivant :</p>
 <pre><code class="language-visual-basic">Private Sub Form_AfterInsert()
-DoCmd.SetWarnings False
-DoCmd.RunSQL "INSERT INTO T_Avoir_Email (FK_Personne, FK_Email) VALUES (" & Me.OpenArgs & ", " & Me.ID_Email & ")"
-DoCmd.SetWarnings True
-DoCmd.Close
-Forms!F_Personne.Emails.Requery
+	DoCmd.SetWarnings False
+	DoCmd.RunSQL "INSERT INTO T_Avoir_Email (FK_Personne, FK_Email) VALUES (" & Me.OpenArgs & ", " & Me.ID_Email & ")"
+	DoCmd.SetWarnings True
+	DoCmd.Close
+	Forms!F_Personne.Emails.Requery
 End Sub</code></pre>
 <p>Explication du code :</p>
 <p>La deuxième ligne (DoCmd.RunSQL) permet d'exécuter une requête SQL, pour faire simple, c'est une manière de modifier la base de données depuis le code. Pensez a remplacer tous les noms de champs par les vôtres, sinon Access ne les trouveras pas.</p>
@@ -37,7 +37,7 @@ End Sub</code></pre>
 <p>Pour finir, on fait un Requery sur le champ Emails de F_Personne pour l'actualiser et donc afficher la nouvelle adresse ajoutée.</p>
 <p>Il faut ensuite retourner dans F_Personne et ajouter un évènement Sur clic au bouton + :</p>
 <pre><code class="language-visual-basic">Private Sub Btn_ajouter_email_Click()
-DoCmd.OpenForm "F_Ajouter_Email", acNormal, , , acFormAdd, acDialog, Me.ID_Personne
+	DoCmd.OpenForm "F_Ajouter_Email", acNormal, , , acFormAdd, acDialog, Me.ID_Personne
 End Sub</code></pre>
 <p>Cela ouvrira le formulaire F_Ajouter_Email</p>
 
@@ -58,30 +58,30 @@ End Sub</code></pre>
 <p>Une fois la liste déroulante créée, ajoutez un bouton, dans Événement, Sur clic, cela ouvre l'éditeur VBA.</p>
 <p>Vous pouvez y coller le même code que précédemment, à l'exception de la requête SQL qui diffère un peu.</p>
 <pre><code class="language-visual-basic">Private Sub Btn_selectionner_Click()
-DoCmd.SetWarnings False
-DoCmd.RunSQL "INSERT INTO T_Avoir_Email (FK_Personne, FK_Email) VALUES(" & Me.OpenArgs & ", " & Me.Emails.Column(0, Me.Emails.ListIndex) & ")"
-DoCmd.SetWarnings True
-DoCmd.Close
-Forms!F_Personne.Emails.Requery
+	DoCmd.SetWarnings False
+	DoCmd.RunSQL "INSERT INTO T_Avoir_Email (FK_Personne, FK_Email) VALUES(" & Me.OpenArgs & ", " & Me.Emails.Column(0, Me.Emails.ListIndex) & ")"
+	DoCmd.SetWarnings True
+	DoCmd.Close
+	Forms!F_Personne.Emails.Requery
 End Sub</code></pre>
 <p>Et, ne pas oublier de donner un évènement au bouton v dans le formulaire F_Personne</p>
 <pre><code class="language-visual-basic">Private Sub Btn_importer_email_Click()
-DoCmd.OpenForm "F_Importer_Email", acNormal, , , acFormAdd, acDialog, Me.ID_Personne
+	DoCmd.OpenForm "F_Importer_Email", acNormal, , , acFormAdd, acDialog, Me.ID_Personne
 End Sub</code></pre>
 
 <h3>Supprimer une adresse</h3>
 <p>Le bouton Supprimer n'aura pas pour effet de supprimer l'adresse, mais juste la relation entre la personne et l'adresse.</p>
 <p>Ici, pas besoin de créer de formulaire. Allez dans les propriétés du bouton - et ajouté un l'événement Sur clic.</p>
 <pre><code class="language-visual-basic">Private Sub Btn_supprimer_email_Click()
-If Me.Emails.ListIndex >= 0 Then
-	reponse = MsgBox("Voulez-vous vraiment supprimer cet email ?", vbYesNo + vbCritical)
-	If reponse = vbYes Then
-		DoCmd.SetWarnings False
-		DoCmd.RunSQL "DELETE FROM T_Avoir_Email WHERE ID_Avoir_Email = " & Me.Emails.Column(0, Me.Emails.ListIndex)
-		DoCmd.SetWarnings True
-		Forms!F_Personne.Emails.Requery
+	If Me.Emails.ListIndex >= 0 Then
+		reponse = MsgBox("Voulez-vous vraiment supprimer cet email ?", vbYesNo + vbCritical)
+		If reponse = vbYes Then
+			DoCmd.SetWarnings False
+			DoCmd.RunSQL "DELETE FROM T_Avoir_Email WHERE ID_Avoir_Email = " & Me.Emails.Column(0, Me.Emails.ListIndex)
+			DoCmd.SetWarnings True
+			Forms!F_Personne.Emails.Requery
+		End If
 	End If
-End If
 End Sub</code></pre>
 <p>Nous avons ici 2 condition, la première c'est qu'il y ai un élément sélectionné dans la liste, la deuxième c'est que l'utilisateur confirme la suppression.</p>
 <p>Ensuite, ça lance du SQL comme avant et réactualise le champ.</p>
@@ -92,14 +92,14 @@ End Sub</code></pre>
 <p>Dans les événements, supprimer le Après insertion et cliquez sur Après MAJ.</p>
 <p>Le code est très simple, je pense qu'il n'y a même pas besoin de l'expliquer :</p>
 <pre><code class="language-visual-basic">Private Sub Form_AfterUpdate()
-DoCmd.Close
-Forms!F_Personne.Emails.Requery
+	DoCmd.Close
+	Forms!F_Personne.Emails.Requery
 End Sub</code></pre>
 <p>Il faut aussi mettre un peu de code sur le bouton d'édition :</p>
 <pre><code class="language-visual-basic">Private Sub Btn_modifier_email_Click()
-If Me.Emails.ListIndex >= 0 Then
-	DoCmd.OpenForm "F_Modifier_Email", acNormal, , "ID_Email = " & Me.Emails.Column(1, Me.Emails.ListIndex), acFormEdit, acDialog
-End If
+	If Me.Emails.ListIndex >= 0 Then
+		DoCmd.OpenForm "F_Modifier_Email", acNormal, , "ID_Email = " & Me.Emails.Column(1, Me.Emails.ListIndex), acFormEdit, acDialog
+	End If
 End Sub</code></pre>
 <p>Je fais juste un petit test pour voir si un élément est sélectionné.</p>
 

@@ -2,7 +2,7 @@
 
 class Bin extends MY_Controller {
 
-	public $description = "Module 114, binaire et conversions de base.";
+	public $description = "Module 114 : binaire et autres notions bas niveau";
 	public $dir = 'bin';
 
 	public function index() {

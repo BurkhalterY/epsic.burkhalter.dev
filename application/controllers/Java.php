@@ -2,7 +2,7 @@
 
 class Java extends MY_Controller {
 
-	public $description = "Module 403, programmation en Java.";
+	public $description = "Module 403 : programmation en Java";
 	public $dir = 'java';
 
 	public function index() {

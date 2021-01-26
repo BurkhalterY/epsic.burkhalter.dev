@@ -2,7 +2,7 @@
 
 class Bdd extends MY_Controller {
 
-	public $description = "Module 104, créer une &quot;vrai&quot; base de données.";
+	public $description = "Module 104 : créer une &quot;vrai&quot; base de données";
 	public $dir = 'bdd';
 
 	public function index() {

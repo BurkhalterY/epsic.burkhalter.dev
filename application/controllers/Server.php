@@ -2,7 +2,7 @@
 
 class Server extends MY_Controller {
 
-	public $description = "Module 123, configuration d'un serveur.";
+	public $description = "Module 123 : configuration d'un serveur";
 	public $dir = 'server';
 
 	public function index() {

@@ -37,7 +37,7 @@
 			<td>&gt;</td>
 			<td>Plus grand que</td>
 			<td><pre><code class="language-java">if (a &gt; 10)</code></pre></td>
-			<td>Si la variable a vaut moins que 10, la condition est vraie.</td>
+			<td>Si la variable a vaut plus que 10, la condition est vraie.</td>
 		</tr>
 		<tr>
 			<td>&lt;=</td>

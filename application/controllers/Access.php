@@ -2,7 +2,7 @@
 
 class Access extends MY_Controller {
 
-	public $description = "Module 100, concevoir une base de données avec Access.";
+	public $description = "Module 100 : concevoir une base de données avec Access";
 	public $dir = 'access';
 
 	public function index() {
