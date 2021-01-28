@@ -1,0 +1,7 @@
+ - Les balises qui demandent exmplications :
+	- img
+	- ul (li, ol)
+	- table (tr, td, th)
+	- input (form, select)
+
+- structure html (header, menu, content, footer)
