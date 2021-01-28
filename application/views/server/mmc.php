@@ -29,3 +29,5 @@
 <p>Et la console est prête à être réutilisée.</p>
 <span>⚠ Après chaque utilisation, ne pas oublier de sauvegarder ce que vous avez fait dans la console avec Ctrl+S avant de fermer la console.</span>
 <br><br>
+<i class="h5">Merci à JackTrash pour cette petite astuce. Retrouvez son site ici : <a href="https://epsic.jacktrash.ch" target="_blank">https://epsic.jacktrash.ch</a></i>
+<br><br>
