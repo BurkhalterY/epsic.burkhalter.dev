@@ -25,7 +25,27 @@ class Html extends MY_Controller {
 		$this->display_view('html/structure_101', ['title' => 'Structure attendue pour le module 101']);
 	}
 
-	public function a() {
-		$this->display_view('html/a', ['title' => 'Les liens hypertextes']);
+	public function hypertexte() {
+		$this->display_view('html/hypertexte', ['title' => 'Les liens hypertextes']);
+	}
+
+	public function image() {
+		$this->display_view('html/image', ['title' => 'Les images (+ audio et vidéo)']);
+	}
+
+	public function liste() {
+		$this->display_view('html/liste', ['title' => 'Les listes']);
+	}
+
+	public function table() {
+		$this->display_view('html/table', ['title' => 'Les tableaux']);
+	}
+
+	public function form() {
+		$this->display_view('html/form', ['title' => 'Les formulaires']);
+	}
+
+	public function iframe() {
+		$this->display_view('html/iframe', ['title' => 'L\'intégration (iframe)']);
 	}
 }

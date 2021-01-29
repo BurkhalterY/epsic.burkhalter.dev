@@ -1,7 +1,22 @@
- - Les balises qui demandent exmplications :
-	- img
+HTML
+ - Les balises qui demandent explications :
 	- ul (li, ol)
 	- table (tr, td, th)
 	- input (form, select)
+	- iframe
 
-- structure html (header, menu, content, footer)
+CSS
+ - selecteurs (classe, id, balise)
+ - attributs CSS
+ - margin et padding
+ - héritage
+
+JavaScript
+ -
+
+/*
+Pour aller plus loins
+ - Bootstrap
+ - jQuery
+ - PHP
+*/
