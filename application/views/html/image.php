@@ -4,7 +4,7 @@
 <pre><code class="language-html">&lt;img src="medias/ma-photo.png" alt="Ma photo" /&gt;</code></pre>
 <p>On utilise la balise <code class="language-html">&lt;img /&gt;</code> qui est une balise auto-fermante. Une balise auto-fermante est caractérisée par le slash avant le crochet droit, ce qui la ferme directement. On ne peut donc pas mettre de contenu ou d'autres balises à l'intérieur (sauf les attributs bien sûr). Ici on a d'ailleurs deux attributs obligatoires :</p>
 <ul>
-	<li>src : le chemin vers l'image (relatif ou absolu). Il est conseillé de mettre ses images dans un dossier <code>medias</code> au même niveau que le dossier contenant votre fichier .html<br>Vous pourez ainsi appeler votre image en mettant <code>medias/mon-image.png</code></li>
+	<li>src : le chemin vers l'image (relatif ou absolu). Il est conseillé de mettre ses images dans un dossier <code>medias</code> au même niveau que le dossier contenant votre fichier .html<br>Vous pourrez ainsi appeler votre image en mettant <code>medias/mon-image.png</code></li>
 	<li>alt : le text qui sera affiché si l'image n'est pas trouvé à l'emplacement <code>src</code>. On l'oublie souvent mais il est important.</li>
 </ul>
 
@@ -31,4 +31,4 @@ HTML)?></code></pre>
 	Votre navigateur ne supporte aucun des formats proposés.
 </video> 
 HTML)?></code></pre>
-<p>Afin de remédier à ces problèmes de compatibilité, la plupart des sites postent leurs vidéos sur YouTube puis l'intégre via un <a href="<?=base_url('html/iframe')?>">iframe</a> que nous verrons plus tard.</p>
+<p>Afin de remédier à ces problèmes de compatibilité, la plupart des sites postent leurs vidéos sur YouTube puis l'intégrer via un <a href="<?=base_url('html/iframe')?>">iframe</a> que nous verrons plus tard.</p>

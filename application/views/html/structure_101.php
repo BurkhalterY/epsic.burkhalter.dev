@@ -27,7 +27,7 @@ HTML)?></code></pre>
 <p>Cette structure permet de bien séparer les 4 parties du body que sont :</p>
 <ul>
 	<li><strong>L'entête (header)</strong> : peut contenir par exemple logo du site</li>
-	<li><strong>Le menu (navigation)</strong> : un menu (liens vers les pricipales pages du site)</li>
+	<li><strong>Le menu (navigation)</strong> : un menu (liens vers les principales pages du site)</li>
 	<li><strong>Le contenu (content)</strong> : là où on va mettre tout le contenu spécifique à la page</li>
 	<li><strong>Le pied de page (footer)</strong> : liens vers d'autres sites, copyright, etc...</li>
 </ul>

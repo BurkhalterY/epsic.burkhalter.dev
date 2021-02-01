@@ -15,9 +15,14 @@
 </ul>
 <h3>CSS</h3>
 <ul>
-	<li><a href="<?=base_url('html/css_base')?>"></a></li>
+	<li>à venir...</li>
 </ul>
 <h3>JavaScript</h3>
 <ul>
-	<li><a href="<?=base_url('html/js_base')?>"></a></li>
+	<li>à venir...</li>
+</ul>
+<h4>Liens utiles</h4>
+<ul>
+	<li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+	<li><a href="https://validator.w3.org/" target="_blank">validator.w3.org (pour vérifier votre code HTML)</a>
 </ul>

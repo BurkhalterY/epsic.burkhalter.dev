@@ -2,8 +2,8 @@
 <h1>Qu'est-ce qu'un site web ?</h1>
 <p>Un site web est un ensemble de pages et de ressources (images, PDF, etc...) hébergés sur un serveur et accessibles via un navigateur web (client).</p>
 
-<h2>Les 3 languages web</h2>
-<p>Les trois seuls languages interpretables par le client sont :</p>
+<h2>Les 3 langages web</h2>
+<p>Les trois seuls languages interprétables par le client sont :</p>
 <ul>
 	<li>HTML (HyperText Markup Language)</li>
 	<li>CSS (Cascading Style Sheets)</li>

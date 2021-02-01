@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les tableaux</h1>
-<p>Un tableau est une variable qui contient plusieurs valeur, différenciables grâce a un index.</p>
+<p>Un tableau est une variable qui contient plusieurs valeurs, différenciables grâce à un index.</p>
 
 <h3>Déclaration d'un tableau</h3>
 <pre><code class="language-java">int monTableau[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};</code></pre>

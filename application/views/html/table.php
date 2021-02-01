@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les tableaux</h1>
-<p>Un tableau se constitu au minimum de 3 éléments : <code class="language-html">&lt;table&gt;</code>, <code class="language-html">&lt;tr&gt;</code> et <code class="language-html">&lt;td&gt;</code>. </p>
+<p>Un tableau se constitue au minimum de 3 éléments : <code class="language-html">&lt;table&gt;</code>, <code class="language-html">&lt;tr&gt;</code> et <code class="language-html">&lt;td&gt;</code>. </p>
 <ul>
 	<li><code class="language-html">&lt;table&gt;</code> : c'est à l'intérieur qu'on va mettre nos lignes.</li>
 	<li><code class="language-html">&lt;tr&gt;</code> : pour Table Row, c'est une ligne du tableau.</li>
@@ -69,4 +69,4 @@
 		</table>
 	</div>
 </div>
-<p>L'attribut <code>border</code> est utilisé ici uniquement dans le but d'afficher les bordures mais est complétement facultatif voire déconseillé. Dans les bonnes pratiques, on devrait mettre les bordures dans le code CSS non HTML.</p>
+<p>L'attribut <code>border</code> est utilisé ici uniquement dans le but d'afficher les bordures mais est complétement facultatif voire déconseillé. Dans les bonnes pratiques, on devrait mettre les bordures dans le code CSS et non HTML.</p>

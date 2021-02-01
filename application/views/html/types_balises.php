@@ -44,7 +44,7 @@
 	<tr>
 		<td><code class="language-html">&lt;p&gt;</code></td>
 		<td>Block</td>
-		<td>Un paragraphe.</td>
+		<td>Un paragraphe. Pour insérer un retour à la ligne, écrire <code class="language-html">&lt;br&gt;</code>.</td>
 	</tr>
 	<tr>
 		<td><code class="language-html">&lt;h1&gt;</code>, <code class="language-html">&lt;h2&gt;</code> ... <code class="language-html">&lt;h6&gt;</code></td>
@@ -54,26 +54,26 @@
 	<tr>
 		<td><code class="language-html">&lt;a href=""&gt;</code></td>
 		<td>Inline</td>
-		<td>Un lien hypertexte : TODO.</td>
+		<td><a href="<?=base_url('html/hypertexte')?>">Un lien hypertexte.</a></td>
 	</tr>
 	<tr>
 		<td><code class="language-html">&lt;img src="" alt="" /&gt;</code></td>
 		<td>Block</td>
-		<td>Une image : TODO.</td>
+		<td><a href="<?=base_url('html/image')?>">Une image.</a></td>
 	</tr>
 	<tr>
 		<td><code class="language-html">&lt;ul&gt;</code></td>
 		<td>Block</td>
-		<td>Une liste : TODO.</td>
+		<td><a href="<?=base_url('html/liste')?>">Une liste.</a></td>
 	</tr>
 	<tr>
 		<td><code class="language-html">&lt;table&gt;</code></td>
 		<td>Block</td>
-		<td>Un tableau : TODO.</td>
+		<td><a href="<?=base_url('html/table')?>">Un tableau.</a></td>
 	</tr>
 	<tr>
 		<td><code class="language-html">&lt;input&gt;</code></td>
 		<td>Inline</td>
-		<td>Des champs d'entrée : TODO.</td>
+		<td><a href="<?=base_url('html/form')?>">Des champs d'entrée.</a></td>
 	</tr>
 </table>
