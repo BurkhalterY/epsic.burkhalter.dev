@@ -32,4 +32,8 @@ class Bdd extends MY_Controller {
 	public function sql_inner_join() {
 		$this->display_view('bdd/sql_inner_join', ['title' => 'Requêtes sur plusieurs tables']);
 	}
+
+	public function generator() {
+		$this->display_view('bdd/generator', ['title' => 'Générateur de site Python tout fait']);
+	}
 }

@@ -1,11 +1,40 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-<h2>Prioritaire</h2>
-<ul>
-	<li>HTML, CSS, Javascript (CIE 101)</li>
-	<li>Python + Flask (Module 104)</li>
-	<li>Module 114 - Partie 4</li>
-</ul>
+<div class="row">
+	<div class="col-md-6">
+		<h2>Prioritaire</h2>
+		<ul>
+			<li><s>HTML</s>, CSS, Javascript (CIE 101)</li>
+			<ul>
+				<li>selecteurs (classe, id, balise)</li>
+				<li>attributs CSS</li>
+				<li>margin et padding</li>
+				<li>héritage</li>
+			</ul>
+			<li>Python + Flask (Module 104)</li>
+			<li>Module 114 - Partie 4</li>
+			<li>Les tips à Yannis</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<h3>Moins importants</h3>
+		<ul>
+			<li>(GitHub)</li>
+			<li>Module 302, Word et Excel principalement</li>
+			<li>Angular</li>
+			<li>Module 105 : SQL</li>
+		</ul>
+
+		<h3>Hors module (idées)</h3>
+		<ul>
+			<li>Sublime Text</li>
+			<li>Bootstrap</li>
+			<li>jQuery</li>
+			<li>PHP</li>
+			<li>(Markdown)</li>
+		</ul>
+	</div>
+</div>
 
 <h2>Modules</h2>
 <table class="table">
@@ -18,7 +47,7 @@
 	<tr class="table-success"><td>1</td><td>403</td><td>Java</td><td>x</td><td>x</td><td>x</td><td></td></tr>
 	<tr class="table-warning"><td>1</td><td>404</td><td>Java (POO)</td><td>x</td><td>x</td><td>x</td><td>GUI</td></tr>
 	<tr class="table-danger"><td>1</td><td>431</td><td>Gantt</td><td>x</td><td>x</td><td>x</td><td>à faire</td></tr>
-	<tr class="table-danger"><td>1 (CIE)</td><td>101</td><td>Site HTML</td><td>x</td><td>x</td><td>x</td><td>à faire</td></tr>
+	<tr class="table-warning"><td>1 (CIE)</td><td>101</td><td>Site HTML</td><td>x</td><td>x</td><td>x</td><td>CSS, JavaScript</td></tr>
 	<tr class="table-danger"><td>1 (CIE)</td><td>302</td><td>Office</td><td>x</td><td>x</td><td>x</td><td>à faire</td></tr>
 	<tr class="table-danger"><td>1 (CIE)</td><td>304</td><td>Hardware</td><td>x</td><td>x</td><td>x</td><td>à faire</td></tr>
 	<tr class="table-danger"><td>1 (CIE)</td><td>305</td><td>Software</td><td>x</td><td>x</td><td>x</td><td>à faire</td></tr>

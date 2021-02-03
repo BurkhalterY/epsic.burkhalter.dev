@@ -1,0 +1,30 @@
+{% extends "PagePrincipaleHome.html" %}
+{% block content %}
+    <div class="home">
+        <BODY bgcolor="brown">
+        <form method="POST" action="">
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <ul class=flashes>
+                    {% for message in messages %}
+                    <li>{{ message }}</li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endwith %}
+            <div>
+                {{ msgHtml }}
+                {% if error %}
+                    <p class=error><strong>Error:</strong> {{ error }}
+                {% endif %}
+            </div>
+            <center>
+                <H1>Clavioter un nouveau PERSONNE</H1> <br>
+                nom <input type = "text" name= "nomPersonneHTML" /> <br>
+                prenom <input type = "text" name= "prenomPersonneHTML" /> <br>
+                <input type = "submit">
+            </center>
+        </form>
+        </BODY>
+    </div>
+{% endblock %}

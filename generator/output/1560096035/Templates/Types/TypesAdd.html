@@ -1,0 +1,29 @@
+{% extends "PagePrincipaleHome.html" %}
+{% block content %}
+    <div class="home">
+        <BODY bgcolor="brown">
+        <form method="POST" action="">
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <ul class=flashes>
+                    {% for message in messages %}
+                    <li>{{ message }}</li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endwith %}
+            <div>
+                {{ msgHtml }}
+                {% if error %}
+                    <p class=error><strong>Error:</strong> {{ error }}
+                {% endif %}
+            </div>
+            <center>
+                <H1>Clavioter un nouveau TYPE</H1> <br>
+                Nom_type <input type = "text" name= "Nom_typeTypeHTML" /> <br>
+                <input type = "submit">
+            </center>
+        </form>
+        </BODY>
+    </div>
+{% endblock %}
