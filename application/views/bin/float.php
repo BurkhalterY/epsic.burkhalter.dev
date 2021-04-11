@@ -47,7 +47,7 @@
 <h3>Calculer l'exposant</h3>
 <p>Si on prend le nombre 350,75, cela donne 1 0101 1110,11</p>
 <p>L'exposant est le nombre de crans dont on doit déplacer la virgule (vers la droite ou vers la gauche) pour arriver au premier 1. Ici, ça fait 8 (1,0101 1110<span style="color: red;">,</span>11)</p>
-<p>Si on la décale vers la gauche, on additionne, si on décale vers la droite, on soustrait. Le 0 est représenté comme étant 0. Donc ici on va faire 127 + 8 = 135 = <strong>1000 0111</strong></p>
+<p>Si on la décale vers la gauche, on additionne, si on décale vers la droite, on soustrait. Le 127 est représenté comme étant 0. Donc ici on va faire 127 + 8 = 135 = <strong>1000 0111</strong></p>
 
 <h3>Calculer la mantisse</h3>
 <p>Reprenons 350,75 qui vaut 1 0101 1110,11 en binaire. Pour calculer la mantisse, on va juste enlever la virgule et le premier 1 : 0101 1110 11<br>Puis on complète avec des 0 afin de remplir les 23 bits : <strong>010 1111 0110 0000 0000 0000</strong>. Nous avons notre mantisse.</p>
