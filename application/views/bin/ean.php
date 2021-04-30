@@ -11,7 +11,7 @@
 </ul>
 
 <h3>Les éléments EAN</h3>
-<p>Chaque chiffre (de 0 à 9) est codé sur 7 bits. Ils sont toujours organisés de manière à avoir 2 barres blanches et 2 barres noires.<br>Il y a 3 manières de coder chaque un des chiffres, selon qu'il est un élément A, B ou C.</p>
+<p>Chaque chiffre (de 0 à 9) est codé sur 7 bits. Ils sont toujours organisés de manière à avoir 2 barres blanches et 2 barres noires.<br>Il y a 3 manières de coder chacun des chiffres, selon qu'il soit un élément A, B ou C.</p>
 <img src="<?=base_url('medias/bin/EAN_list_codes.png')?>" alt="Liste des codes EAN" />
 
 <h3>Les zones de garde</h3>

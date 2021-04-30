@@ -27,7 +27,7 @@
 <p>La distance maximale de la norme 1000BASE-T est de 100 mètres. Nous allons dire 80 mètres pour avoir une marge. Moins 10 mètres car il y a une distance verticale entre le plafond et les prises.<br>Il faut de plus prendre en compte que cette distance représente la taille totale du câble. Or, ici nous calculons le rayon, soit le câble peut ne pas aller tout droit mais faire des angles. On va dire qu'en divisant cette distance par deux, cela devrait jouer.</p>
 <p>Ok, nous devons faire des cercles d'environ 35 mètres de rayon. Pour tout recouvrir, je dois en placer 3 (se n'est pas grave s'ils ne sont pas fait au compa).</p>
 <p><a target="_blank"> href="<?=base_url('medias/network/mediatis_1.jpg')?>">Voir sur le schéma.</a></p>
-<p>Nous devons maintenant placer un switch au centre de chaque un des cercles. Ainsi, les câbles pourront être branché aux switchs et nous pourrons connecter les switch au routeur avec de la fibre optique.</p>
+<p>Nous devons maintenant placer un switch au centre de chacun des cercles. Ainsi, les câbles pourront être branché aux switchs et nous pourrons connecter les switch au routeur avec de la fibre optique.</p>
 <p><a target="_blank"> href="<?=base_url('medias/network/mediatis_2.jpg')?>">Voir sur le schéma.</a></p>
 <p>Il ne reste ensuite plus qu'à relier chaque prise au switch le plus proche.</p>
 <p><a target="_blank"> href="<?=base_url('medias/network/mediatis_3.jpg')?>">Voir sur le schéma.</a></p>
