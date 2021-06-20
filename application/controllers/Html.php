@@ -48,4 +48,28 @@ class Html extends MY_Controller {
 	public function iframe() {
 		$this->display_view('html/iframe', ['title' => 'L\'intégration (iframe)']);
 	}
+
+	public function css_base() {
+		$this->display_view('html/css_base', ['title' => 'Les bases du CSS']);
+	}
+
+	public function css_marges() {
+		$this->display_view('html/css_marges', ['title' => 'Les marges']);
+	}
+
+	public function css_dom_heritage() {
+		$this->display_view('html/css_dom_heritage', ['title' => 'Le DOM et l\'héritage']);
+	}
+
+	public function css_pseudo_classes() {
+		$this->display_view('html/css_pseudo_classes', ['title' => 'Les pseudo-classes']);
+	}
+
+	public function css_float() {
+		$this->display_view('html/css_float', ['title' => 'La propriété float']);
+	}
+
+	public function css_display() {
+		$this->display_view('html/css_display', ['title' => 'La propriété display']);
+	}
 }
