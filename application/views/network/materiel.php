@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Équipements réseaux</h1>
 <table class="table">
 	<tr>

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les boucles</h1>
 <p>Une boucle sert à répéter une action.</p>
 

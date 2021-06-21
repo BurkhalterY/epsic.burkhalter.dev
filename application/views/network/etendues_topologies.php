@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Étendues et topologies des réseaux</h1>
 <h3>Étendues des réseaux</h3>
 <table class="table">

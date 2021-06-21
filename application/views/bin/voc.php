@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Vocabulaire</h1>
 <table class="table">
 	<tr>

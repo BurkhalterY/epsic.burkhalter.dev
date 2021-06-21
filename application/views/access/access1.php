@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Ma base de données en Access 1.0</h1>
 <p>Installation d'Access 1.0 sur Windows 3.1</p>
 <iframe width="720" height="480" src="https://www.youtube.com/embed/6fbgRjiuYKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

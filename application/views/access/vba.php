@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les bases du VBA</h1>
 <p>Le VBA (Visual Basic for Applications) permet, de faire divers actions dans et entre les formuaires d'Access.</p>
 

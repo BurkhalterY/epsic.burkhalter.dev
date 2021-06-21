@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Créer un nouveau projet</h1>
 <ol>
 	<li>Ouvrez NetBeans.</li>

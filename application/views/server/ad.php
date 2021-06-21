@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>L'Active Directory (AD)</h1>
 <p>L'AD est un annuaire qui contient toute sorte d'objets comme des utilisateurs, des machines, des groupes, etc...</p>
 <p>Le protocole pour l'administrer est LDAP.</p>

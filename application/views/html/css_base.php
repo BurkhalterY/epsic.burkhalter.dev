@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les bases du CSS</h1>
 <p>Le CSS (Cascading Style Sheets ou Feuilles de Style en Cascade en français) est un langage permettant la mise en forme d'élements HTML.</p>
 <p>Le CSS a besoin de deux choses pour s'appliquer : l'élement sur lequel agir et quel style lui appliquer. Et on l'écrira comme ça :</p>

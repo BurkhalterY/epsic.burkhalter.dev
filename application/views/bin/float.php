@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Nombres à virgules flottantes</h1>
 <h3>Convertir un nombre réel en binaire.</h3>
 <p>Pour la partie entière, garder le même principe. Puis prendre la partie après la virgule.</p>

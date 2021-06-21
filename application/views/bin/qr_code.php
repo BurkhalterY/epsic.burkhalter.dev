@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les QR codes</h1>
 <img style="float: right;" src="<?=base_url('medias/bin/qr_code.png')?>" alt="un code QR" />
 <p>Le QR code (Quick Response Code) est un type de code-barres en 2 dimensions.<br>Ils peuvent contenir divers données tel que du texte, des URL, des mots de passe wifi, etc.</p>

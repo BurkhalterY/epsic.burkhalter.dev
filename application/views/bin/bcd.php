@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>BCD</h1>
 <p>Le décimal codé binaire (DCB) (binary coded decimal ou BCD en anglais), est un système de numération utilisé en électronique et en informatique pour coder des nombres en se rapprochant de la représentation humaine usuelle, en base 10. Dans ce format, les nombres sont représentés par les chiffres décimaux les composant, et chacun de ces chiffres est codé sur quatre bits : </p>
 <table>

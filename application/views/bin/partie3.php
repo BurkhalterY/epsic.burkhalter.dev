@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Partie 3</h1>
 <h2>Types d'images vectorielles et matricielles</h2>
 <div class="row">

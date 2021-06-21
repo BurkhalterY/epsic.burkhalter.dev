@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les DNS</h1>
 <p>Les DNS (pour Domain Name System) est un service qui traduit les noms de domaine en adresses IP.</p>
 <p>Pour comprendre le fonctionnement des DNS, il faut voir comment se forme un nom de domaine. Prenons par exemple le domaine www.epsic.ch<br>Il est constitué de :</p>

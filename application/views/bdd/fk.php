@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Lier un champ FK_</h1>
 <p>Pour l'exemple, j'ai ajouté une table t_sexe</p>
 <img src="<?=base_url('medias/bdd/ajout_fk_1.png')?>" alt="Table sexe" />

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Qu'est-ce qu'un site web ?</h1>
 <p>Un site web est un ensemble de pages et de ressources (images, PDF, etc...) hébergés sur un serveur et accessibles via un navigateur web (client).</p>
 

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <link rel="stylesheet" href="<?=base_url('assets/css/html.css')?>" />
 <link rel="stylesheet" href="<?=base_url('assets/css/prism.css')?>" />
 <script src="<?=base_url('assets/js/prism-html-css-js.js')?>"></script>

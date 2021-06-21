@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Créer un formulaire</h1>
 <p>Dans le menu Créer → Assistant Formulaire</p>
 <p>Choisissez pour quelle table créer le formulaire et sélectionnez tous les champs sauf l'ID.</p>

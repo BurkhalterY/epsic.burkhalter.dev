@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les opérateurs</h1>
 
 <h3>Changer la valeur d'une variable</h3>

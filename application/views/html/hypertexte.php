@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les liens hypertextes</h1>
 <p>Comme dit dans l'introduction, un site web n'est pas une page, mais un ensemble de pages. Pour naviguer d'une page à l'autre, on utilise des liens hypertextes. Ces liens ce présentent comme ceci : <code class="language-html">&lt;a href="seconde_page.html"&gt;Texte du lien&lt;/a&gt;</code></p>
 

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Conversion d'un for en while et inversement</h1>
 <p>Voici deux codes qui font exactement la même chose :</p>
 <table class="table">

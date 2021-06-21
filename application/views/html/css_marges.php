@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les marges</h1>
 <p>Les marges permettent de mettre de l'espace entre les balises. Il en existe deux type :</p>
 <ul>

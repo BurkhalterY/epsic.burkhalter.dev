@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Listes déroulantes pour les FK</h1>
 <p>Les tables d'association sont au minimum composées de 2 champs FK. Mais les FK sont numériques... Donc on ne voit que les ID des enregistrements correspondants. Mais il est possible d'afficher les noms à la place.</p>
 <p>État actuel :</p>

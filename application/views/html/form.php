@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les formulaires</h1>
 <p>Les formulaires servent souvent à communiquer avec un backend. Ils peuvent aussi être utilisé avec le JavaScript comme champ d'entrée pour les calculs. Sur cette page, nous n'allons voir ni l'une, ni l'autre des méthodes. Car nous n'avons pas de backend si l'on fait un site statique en HTML et parce que le JavaScript fera l'objet de la 3ème partie du module.</p>
 <p>Voici un exemple de formulaire avec quelques champs</p>

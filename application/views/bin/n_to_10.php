@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Conversion base n en base 10</h1>
 <h3>La base 10</h3>
 <p>La notation décimale est celle que nous utilisons tous les jours. Elle utilise 10 symboles qui permettent d'écrire n'importe quel nombre. Ces symboles sont : <strong>0, 1, 2, 3, 4, 5, 6, 7, 8 et 9</strong>. Il y a 10 symboles, on dit donc que l'on travaille en base 10.</p>

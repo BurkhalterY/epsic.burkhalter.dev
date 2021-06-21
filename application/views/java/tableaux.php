@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les tableaux</h1>
 <p>Un tableau est une variable qui contient plusieurs valeurs, différenciables grâce à un index.</p>
 

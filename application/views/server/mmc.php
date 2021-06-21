@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Astuce : MMC</h1>
 <p>MMC (Microsoft Management Console) est un outil permettant de simplifier l'accès aux différents outils du système.</p>
 

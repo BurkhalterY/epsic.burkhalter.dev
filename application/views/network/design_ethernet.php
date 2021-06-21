@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Design Ethernet (Projet Mediatis)</h1>
 <h3>Cahier des charges :</h3>
 <ol>

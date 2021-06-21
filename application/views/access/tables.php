@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les tables</h1>
 <p>Il y a 2 types de tables :</p>
 <ul>

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Symboles Nassi-Shneidermann</h1>
 <p>Une petite liste des symboles Nassi-Shneidermann :</p>
 <table class="table">

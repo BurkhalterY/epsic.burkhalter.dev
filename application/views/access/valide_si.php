@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Valide si</h1>
 <p>Valide si est une des propriétés des champs. Elle permet de n'autoriser à entrer que des valeurs qui correspondent à cette règle.</p>
 <p>Exemples de valide si :</p>

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Ajouter des boutons aux formulaires</h1>
 <p>Passez le formulaire en Mode Création</p>
 <p>Faites naître le pied de formulaire et glissez-y un bouton [xxxx]</p>

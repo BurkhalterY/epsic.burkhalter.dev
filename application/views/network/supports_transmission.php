@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les supports de transmission</h1>
 <h3>Câble paire torsadée</h3>
 <table class="table">

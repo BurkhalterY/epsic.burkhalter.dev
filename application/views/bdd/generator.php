@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <pre>Mettre les noms des tables sans le t_ et au singulier.
 Exemple : t_personnes devient personne
 Ne cocher qu'une seule case ID par table. L'id doit être de type int.</pre>

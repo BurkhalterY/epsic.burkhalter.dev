@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Ajouter des données</h1>
 <p>Pour remplir notre base de données, nous allons utiliser le site <a href="https://www.generatedata.com/?lang=fr" target="_blank">generatedata.com</a></p>
 <img src="<?=base_url('medias/access/generatedata.com.png')?>" alt="generatedata.com" style="max-width: 100%;" />

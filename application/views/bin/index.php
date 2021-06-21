@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Plan du site</h1>
 <h3>Partie 1</h3>
 <ul>

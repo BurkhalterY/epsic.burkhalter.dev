@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Imprimer des étiquettes</h1>
 <p>Pour cette démonstration, je vais prendre un exemple simple. Soit une table de personnes qui peuvent chacune posséder une ou plusieurs adresses. Les adresses ont un FK_Ville et les villes ont chacune un code postale.</p>
 <img src="<?=base_url('medias/access/etiquettes_1.png')?>" />

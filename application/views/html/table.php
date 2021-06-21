@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les tableaux</h1>
 <p>Un tableau se constitue au minimum de 3 éléments : <code class="language-html">&lt;table&gt;</code>, <code class="language-html">&lt;tr&gt;</code> et <code class="language-html">&lt;td&gt;</code>. </p>
 <ul>

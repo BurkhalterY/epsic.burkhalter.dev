@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Prise en main de phpMyAdmin</h1>
 <h3>Se connecter à phpMyAdmin</h3>
 <p>Les identifiant et mot de passe par défaut sont root et root.</p>

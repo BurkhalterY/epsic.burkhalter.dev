@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Calculateur de sous-réseaux</h1>
 <script type="text/javascript" src="<?=base_url('assets/js/calculateur_sr.js')?>"></script>
 <label for="ip">Nombre max de machines (sans le routeur) :</label>

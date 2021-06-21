@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Code x parmi n</h1>
 <ul>
 	<li>Défini le nombre de 1 par rapport au nombre de bits.</li>

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Afficher une liste avec une requête</h1>
 <!--Une méthode plus simple que le long code de M. Maccaud-->
 

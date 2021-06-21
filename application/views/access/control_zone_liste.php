@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <link rel="stylesheet" href="<?=base_url('assets/css/prism.css')?>" />
 <script src="<?=base_url('assets/js/prism-vba.js')?>"></script>
 <h1>Importer, ajouter, modifier et supprimer des éléments d'une zone de liste (niveau avancé)</h1>

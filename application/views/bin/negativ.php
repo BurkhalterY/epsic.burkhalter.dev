@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Soustractions et nombres négatifs</h1>
 <p>Pour utiliser des entiers signés dans l'ordinateur, on doit utiliser le MSB pour le signe.</p>
 <p>Et afin de pouvoir faire des opérations avec nombres négatifs, il faut que ces nombres se suivent. D'où le cercle suivant :</p>

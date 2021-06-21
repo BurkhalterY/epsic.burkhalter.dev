@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les fonctions logiques</h1>
 <p>Les fonctions logiques sont les seules opérations qu'un processeur peut effectuer. Il les combine ensuite pour en faire des plus complexes tel que l'addition, multiplication, etc...</p>
 <p>Les 7 fonctions logiques de base sont :</p>

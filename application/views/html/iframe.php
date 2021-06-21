@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>L'intégration (iframe)</h1>
 <p>L'intégration est une technique qui permet d'insérer une page web complète dans votre site. La page est "encapsulée" dans une frame qui se comportera comme une div. La balise à utiliser et <code class="language-html">&lt;iframe&gt;</code> avec l'attribut <code>src</code>.</p>
 <pre><code class="language-html">&lt;iframe src="ma-page.html"&gt;&lt;/iframe&gt;</code></pre>

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <nav class="navbar navbar-expand navbar-light bg-light">
 	<ul class="navbar-nav mr-auto">
 		<li class="nav-item"><a class="nav-link" href="<?=base_url()?>">Accueil</a></li>

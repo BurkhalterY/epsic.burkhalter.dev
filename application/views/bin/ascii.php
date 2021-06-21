@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Code ASCII</h1>
 <p>L'acronyme ASCII signifie American Standard Code for Information Interchange (Code américain normalisé pour l'échange d'information).</p>
 <ul>

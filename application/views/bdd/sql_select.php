@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Récupérer des données avec des requêtes SQL</h1>
 <p>Le SQL est un langage permettant d'interagir avec la base de données. Ici, nous allons l'utiliser pour récupérer des données d'une ou plusieurs tables.</p>
 

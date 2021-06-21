@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les types de balises</h1>
 <p>Il existe deux types de balises : <strong>block</strong> et <strong>inline</strong>. Voici un petit tableau récapitulatif :</p>
 <table class="table">

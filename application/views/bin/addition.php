@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Additions en binaire</h1>
 <p>En binaire, on calcul de la même façon qu'en décimal.</p>
 <p>

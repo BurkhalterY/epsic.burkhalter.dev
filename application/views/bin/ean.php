@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les codes-barres EAN</h1>
 <h3>EAN : European Article Numbering</h3>
 <p>Le code EAN a pour but l'identification univoque d'objets (un seul code par produit) par une identification visuelle.</p>

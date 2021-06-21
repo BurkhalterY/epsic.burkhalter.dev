@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Structure d'une adresse IP</h1>
 
 <p style="text-align: center;"><span style="background-color: lightgray;"><strong><span style="color: red;">[ NET_ID ]</span> <span style="color: blue;">[ HOST_ID ]</span></strong></span></p>

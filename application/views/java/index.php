@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Plan du site</h1>
 <ul>
 	<li><a href="<?=base_url('java/new')?>">Créer un nouveau projet</a></li>

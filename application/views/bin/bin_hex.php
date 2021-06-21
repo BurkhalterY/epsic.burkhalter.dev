@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Conversion binaire - hexa</h1>
 <table>
 	<tr><th>Décimal</th><th>Hexadécimal</th><th>Binaire</th></tr>

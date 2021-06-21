@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Conversion base 10 en base n</h1>
 <p>Pour passer du décimale à une autre base, on effectue un série de divisions.</p>
 

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Plan du site</h1>
 <p><a href="<?=base_url('html/site_web')?>">Qu'est-ce qu'un site web ?</a></p>
 <h3>HTML</h3>

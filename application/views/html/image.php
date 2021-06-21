@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les images</h1>
 <p>Voici comment insérer une image dans votre page HTML :
 <pre><code class="language-html">&lt;img src="medias/ma-photo.png" alt="Ma photo" /&gt;</code></pre>

@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <link rel="stylesheet" href="<?=base_url('assets/css/home.css')?>" />
 <br>
 <div class="container">
@@ -70,7 +69,13 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-6 offset-lg-6">
+		<div class="col-lg-6">
+			<h4>Ressources utiles</h4>
+			<ul>
+				<li><a href="<?=base_url('home/programme_scolaire')?>">Programme scolaire</a></li>
+			</ul>
+		</div>	
+		<div class="col-lg-6">
 			<h4>Fil d'actualité</h4>
 			<iframe src="<?=base_url('home/actualite')?>" width="100%" height="200px" frameBorder="0"></iframe>
 		</div>

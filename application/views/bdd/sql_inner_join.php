@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Requêtes sur plusieurs tables</h1>
 <p>Pour effectuer une requête sur plusieurs tables, il faut utiliser <strong>INNER JOIN</strong>.</p>
 

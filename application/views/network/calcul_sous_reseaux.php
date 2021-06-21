@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Calculer les sous-réseaux</h1>
 <br>
 <p>Subdiviser un réseau permet :</p>

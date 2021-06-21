@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les variables</h1>
 <p>Les variables servent à mémoriser des données dans la RAM, pour pouvoir les réutiliser plus tard.</p>
 

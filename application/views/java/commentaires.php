@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les commentaires</h1>
 <p>Les commentaires servent à rendre le code plus compréhensible. Ils sont ignorés lors de la compilation.</p>
 

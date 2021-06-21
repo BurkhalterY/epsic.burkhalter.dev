@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les méthodes</h1>
 <p>Les méthodes permettent de subdiviser un programme en plusieurs parties et d'éviter la redondance.</p>
 <img src="<?=base_url('medias/java/methodes.png')?>" alt="methodes" />

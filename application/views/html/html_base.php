@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les bases du HTML</h1>
 <p>Le HTML sert à structurer le contenu. Pour cela, on utilise des balises.</p>
 

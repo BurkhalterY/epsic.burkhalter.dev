@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Structure attendue pour le module 101</h1>
 <p>Le module 101 exige que vous utilisiez une structure bien précise dans votre body.</p>
 <pre><code class="language-html"><?=htmlspecialchars(<<<HTML

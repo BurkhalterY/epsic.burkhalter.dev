@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les listes</h1>
 <p>Il existe deux types de liste: les listes non ordonnées (unordered) et les listes ordonnées (ordered).</p>
 <p>Les listes qu'on utilise le plus fréquemment sont les listes non ordonnées. Elle se code comme ceci avec une balise <code class="language-html">&lt;ul&gt;</code> qui contiendra tous les éléments de la liste entre balise <code class="language-html">&lt;li&gt;</code> :</p>

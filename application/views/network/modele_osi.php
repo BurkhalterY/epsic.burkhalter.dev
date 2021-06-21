@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Modèle OSI</h1>
 <table style="width: 100%;">
 	<tr>

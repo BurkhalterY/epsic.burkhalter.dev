@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Convertisseur</h1>
 <script type="text/javascript" src="<?=base_url('assets/js/conversion.js')?>"></script>
 <input type="text" name="number" id="number" />

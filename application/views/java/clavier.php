@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Lire les entrées clavier</h1>
 <p>Pour qu'on puisse interagir avec notre programme, le plus simple est d'utiliser le clavier pour écrire.</p>
 

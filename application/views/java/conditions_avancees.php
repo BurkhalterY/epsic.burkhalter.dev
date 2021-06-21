@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les conditions avancées</h1>
 
 <h3>Le switch</h3>

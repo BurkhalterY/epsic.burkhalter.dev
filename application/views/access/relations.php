@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les relations</h1>
 <p>Les champs qui servent à faire des relations commencent par <strong>FK_</strong> (Foreign Key).<br>Ils sont toujours du type Numérique car ils ne contiennent que l'ID de l'enregistrement cible.</p>
 

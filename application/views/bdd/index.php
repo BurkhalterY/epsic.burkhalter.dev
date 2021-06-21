@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Plan du site</h1>
 <ul>
 	<li><strong><a href="<?=base_url('bdd/fk_theorie')?>">Mieux comprendre les FK</a></strong></li>

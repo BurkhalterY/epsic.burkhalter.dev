@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les conditions</h1>
 <p>Une condition sert à n'exécuter le code qui suit seulement si elle est remplie.</p>
 

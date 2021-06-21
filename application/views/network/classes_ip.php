@@ -1,4 +1,3 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h1>Les classes d'adresses IP</h1>
 <table class="table">
 	<tr>
