@@ -53,4 +53,5 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['medias/bin/bin.png'] = 'bin/gen';
 $route['bin/10_to_n'] = 'bin/b10_to_n';

@@ -27,7 +27,7 @@
 		</div>
 		<div class="col-md-4">
 			<a href="<?=base_url('bin')?>">
-				<img src="<?=base_url('bin/gen')?>" alt="Module 114" width="75%" class="link" />
+				<img src="<?=base_url('medias/bin/bin.png')?>" alt="Module 114" width="75%" class="link" />
 				<figcaption>Module 114 : Binaire</figcaption>
 			</a>
 			<br>
@@ -70,10 +70,11 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-6">
-			<h4>Ressources utiles</h4>
+			<?php /*<h4>Ressources utiles</h4>
 			<ul>
-				<li><a href="<?=base_url('home/programme_scolaire')?>">Programme scolaire</a></li>
-			</ul>
+				<li><a href="https://www.epsic.ch/secure/moodle/" target="_blank">Moodle de l'EPSIC</a></li>
+				<li><a href="https://epsic.jacktrash.ch/" target="_blank">Site de JackTrash</a></li>
+			</ul> */?>
 		</div>	
 		<div class="col-lg-6">
 			<h4>Fil d'actualité</h4>
