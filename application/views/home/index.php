@@ -85,6 +85,7 @@
 								<li class="icon-discord"><a href="https://discord.gg/ry3XrTPUzQ" target="_blank">Mon serveur Discord (Normalux)</a></li>
 								<li class="icon-discord"><a href="https://discord.gg/NejUt35yur" target="_blank">Serveur Discord de L'ELITE 2.0</a></li>
 								<li class="icon-trash"><a href="https://epsic.jacktrash.ch/" target="_blank">Site de JackTrash</a></li>
+								<li class="icon-hyperplanning"><a href="https://www.portail.vd.ch/formation/hyperplanning/epsic/invite" target="_blank">Horaires EPSIC</a></li>
 							</ul>
 						</div>
 						<div class="modal-footer"></div>

@@ -21,3 +21,7 @@ li.icon-discord {
 li.icon-trash {
 	list-style-image: url('../../medias/home/trash.ico');
 }
+
+li.icon-hyperplanning {
+	list-style-image: url('../../medias/home/hyperplanning.ico');
+}
