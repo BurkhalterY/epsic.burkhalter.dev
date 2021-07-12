@@ -1,4 +1,7 @@
 <link rel="stylesheet" href="<?=base_url('assets/css/home.css')?>" />
+<script src="<?=base_url('assets/js/jquery-3.3.1.slim.min.js')?>"></script>
+<script src="<?=base_url('assets/js/popper.min.js')?>"></script>
+<script src="<?=base_url('assets/js/bootstrap.min.js')?>"></script>
 <br>
 <div class="container">
 	<h1 class="text-uppercase text-center">epsic.burkhalter.dev</h1>
@@ -61,22 +64,37 @@
 			<br>
 		</div>
 		<div class="col-md-4">
-			<a href="https://discord.gg/ry3XrTPUzQ" target="_blank">
-				<img src="<?=base_url('medias/home/discord.png')?>" alt="Serveur Discord" width="75%" class="link" />
-				<figcaption>Serveur Discord</figcaption>
+			<a href="" data-toggle="modal" data-target="#modal">
+				<img src="<?=base_url('medias/home/cursor.png')?>" alt="Liens utiles" width="75%" class="link" />
+				<figcaption>Liens utiles</figcaption>
 			</a>
 			<br>
+			<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="Liens utiles" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Liens utiles</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<ul>
+								<li class="icon-moodle"><a href="https://www.epsic.ch/secure/moodle/" target="_blank">Moodle de l'EPSIC</a></li>
+								<li class="icon-moodle"><a href="https://ict-moodle.ch/" target="_blank">Moodle exclusif aux CIE</a></li>
+								<li class="icon-discord"><a href="https://discord.gg/ry3XrTPUzQ" target="_blank">Mon serveur Discord (Normalux)</a></li>
+								<li class="icon-discord"><a href="https://discord.gg/NejUt35yur" target="_blank">Serveur Discord de L'ELITE 2.0</a></li>
+								<li class="icon-trash"><a href="https://epsic.jacktrash.ch/" target="_blank">Site de JackTrash</a></li>
+							</ul>
+						</div>
+						<div class="modal-footer"></div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-6">
-			<?php /*<h4>Ressources utiles</h4>
-			<ul>
-				<li><a href="https://www.epsic.ch/secure/moodle/" target="_blank">Moodle de l'EPSIC</a></li>
-				<li><a href="https://epsic.jacktrash.ch/" target="_blank">Site de JackTrash</a></li>
-			</ul> */?>
-		</div>	
-		<div class="col-lg-6">
+		<div class="col-lg-6 offset-lg-6">
 			<h4>Fil d'actualité</h4>
 			<iframe src="<?=base_url('home/actualite')?>" width="100%" height="200px" frameBorder="0"></iframe>
 		</div>

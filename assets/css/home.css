@@ -9,3 +9,15 @@ a {
 	border: 5px solid black;
 	border-radius: 10px;
 }
+
+li.icon-moodle {
+	list-style-image: url('../../medias/home/moodle.ico');
+}
+
+li.icon-discord {
+	list-style-image: url('../../medias/home/discord.ico');
+}
+
+li.icon-trash {
+	list-style-image: url('../../medias/home/trash.ico');
+}
