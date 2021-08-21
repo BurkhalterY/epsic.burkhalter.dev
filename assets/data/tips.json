@@ -31,12 +31,6 @@
 			"categories": ["Hardware", "Affichage"],
 			"author": "Yannis Burkhalter"
 		}, {
-			"title": "Adobe GenP",
-			"content": "Adobe GenP est actuellement le logiciel qui permet de cracker n'importe quel logiciel de la suite Adobe sous Windows. Je ne fournis aucun lien ni tuto, mais juste ce nom devrait vous être utile. (Je ne me tiens responsable d'aucun problème pouvant découler de l'installation de ce logiciel !)",
-			"image": "adobe-genp.ico",
-			"categories": ["Hack", "Adobe", "Logiciel"],
-			"author": "Yannis Burkhalter"
-		}, {
 			"title": "Anki",
 			"content": "Anki est un logiciel de répétition espacée (SRS). À l'aide de flashcards, il permet d'apprendre beaucoup plus facilement des choses par cœur. Je ferais peut-être un cours dessus s'il y a assez de matière.",
 			"image": "anki.svg",

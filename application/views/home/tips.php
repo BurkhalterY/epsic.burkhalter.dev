@@ -1,4 +1,4 @@
-<script src="https://unpkg.com/vue@next"></script>
+<script src="<?=base_url('assets/js/vue.global.prod.js')?>"></script>
 <script src="<?=base_url('assets/js/jquery-3.6.0.min.js')?>"></script>
 
 <link rel="stylesheet" href="<?=base_url('assets/css/prism.css')?>" />
@@ -9,25 +9,44 @@
 		border-color: black;
 	}
 
-	.tips {
-		display: inline-flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		width: 100%;
-		height: calc(100vh - 250px);
-		align-content: flex-start;
-	}
-
-	.tip {
-		width: 15%;
-	}
-
-	@media only screen and (max-width: 600px) {
+	@media (min-width: 576px) {
 		.tips {
 			display: block;
 		}
 		.tip {
 			width: 100%;
+		}
+	}
+
+	@media (min-width: 768px) {
+		.tips {
+			display: inline-flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-content: flex-start;
+			height: calc(100vh - 250px);
+			overflow-x: scroll;
+		}
+		.tip {
+			width: 50%;
+		}
+	}
+
+	@media (min-width: 992px) {
+		.tip {
+			width: 25%;
+		}
+	}
+
+	@media (min-width: 1400px) {
+		.tip {
+			width: 20%;
+		}
+	}
+
+	@media (min-width: 1800px) {
+		.tip {
+			width: 15%;
 		}
 	}
 </style>
@@ -36,7 +55,7 @@
 	<input type="text" class="form-control" v-model="search" @input="applySearch()">
 	<span v-for="category in categories" @click="toggleCategory(category.name)" class="badge badge-pill mr-1" :class="categoriesFilter.includes(category.name) ? 'badge-primary' : 'badge-secondary'">{{ category.name }}</span>
 	<hr>
-	<div class="tips">
+	<div class="tips w-100">
 		<div class="tip m-1" v-for="tip in filteredTips">
 			<div class="card my-1">
 				<img class="card-img-top img-fluid" v-if="tip.image" v-bind:src="'<?=base_url('medias/home/tips/')?>'+tip.image" v-bind:alt="tip.title"/>
