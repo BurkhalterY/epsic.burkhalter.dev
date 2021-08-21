@@ -21,6 +21,15 @@
 	.tip {
 		width: 15%;
 	}
+
+	@media only screen and (max-width: 600px) {
+		.tips {
+			display: block;
+		}
+		.tip {
+			width: 100%;
+		}
+	}
 </style>
 
 <div id="app" class="m-3">
