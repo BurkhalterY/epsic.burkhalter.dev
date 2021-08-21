@@ -1,0 +1,102 @@
+{
+	"tips": [
+		{
+			"title": "Win + .",
+			"content": "Il est possible, sous Windows 10, d’afficher un panel de sélection d’émoji et de caractères spéciaux à l’aide du raccourci clavier <kbd>Win</kbd> + <kbd>.</kbd>",
+			"image": "win-dot.png",
+			"categories": ["Raccourci clavier", "Windows 10", "Émoji"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Win + V",
+			"content": "Sous Windows 10, le raccourci <kbd>Win</kbd> + <kbd>V</kbd> permet d'utiliser l'historique du presse-papier. À activer la première fois.",
+			"image": "win-v.png",
+			"categories": ["Raccourci clavier", "Windows 10"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Rouvrir l'onglet fermé",
+			"content": "Dans la plupart des navigateurs, le raccourci <kbd>CTRL</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> permet de réouvrir le dernier onglet fermé.",
+			"image": null,
+			"categories": ["Navigation", "Google Chrome", "Firefox", "Microsoft Edge", "Raccourci clavier"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Les opérations ternaires",
+			"content": "Il est possible dans de nombreux langages, d'utiliser des ternaires. Ce sont des conditions sur une ligne. Elles s'écrivent : <pre><code class=\"language-java\">var a = (condition ? returnIfTrue : returnIfFalse)</code></pre>",
+			"image": null,
+			"categories": ["Programmation", "JavaScript", "C#", "PHP"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Résolutions d'écran",
+			"content": "La 2K (2560x1440) correspont à 4 écrans 720p et la 4K (3840x2160) à 4 écrans 1080p.",
+			"image": null,
+			"categories": ["Hardware", "Affichage"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Adobe GenP",
+			"content": "Adobe GenP est actuellement le logiciel qui permet de cracker n'importe quel logiciel de la suite Adobe sous Windows. Je ne fournis aucun lien ni tuto, mais juste ce nom devrait vous être utile. (Je ne me tiens responsable d'aucun problème pouvant découler de l'installation de ce logiciel !)",
+			"image": "adobe-genp.ico",
+			"categories": ["Hack", "Adobe", "Logiciel"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Anki",
+			"content": "Anki est un logiciel de répétition espacée (SRS). À l'aide de flashcards, il permet d'apprendre beaucoup plus facilement des choses par cœur. Je ferais peut-être un cours dessus s'il y a assez de matière.",
+			"image": "anki.svg",
+			"categories": ["Logiciel", "Outil"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Retour avec backspace dans Firefox",
+			"content": "Depuis quelques versions de Firefox, la fonction de retourner à la page précédente avec la touche backspace a été désactivée. Il est néanmoins possible de la réactiver en allant dans about:config et en settant la variable <code>browser.backspace_action</code> à 0",
+			"image": "backspace.jpg",
+			"categories": ["Firefox", "Navigation"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "BetterDiscord",
+			"content": "BetterDiscord est une modification du client Discord qui permet d'utiliser des plugins écrits en JavaScript afin d'en améliorer votre utilisation.",
+			"image": "betterdiscord.svg",
+			"categories": ["Discord"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Discord : Édition du dernier message",
+			"content": "Dans Discord, vous pouvez modifier le dernier message que vous avez envoyé dans un channel ou en PV en appuyant sur la flèche du haut de votre clavier <kbd>↑</kbd>",
+			"image": null,
+			"categories": ["Discord", "Raccourci clavier"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Le Marianas Web",
+			"content": "D'après la légende, le Marianas Web serait le niveau le plus profond d'Internet. Il serait inaccessible sans modifications matérielles lourdes et contiendrait « presque tous les secrets de l’univers, de la fabrication des ordinateurs quantiques jusqu’à l’emplacement de l’Atlantide en passant par les secrets des Illuminatis ». Je vous laisse y songer.",
+			"image": null,
+			"categories": ["Darknet"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Utilisez la touche Windows",
+			"content": "Contrairement à ce que je vois souvent faire, il n'est pas nécessaire d'appuyer sur la zone de recherche de Windows pour effectuer une recherche. Le menu démarrer a le même comportement lorsqu'on commence à y taper du texte. Faire <kbd>Win</kbd> suivi du début du nom du logiciel que l'on veut ouvrir, devient alors l'une des manières les plus rapides de démarrer une application.",
+			"image": null,
+			"categories": ["Windows", "Raccourci clavier"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Ouvrir le gestionnaire de tâches",
+			"content": "Vous utilisez encore <kbd>CTRL</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd> > Gestionnaire de tâches pour ouvrir votre gestionnaire des tâches ? Vous pouvez faire un clic droit sur la barre des tâches > Gestionnaire de tâches pour y accéder directement. Ou au clavier : <kbd>CTRL</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd>",
+			"image": null,
+			"categories": ["Windows", "Raccourci clavier"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Le port de Doom",
+			"content": "Le saviez-vous ? Doom utilise le port TCP/UDP 666.",
+			"image": null,
+			"categories": ["Jeux vidéo", "Anecdote"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "Inverser l'ordre des comparés dans un if",
+			"content": "Dans certains langages, il peut être intéressant, lors d'une condition, de plasser la constante avant la variable. <pre><code class=\"language-java\">if(1 == maVar)</code></pre> au lieu de : <pre><code class=\"language-java\">if(maVar == 1)</code></pre> L'avantage est que si vous oubliez un signe égale (= au lieu de ==), le programme va s'arrêter et renvoyer une erreur. Dans le cas contraire, votre variable aurait été assigné et c'est sa nouvelle valeur qui aurait été vérifiez par le if.",
+			"image": null,
+			"categories": ["Programmation", "JavaScript"],
+			"author": "Yannis Burkhalter"
+		}
+	],
+	"model": {
+		"title": "",
+		"content": "",
+		"image": null,
+		"categories": [],
+		"author": "Yannis Burkhalter"
+	}
+}

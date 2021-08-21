@@ -20,6 +20,10 @@ class Home extends MY_Controller {
 		$this->display_view('home/calcul_moyennes', ['title' => 'Comment calculer votre moyenne']);
 	}*/
 
+	public function tips() {
+		$this->display_view('home/tips', ['title' => 'Les tips à Yannis', 'no_container' => true]);
+	}
+
 	public function todo() {
 		$this->display_view('home/todo', ['title' => 'À faire']);
 	}
