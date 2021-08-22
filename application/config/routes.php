@@ -55,4 +55,3 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['medias/bin/bin.png'] = 'bin/gen'; //don't work, use /bin/gen
 $route['bin/10_to_n'] = 'bin/b10_to_n';
-$route['switch/(:any)'] = 'switch1/$1';
