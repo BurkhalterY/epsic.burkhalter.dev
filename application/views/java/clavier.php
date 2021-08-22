@@ -7,7 +7,7 @@
 <pre><code class="language-java">package monprogramme;
 
 import java.util.Scanner;</code></pre>
-<p>Normalement, si vous ne la mettez pas, le programme vous proposera de la mettre lui-même quand vous l'utiliserez.</p>
+<p>Normalement, si vous ne la mettez pas, NetBeans vous proposera de la mettre lui-même quand vous l'utiliserez.</p>
 
 <h3>Instanciation</h3>
 <p>Pour l'utiliser, nous devons écrire ceci au début de la fonction main :</p>
@@ -64,16 +64,16 @@ import java.util.Scanner;</code></pre>
 		</tr>
 	</tbody>
 </table>
-<p>Attention donc à ce que pourrait écrire l'utilisateur. Car s'il écrit 3.5 dans un nextInt, votre programme plantera car on ne peut pas stocker de nombre à virgule dans un int par exemple.</p>
+<p>Attention donc à ce que pourrait écrire l'utilisateur. Car s'il écrit 3.5 dans un nextInt(), votre programme plantera car on ne peut pas stocker de nombre à virgule dans un int par exemple.</p>
 
 <h3>Le bloc try catch</h3>
-<p>Pour pallier à ce problème, nous pouvons utiliser les exceptions. Les exceptions permettent d'exécuter un autre bout de code si le premier plante. Elle se présente comme suit :</p>
+<p>Pour pallier à ce problème, nous pouvons utiliser les exceptions. Les exceptions permettent d'exécuter un autre bout de code si le premier plante. Elles se présentent comme suit :</p>
 <pre><code class="language-java">try {
 	//Code susceptible de planter
 } catch(NomDeLException e) {
 	//Code à exécuter en cas de plantage
 }</code></pre>
-<p>En entrant dans le try, le code se déroule normalement. Si le try se passe bien, le catch n'est pas exécuter. Mais si le try plante, alors nous exécutons ce qu'il y a dans le catch. N'utiliser le bloc try catch seulement là où il est nécessaire, inutile de mettre tout votre programme dans un try catch.</p>
+<p>En entrant dans le try, le code se déroule normalement. Si le try se passe bien, le catch n'est pas exécuté. Mais si le try plante, alors nous exécutons ce qu'il y a dans le catch. N'utiliser le bloc try catch seulement là où il est nécessaire, inutile de mettre tout votre programme dans un try catch.</p>
 <p>En paramètre, dans le catch, nous avons NomDeLException. Il s'agit du nom de l'exception. Indiquez ici le nom de l'exception à intercepter.</p>
 <p>Voici un bout de code qui l'utilise pour empêcher notre utilisateur de noter n'importe quoi :</p>
 <pre><code class="language-java">public static void main(String[] args) {
@@ -94,10 +94,10 @@ import java.util.Scanner;</code></pre>
 		//Attention, elle est de type String pour que l'utilisateur puisse entrer n'importe quoi sans tout faire planter
 		String line = sc.nextLine();
 
-		//essayer de...
+		//essayer de ...
 		try{
 
-			//convertir notre String en int
+			//... convertir notre String en int
 			number = Integer.parseInt(line);
 
 		//Si ça n'a pas marché alors...

@@ -75,7 +75,7 @@
 		}, {
 			"title": "Le port de Doom",
 			"content": "Le saviez-vous ? Doom utilise le port TCP/UDP 666.",
-			"image": null,
+			"image": "doom.png",
 			"categories": ["Jeux vidéo", "Anecdote"],
 			"author": "Yannis Burkhalter"
 		}, {
@@ -83,6 +83,18 @@
 			"content": "Dans certains langages, il peut être intéressant, lors d'une condition, de plasser la constante avant la variable. <pre><code class=\"language-java\">if(1 == maVar)</code></pre> au lieu de : <pre><code class=\"language-java\">if(maVar == 1)</code></pre> L'avantage est que si vous oubliez un signe égale (= au lieu de ==), le programme va s'arrêter et renvoyer une erreur. Dans le cas contraire, votre variable aurait été assigné et c'est sa nouvelle valeur qui aurait été vérifiez par le if.",
 			"image": null,
 			"categories": ["Programmation", "JavaScript"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "F2",
+			"content": "Dans beaucoup de logiciels, la touche F2 permet de renommer ou modifier l'objet sélectionné. Par exemple, dans l'explorateur de fichiers, elle permet de renommer le fichier/dossier sélectionné. Et dans Excel, elle permet de modifier le contenu de la cellule.",
+			"image": null,
+			"categories": ["Raccourci clavier", "Windows", "Excel"],
+			"author": "Yannis Burkhalter"
+		}, {
+			"title": "",
+			"content": "À leur ouverture, les programmes de la suite Office affichent le menu des fichiers récents. Mais il est possible d'arriver directement sur un nouveau document vierge en décochant, dans options > générales, sous la section \"options de démarrage\", la case \"Afficher l'écran de démarrage au lancement de cette application\". On retrouve alors le même comportement que dans Office 2010.",
+			"image": null,
+			"categories": ["Microsoft Office", "Word", "Excel", "PowerPoint", "Publisher"],
 			"author": "Yannis Burkhalter"
 		}
 	],

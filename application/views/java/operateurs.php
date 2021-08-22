@@ -52,12 +52,12 @@
 <h3>Effectuer un calcul complexe</h3>
 <p>Vous pouvez mettre plus d'un opérateur par calcul :<p>
 <pre><code class="language-java">maVar = 2 + 3 + 4; //maVar vaut 9</code></pre>
-<p>Attention cependant à la priorité des opérations. Vous pouvez mettre des parenthèse comme en mathématique.<p>
+<p>Attention cependant à la priorité des opérations. Vous pouvez mettre des parenthèses comme en mathématique.<p>
 <pre><code class="language-java">maVar = 2 + 3 * 5; //maVar vaut 17
 maVar = (2 + 3) * 5; //maVar vaut 25</code></pre>
 
 <h3>Raccourci de programmation</h3>
-<p>C'est bien connu, les programmeurs sont des flemmards, il existe donc des écritures raccourcis pour certaines opérations :</p>
+<p>C'est bien connu, les programmeurs sont des flemmards, il existe donc des écritures raccourcies pour certaines opérations :</p>
 <table class="table">
 	<thead>
 		<tr>
@@ -94,12 +94,12 @@ maVar = (2 + 3) * 5; //maVar vaut 25</code></pre>
 		<tr>
 			<td>++</td>
 			<td><pre><code class="language-java">maVar += 1;</code></pre></td>
-			<td><pre><code class="language-java">maVar ++;</code></pre></td>
+			<td><pre><code class="language-java">maVar++;</code></pre></td>
 		</tr>
 		<tr>
 			<td>--</td>
 			<td><pre><code class="language-java">maVar -= 1;</code></pre></td>
-			<td><pre><code class="language-java">maVar --;</code></pre></td>
+			<td><pre><code class="language-java">maVar--;</code></pre></td>
 		<tr>
 	</tbody>
 </table>

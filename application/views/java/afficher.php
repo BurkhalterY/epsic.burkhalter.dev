@@ -1,5 +1,5 @@
 <h1>Afficher du texte dans la console</h1>
-<p>Lorsque vous lancer votre programme, normalement la console apparaît en bas.</p>
+<p>Lorsque vous lancez votre programme, normalement la console apparaît en bas.</p>
 <p>Pour écrire dedans, on utilise une de ces deux fonctions :</p>
 <table class="table">
 	<thead>

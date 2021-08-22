@@ -46,7 +46,7 @@ public class Apprenti extends Personne {
 	}
 
 	public Apprenti(String nomApp, int ageApp, char sexeApp, String formationApp) {
-		super(nomApp, ageApp, sexeApp); // super() peut aussi s'utiliser avec les constructeurs surchargé
+		super(nomApp, ageApp, sexeApp); // super() peut aussi s'utiliser avec les constructeurs surchargés
 		this.formation = formationApp;
 	}
 

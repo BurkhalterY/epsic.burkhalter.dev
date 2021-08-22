@@ -14,4 +14,7 @@ There are no database required for this project.
 
 * [CodeIgniter 3](https://codeigniter.com/) - PHP framework
 * [Bootstrap 4](https://getbootstrap.com/) - CSS framework
+* [jQuery](https://jquery.com/) - JavaScript library
 * [Prism](https://prismjs.com/) - Code highlighter
+* [Imagick](https://imagemagick.org/) - Image handling software (used for the ICT 114 icon)
+* [Vue.js](https://vuejs.org/) - Frontent framework (used for the Yannis's tips section)

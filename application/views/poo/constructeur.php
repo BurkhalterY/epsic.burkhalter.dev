@@ -22,7 +22,7 @@ public class Personne {
 		this.age = agePers;
 	}
 }</code></pre>
-<p>Rappelez-vous qu'il est possible d'avoir plusieurs méthodes avec le même nom si les arguments sont différents. Java choisira tous seul en fonction des arguments passé. Ceci s'appelle la surcharge d'une méthode.</p>
+<p>Rappelez-vous qu'il est possible d'avoir plusieurs méthodes avec le même nom si les arguments sont différents. Java choisira tous seul en fonction des arguments passés. Ceci s'appelle la surcharge d'une méthode.</p>
 <p>Je peux maintenant instancier mon objet :</p>
 <pre><code class="language-java">package testpersonne;
 

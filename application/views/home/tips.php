@@ -111,7 +111,6 @@
 		mounted() {
 			$.getJSON("<?=base_url('assets/data/tips.json')?>", json => {
 				this.json = json;
-				this.json.tips.sort((a, b) => 0.5 - Math.random());
 				for(let tip of this.json.tips){
 					
 					tip.categories.sort((a, b) => 0.5 - Math.random());
@@ -130,6 +129,7 @@
 					tip.html = el.innerHTML;
 				}
 				this.categories.sort((a, b) => b.count - a.count);
+				this.json.tips.sort((a, b) => 0.5 - Math.random());
 				this.applySearch();
 			});
 		}

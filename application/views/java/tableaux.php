@@ -4,7 +4,7 @@
 <h3>Déclaration d'un tableau</h3>
 <pre><code class="language-java">int monTableau[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};</code></pre>
 <p>Un tableau ne peut contenir que des valeurs de même type. Il est impossible de créer un tableau qui contient des int ET des String.</p>
-<p>Une fois la taille du tableau choisis, elle ne peut plus être modifiée.</p>
+<p>Une fois la taille du tableau choisi, elle ne peut plus être modifiée.</p>
 <p>Si vous ne voulez pas initialiser votre tableau, vous pouvez le noter comme ceci.</p>
 <pre><code class="language-java">int monTableau[] = new int[10]; //Le 10 représente la taille du tableau, inchangeable par la suite.</code></pre>
 <p>Attention cependant, car avec cette méthode, toutes les cases vaudront null, ce qui veut dire qu'elles ne seront pas utilisables tel quel pour des calculs.</p>
@@ -20,7 +20,7 @@
 <p>Attention il s'agit d'un attribut, notez juste qu'il s'écrit comme ceci sans parenthèses.</p>
 
 <h3>Les tableaux à 2 dimensions</h3>
-<p>Il est aussi possible de créer un tableau de type int[]. Concrètement un tableau de tableau. Il se déclare comme ça :</p>
+<p>Il est aussi possible de créer un tableau de type int[]. Concrètement un tableau de tableaux. Il se déclare comme ça :</p>
 <pre><code class="language-java">int monTableau[][] = { {0, 1, 2},{3, 4, 5},{6, 7, 8} };</code></pre>
 <p>On y accède comme cela :</p>
 <pre><code class="language-java">System.out.println(monTableau[0][0]); //affiche 0

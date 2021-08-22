@@ -61,9 +61,9 @@
 
 <h3>Utilisation</h3>
 <pre><code class="language-java">type nomVariable = 0;</code></pre>
-<span><strong>type</strong> -&gt; un des types montré en dessus, choisi en fonction du besoin.</span><br>
+<span><strong>type</strong> -&gt; un des types montrés en dessus, choisi en fonction du besoin.</span><br>
 <span><strong>nomVariable</strong> -&gt; Le nom qu'on utilisera après pour faire appelle à notre variable, sans espace ni caractères spéciaux, le plus souvent en <a href="https://fr.wikipedia.org/wiki/Camel_case" target="_blank">Camel Case</a>.</span><br>
-<span><strong>= 0</strong> -&gt; Sert à initialiser directement la variable avec une valeur. C'est facultatif, si on ne le mets pas, la variable vaut null, elle ne peut donc pas être utilisé pour un calcul.</span>
+<span><strong>= 0</strong> -&gt; Sert à initialiser directement la variable avec une valeur. C'est facultatif, si on ne le mets pas, la variable vaut null, elle ne peut donc pas être utilisée pour un calcul.</span>
 
 <h3>Exemples</h3>
 <pre><code class="language-java">int maVariable; //crée une variable avec le nom maVariable

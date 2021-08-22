@@ -6,19 +6,19 @@
 
 <h3>Déclaration</h3>
 <p>Une méthode se déclare comme suit :</p>
-<pre><code class="language-java">public static typeRetour nomMethode(typeArg1 arg1, typeArg2, arg2, ...) {
+<pre><code class="language-java">public static typeRetour nomMethode(typeArg1 arg1, typeArg2 arg2, ...) {
 	// Code de la méthode
 	return x;
 }</code></pre>
 <ul>
 	<li><strong>public</strong> et <strong>static</strong> : ne vous en préoccuper pas pour l'instant.</li>
 	<li><strong>typeRetour</strong> : le type de variable que la méthode retourne, tapez void si elle ne retourne rien.</li>
-	<li><strong>nomMethode</strong> : le nom de la méthode, même règles qu'avec les noms de variable.</li>
-	<li><strong>typeArg1 arg1</strong> : un ou plusieurs argument(s) et son/leurs type(s), facultatif.</li>
+	<li><strong>nomMethode</strong> : le nom de la méthode, mêmes règles qu'avec les noms de variable.</li>
+	<li><strong>typeArg1 arg1</strong> : un ou plusieurs argument(s) et son/leur type, facultatif.</li>
 	<li><strong>return x</strong> : Ce que retourne la fonction, ne pas mettre si retourne void.</li>
 </ul>
 
-<h3>Exemples</h3>
+<h3>Exemple</h3>
 <p>Le code suivant contient une fonction additionner() qui prend deux paramètres et les additionne.</p>
 <pre><code class="language-java">package monprogramme;
 

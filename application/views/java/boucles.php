@@ -8,7 +8,7 @@
 }</code></pre>
 <p>La variable condition doit être une boolean. Si la condition est juste, on entre dans la boucle, le code s'exécute. Quand il arrive à la fin, il vérifie à nouveau la condition. Si elle vaut toujours true, il recommence, sinon il sort de la boucle.</p>
 <img src="<?=base_url('medias/java/boucle.png')?>" alt="Boucle" />
-<p>Il faut donc s'assurer que le code qui s'exécute dans la boucle influence la condition, car sinon la condition vaudra toujours true la boucle ne va s'arrêtera jamais.</p>
+<p>Il faut donc s'assurer que le code qui s'exécute dans la boucle influence la condition, car sinon la condition vaudra toujours true et la boucle ne s'arrêtera jamais.</p>
 
 <h3>La boucle do ... while</h3>
 <p>La boucle do while fonctionne de la même façon que la boucle while. Sauf qu'elle vérifie la condition à la fin. Ce qui veut dire qu'elle s'exécute au moins une fois.</p>

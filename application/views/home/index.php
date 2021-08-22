@@ -30,7 +30,7 @@
 		</div>
 		<div class="col-md-4">
 			<a href="<?=base_url('bin')?>">
-				<img src="<?=base_url('medias/bin/bin.png')?>" alt="Module 114" width="75%" class="link" />
+				<img src="<?=base_url('bin/gen')?>" alt="Module 114" width="75%" class="link" />
 				<figcaption>Module 114 : Binaire</figcaption>
 			</a>
 			<br>

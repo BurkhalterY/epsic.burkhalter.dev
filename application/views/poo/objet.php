@@ -1,6 +1,6 @@
 <h1>Qu'est-ce qu'un objet</h1>
-<p>Un objet informatique représente un concept. Par exemple une fenêtre ou un bouton. Comme dans la vraie vie, un objet a des caractéristiques et des fonctionnalités. Une caractèristique, c'est par exemple, pour une voiture, le nombre de roues ou la vitesse max. Et une fonctionnalité, pour notre voiture, ça pourrait être rouler.</p>
-<p>En informatique c'est la même chose. Les caractéristiques (nommées attributs) d'une fenêtre seraient sa taille et sa position. Et ses fonctionnalités (nommées méthodes) seraient par exemple de l'agrandir avec la souris, etc.</p>
+<p>Un objet informatique représente un concept. Par exemple une fenêtre ou un bouton. Comme dans la vraie vie, un objet a des caractéristiques et des fonctionnalités. Une caractèristique, c'est par exemple, pour une voiture, le nombre de roues ou la vitesse max. Et une fonctionnalité, pour notre voiture, ça pourrait être de rouler.</p>
+<p>En informatique, c'est la même chose. Les caractéristiques (nommées attributs) d'une fenêtre seraient sa taille et sa position. Et ses fonctionnalités (nommées méthodes) seraient par exemple de l'agrandir avec la souris, etc.</p>
 
 <h3>Les classes</h3>
 <p>Une classe est comparable à un moule. On crée une classe qui permettra de créer (instancier) des objets. La classe contient tous les attributs et toutes les méthodes, mais sans valeur. Une fois l'objet instancié à partir de la classe, on pourra attribuer des valeurs à ses attributs.</p>
