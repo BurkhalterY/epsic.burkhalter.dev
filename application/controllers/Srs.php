@@ -26,7 +26,7 @@ class Srs extends MY_Controller {
 					'italian' => $words[3],
 					'japanese' => $words[4],
 					'page' => $words[5],
-					'number' => $words[6]
+					'number' => $words[6],
 				];
 
 				$this->db->select('id');
