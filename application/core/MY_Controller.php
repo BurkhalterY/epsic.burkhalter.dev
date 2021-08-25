@@ -1,8 +1,5 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-defined('ACCESS_LVL_USER') OR define('ACCESS_LVL_USER', 2);
-defined('ACCESS_LVL_ADMIN') OR define('ACCESS_LVL_ADMIN', 8);
-
 class MY_Controller extends CI_Controller
 {
 
