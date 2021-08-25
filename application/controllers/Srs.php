@@ -9,10 +9,6 @@ class Srs extends MY_Controller {
 		$this->load->database();
 	}
 
-	public function index() {
-		
-	}
-
 	public function import_all() {
 		if($_SESSION['user_access'] >= ACCESS_LVL_ADMIN && isset($_POST['export'])){
 			$lines = explode("\n", $_POST['export']);
