@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PooModule } from './poo/poo.module';
+import { HomeModule } from './home-module/home.module';
+import { PooModule } from './poo-module/poo.module';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { PooModule } from './poo/poo.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HomeModule,
     PooModule
   ],
   providers: [],
