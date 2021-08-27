@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PooRoutingModule } from './poo-routing.module';
+import { BaseComponent } from './components/base/base.component';
+import { IndexComponent } from './components/index/index.component';
 import { ObjetComponent } from './components/objet/objet.component';
 import { ConstructeurComponent } from './components/constructeur/constructeur.component';
 import { EncapsulationComponent } from './components/encapsulation/encapsulation.component';
@@ -14,6 +16,8 @@ import { FenetreComponent } from './components/fenetre/fenetre.component';
 
 @NgModule({
   declarations: [
+    BaseComponent,
+    IndexComponent,
     ObjetComponent,
     ConstructeurComponent,
     EncapsulationComponent,
