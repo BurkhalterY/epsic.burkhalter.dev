@@ -9,7 +9,7 @@ import { Title } from "@angular/platform-browser";
 export class IndexComponent implements OnInit {
 
   constructor(private _titleService: Title) {
-    this._titleService.setTitle("Accueil - epsic.burkhalter.dev");
+    this._titleService.setTitle("Menu - Module 117");
   }
 
   ngOnInit(): void {
