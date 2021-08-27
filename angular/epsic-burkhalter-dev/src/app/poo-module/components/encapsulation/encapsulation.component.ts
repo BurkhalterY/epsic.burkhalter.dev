@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from "@angular/platform-browser";
 import 'prismjs';
 import 'prismjs/components/prism-java';
 
@@ -13,7 +14,9 @@ export class EncapsulationComponent implements OnInit {
 
   public encapsulation: string[] = new Array(2).fill('');
 
-  constructor() { }
+  constructor(private _titleService: Title) {
+    this._titleService.setTitle("L'encapsulation");
+  }
 
   ngOnInit(): void {
     for(let i = 0; i < this.encapsulation.length; i++){

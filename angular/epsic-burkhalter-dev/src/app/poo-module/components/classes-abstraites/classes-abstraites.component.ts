@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from "@angular/platform-browser";
 import 'prismjs';
 import 'prismjs/components/prism-java';
 
@@ -13,7 +14,9 @@ export class ClassesAbstraitesComponent implements OnInit {
 
   public classesAbstraites: string[] = new Array(5).fill('');
 
-  constructor() { }
+  constructor(private _titleService: Title) {
+    this._titleService.setTitle("Les classes abstraites");
+  }
 
   ngOnInit(): void {
     for(let i = 0; i < this.classesAbstraites.length; i++){

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from "@angular/platform-browser";
 import 'prismjs';
 import 'prismjs/components/prism-java';
 
@@ -13,7 +14,9 @@ export class PolymorphismeComponent implements OnInit {
 
   public polymorphisme: string = "";
 
-  constructor() { }
+  constructor(private _titleService: Title) {
+    this._titleService.setTitle("Le polymorphisme");
+  }
 
   ngOnInit(): void {
     fetch('/assets/code/poo/polymorphisme.java')

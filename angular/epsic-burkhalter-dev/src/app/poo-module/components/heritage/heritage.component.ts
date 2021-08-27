@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from "@angular/platform-browser";
 import 'prismjs';
 import 'prismjs/components/prism-java';
 
@@ -13,7 +14,9 @@ export class HeritageComponent implements OnInit {
 
   public heritage: string[] = new Array(3).fill('');
 
-  constructor() { }
+  constructor(private _titleService: Title) {
+    this._titleService.setTitle("L'héritage");
+  }
 
   ngOnInit(): void {
     for(let i = 0; i < this.heritage.length; i++){
