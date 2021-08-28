@@ -20,14 +20,14 @@ const routes: Routes = [
     children: [
       { path: '', component: IndexComponent },
       { path: 'materiel', component: MaterielComponent },
-      { path: 'etendues-topologies', component: EtenduesTopologiesComponent },
-      { path: 'modele-osi', component: ModeleOsiComponent },
-      { path: 'supports-transmission', component: SupportsTransmissionComponent },
-      { path: 'classes-ip', component: ClassesIpComponent },
-      { path: 'structure-ip', component: StructureIpComponent },
-      { path: 'calcul-sous-reseaux', component: CalculSousReseauxComponent },
-      { path: 'design-ethernet', component: DesignEthernetComponent },
-      { path: 'calculateur-sr', component: CalculateurSrComponent }
+      { path: 'etendues_topologies', component: EtenduesTopologiesComponent },
+      { path: 'modele_osi', component: ModeleOsiComponent },
+      { path: 'supports_transmission', component: SupportsTransmissionComponent },
+      { path: 'classes_ip', component: ClassesIpComponent },
+      { path: 'structure_ip', component: StructureIpComponent },
+      { path: 'calcul_sous_reseaux', component: CalculSousReseauxComponent },
+      { path: 'design_ethernet', component: DesignEthernetComponent },
+      { path: 'calculateur_sr', component: CalculateurSrComponent }
     ]
   }
 ];

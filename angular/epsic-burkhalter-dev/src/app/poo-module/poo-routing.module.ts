@@ -23,7 +23,7 @@ const routes: Routes = [
       { path: 'encapsulation', component: EncapsulationComponent },
       { path: 'heritage', component: HeritageComponent },
       { path: 'polymorphisme', component: PolymorphismeComponent },
-      { path: 'classes-abstraites', component: ClassesAbstraitesComponent },
+      { path: 'classes_abstraites', component: ClassesAbstraitesComponent },
       { path: 'interfaces', component: InterfacesComponent },
       { path: 'fenetre', component: FenetreComponent }
     ]
