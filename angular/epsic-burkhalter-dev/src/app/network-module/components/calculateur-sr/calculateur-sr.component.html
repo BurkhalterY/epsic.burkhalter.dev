@@ -1,23 +1,33 @@
 <h1>Calculateur de sous-réseaux</h1>
-<script src="/assets/js/calculateur_sr.js"></script>
-<label for="ip">Nombre max de machines (sans le routeur) :</label>
-<input type="number" name="ip" id="ip"><br>
-<label for="sr">Nombre max de sous-réseaux :</label>
-<input type="number" name="sr" id="sr"><br>
-<button type="button" onclick="calculer();">Calculer</button><br><br>
+<label for="ip">Nombre max de machines (sans le routeur) :</label>&nbsp;<input type="number" [(ngModel)]="nbIPstr" (ngModelChange)="calculate()"><br>
+<label for="sr">Nombre max de sous-réseaux :</label>&nbsp;<input type="number" [(ngModel)]="nbSRstr" (ngModelChange)="calculate()"><br>
+<button type="button" (click)="calculate()">Calculer</button><br><br>
 <h3>1) Déterminer les besoins (inclure les réserves)</h3>
-<p id="step1_ip"></p>
-<p id="step1_sr"></p>
+<p [innerHTML]="step1o_ip"></p>
+<p [innerHTML]="step1o_sr"></p>
 <h3>2) Calculer et réserver le nombre de bits nécessaires (Host_ID et Subnet_ID)</h3>
-<p id="step2_ip"></p>
-<p id="step2_sr"></p>
+<p [innerHTML]="step2o_ip"></p>
+<p [innerHTML]="step2o_sr"></p>
 <h3>3) Définir la classe et le Net_ID</h3>
-<p id="step3_classe"></p>
-<p id="step3_net_id"></p>
-<p id="step35"></p>
+<p [innerHTML]="step3o_classe"></p>
+<p [innerHTML]="step3o_net_id"></p>
+<p [innerHTML]="step35o"></p>
 <h3>4) Déterminer le masque (réseau et sous-réseau)</h3>
-<p id="step4"></p>
+<p [innerHTML]="step4o"></p>
 <h3>5) Calculer les adresses de chaque sous-réseau</h3>
-<p id="step5"></p>
+<p [innerHTML]="step5o"></p>
 <h3>6) Réaliser l'annuaire</h3>
-<table class="table" id="step6"></table>
+<table class="table">
+	<tr>
+		<th>Adresse du sous-réseau</th>
+		<th>Première adresse IP</th>
+		<th>Dernière adresse IP</th>
+		<th>Adresse de diffusion</th>
+	</tr>
+	<tr *ngFor="let sr of step6o">
+		<td>{{ sr[0] }}</td>
+		<td>{{ sr[1] }}</td>
+		<td>{{ sr[2] }}</td>
+		<td>{{ sr[3] }}</td>
+	</tr>
+</table>

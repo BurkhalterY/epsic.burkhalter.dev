@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { NetworkRoutingModule } from './network-routing.module';
 import { BaseComponent } from './components/base/base.component';
 import { IndexComponent } from './components/index/index.component';
@@ -31,6 +32,7 @@ import { CalculateurSrComponent } from './components/calculateur-sr/calculateur-
   ],
   imports: [
     CommonModule,
+    FormsModule,
     NetworkRoutingModule
   ]
 })
