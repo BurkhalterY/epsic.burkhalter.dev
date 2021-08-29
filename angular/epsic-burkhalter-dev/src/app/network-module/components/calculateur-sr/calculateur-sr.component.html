@@ -1,6 +1,6 @@
 <h1>Calculateur de sous-réseaux</h1>
-<label for="ip">Nombre max de machines (sans le routeur) :</label>&nbsp;<input type="number" [(ngModel)]="nbIPstr" (ngModelChange)="calculate()"><br>
-<label for="sr">Nombre max de sous-réseaux :</label>&nbsp;<input type="number" [(ngModel)]="nbSRstr" (ngModelChange)="calculate()"><br>
+<label for="ip">Nombre max de machines (sans le routeur) :</label>&nbsp;<input type="number" [(ngModel)]="nbIPstr"><br>
+<label for="sr">Nombre max de sous-réseaux :</label>&nbsp;<input type="number" [(ngModel)]="nbSRstr"><br>
 <button type="button" (click)="calculate()">Calculer</button><br><br>
 <h3>1) Déterminer les besoins (inclure les réserves)</h3>
 <p [innerHTML]="step1o_ip"></p>

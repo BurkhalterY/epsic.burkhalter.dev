@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AccessRoutingModule } from './access-routing.module';
+import { HomeModule } from '../home-module/home.module';
 import { BaseComponent } from './components/base/base.component';
 import { IndexComponent } from './components/index/index.component';
 import { TablesComponent } from './components/tables/tables.component';
@@ -37,7 +38,8 @@ import { Access1Component } from './components/access1/access1.component';
   ],
   imports: [
     CommonModule,
-    AccessRoutingModule
+    AccessRoutingModule,
+    HomeModule
   ]
 })
 export class AccessModule { }

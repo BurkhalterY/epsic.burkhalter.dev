@@ -3,5 +3,5 @@
 <p>Nous avons déjà vu l'héritage. Il est bien évidement possible de créer des tableaux d'objets. Par Exemple des tableaux de Personnes. Mais si nous avons plusieurs classes enfants qui héritent de Personne, par exemple Apprenti, Enseignant et Formateur. Nous serions coincés.</p>
 <p>C'est à cela que sert le polymorphisme. Il permet à un objet d'une classe parente à contenir un objet enfant. Et vous n'avez rien besoin de modifier à vos classes pour cela.</p>
 <p>Pour l'exemple, reprenons le même projet que pour <a href="" routerLink="/poo/heritage">l'héritage</a> : dans la classe principale :</p>
-<pre class="language-java"><code [innerHTML]="polymorphisme"></code></pre>
+<pre class="language-java"><app-code file="poo/polymorphisme.java" [lang]="Prism.languages.java"></app-code></pre>
 <p>Vous voyez que l'on peut mettre un objet de classe Apprenti dans un objet de type Personne. (Attention, l'inverse n'est pas possible)</p>

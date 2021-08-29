@@ -20,14 +20,14 @@
 <p>Maintenant, passons aux choses sérieuses. Allez dans les propriétés du formulaire, sous Événement, cliquer sur Après insertion</p>
 <img src="/medias/access/icud_c3.png" />
 <p>L'éditeur VBA s'ouvre, collez-y le code suivant :</p>
-<pre class="language-visual-basic"><code [innerHTML]="Form_AfterInsert"></code></pre>
+<pre class="language-visual-basic"><app-code file="access/Form_AfterInsert.vba" [lang]="Prism.languages.vba"></app-code></pre>
 <p>Explication du code :</p>
 <p>La deuxième ligne (DoCmd.RunSQL) permet d'exécuter une requête SQL, pour faire simple, c'est une manière de modifier la base de données depuis le code. Pensez a remplacer tous les noms de champs par les vôtres, sinon Access ne les trouveras pas.</p>
 <p>Seulement, cette fonction affiche un avertissement, nous mettons donc la commande DoCmd.SetWarnings False avant afin de les désactiver et DoCmd.SetWarnings True après pour les réactiver.</p>
 <p>DoCmd.Close ferme simplement le formulaire donc on devrait être retourné sur le formulaire F_Personne.</p>
 <p>Pour finir, on fait un Requery sur le champ Emails de F_Personne pour l'actualiser et donc afficher la nouvelle adresse ajoutée.</p>
 <p>Il faut ensuite retourner dans F_Personne et ajouter un évènement Sur clic au bouton + :</p>
-<pre class="language-visual-basic"><code [innerHTML]="Btn_ajouter_email_Click"></code></pre>
+<pre class="language-visual-basic"><app-code file="access/Btn_ajouter_email_Click.vba" [lang]="Prism.languages.vba"></app-code></pre>
 <p>Cela ouvrira le formulaire F_Ajouter_Email</p>
 
 <h3>Importer une adresse</h3>
@@ -46,14 +46,14 @@
 <img src="/medias/access/icud_i7.png" />
 <p>Une fois la liste déroulante créée, ajoutez un bouton, dans Événement, Sur clic, cela ouvre l'éditeur VBA.</p>
 <p>Vous pouvez y coller le même code que précédemment, à l'exception de la requête SQL qui diffère un peu.</p>
-<pre class="language-visual-basic"><code [innerHTML]="Btn_selectionner_Click"></code></pre>
+<pre class="language-visual-basic"><app-code file="access/Btn_selectionner_Click.vba" [lang]="Prism.languages.vba"></app-code></pre>
 <p>Et, ne pas oublier de donner un évènement au bouton v dans le formulaire F_Personne</p>
-<pre class="language-visual-basic"><code [innerHTML]="Btn_importer_email_Click"></code></pre>
+<pre class="language-visual-basic"><app-code file="access/Btn_importer_email_Click.vba" [lang]="Prism.languages.vba"></app-code></pre>
 
 <h3>Supprimer une adresse</h3>
 <p>Le bouton Supprimer n'aura pas pour effet de supprimer l'adresse, mais juste la relation entre la personne et l'adresse.</p>
 <p>Ici, pas besoin de créer de formulaire. Allez dans les propriétés du bouton - et ajouté un l'événement Sur clic.</p>
-<pre class="language-visual-basic"><code [innerHTML]="Btn_supprimer_email_Click"></code></pre>
+<pre class="language-visual-basic"><app-code file="access/Btn_supprimer_email_Click.vba" [lang]="Prism.languages.vba"></app-code></pre>
 <p>Nous avons ici 2 condition, la première c'est qu'il y ai un élément sélectionné dans la liste, la deuxième c'est que l'utilisateur confirme la suppression.</p>
 <p>Ensuite, ça lance du SQL comme avant et réactualise le champ.</p>
 <p>Il vous faudra surement renommer quelques trucs pour que cela marche.</p>
@@ -62,9 +62,9 @@
 <p>La modification est très proche de la création. Vous pouvez déjà copier-coller le formulaire F_Ajouter_Email et le renommer F_Modifier_Email.</p>
 <p>Dans les événements, supprimer le Après insertion et cliquez sur Après MAJ.</p>
 <p>Le code est très simple, je pense qu'il n'y a même pas besoin de l'expliquer :</p>
-<pre class="language-visual-basic"><code [innerHTML]="Form_AfterUpdate"></code></pre>
+<pre class="language-visual-basic"><app-code file="access/Form_AfterUpdate.vba" [lang]="Prism.languages.vba"></app-code></pre>
 <p>Il faut aussi mettre un peu de code sur le bouton d'édition :</p>
-<pre class="language-visual-basic"><code [innerHTML]="Btn_modifier_email_Click"></code></pre>
+<pre class="language-visual-basic"><app-code file="access/Btn_modifier_email_Click.vba" [lang]="Prism.languages.vba"></app-code></pre>
 <p>Je fais juste un petit test pour voir si un élément est sélectionné.</p>
 
 <p>Voilà, tous les boutons devraient maintenant marcher. Le fichier est disponible <a href="/medias/access/Database2.accdb">ici</a> si vous voulez vérifier ou comparer quelque chose.</p>

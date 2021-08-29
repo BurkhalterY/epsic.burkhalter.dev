@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home-module/home.module';
 import { AccessModule } from './access-module/access.module';
+import { HtmlModule } from './html-module/html.module';
 import { NetworkModule } from './network-module/network.module';
 import { PooModule } from './poo-module/poo.module';
 
@@ -17,6 +18,7 @@ import { PooModule } from './poo-module/poo.module';
     AppRoutingModule,
     HomeModule,
     AccessModule,
+    HtmlModule,
     NetworkModule,
     PooModule
   ],

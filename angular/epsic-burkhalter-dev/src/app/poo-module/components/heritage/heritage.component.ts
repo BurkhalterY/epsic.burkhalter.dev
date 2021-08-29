@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from "@angular/platform-browser";
-import 'prismjs';
 import 'prismjs/components/prism-java';
 
 declare var Prism: any;
@@ -12,20 +11,14 @@ declare var Prism: any;
 })
 export class HeritageComponent implements OnInit {
 
-  public heritage: string[] = new Array(3).fill('');
+  public Prism: any = {};
 
   constructor(private _titleService: Title) {
     this._titleService.setTitle("L'héritage");
+    this.Prism = Prism;
   }
 
   ngOnInit(): void {
-    for(let i = 0; i < this.heritage.length; i++){
-      fetch(`/assets/code/poo/heritage${i}.java`)
-      .then(response => response.text())
-      .then(data => {
-        this.heritage[i] = Prism.highlight(data, Prism.languages.java);
-      });
-    }
   }
 
 }

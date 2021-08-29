@@ -12,20 +12,14 @@ declare var Prism: any;
 })
 export class ObjetComponent implements OnInit {
 
-  public objet: string[] = new Array(3).fill('');
+  public Prism: any = {};
 
   constructor(private _titleService: Title) {
     this._titleService.setTitle("Qu'est-ce qu'un objet ?");
+    this.Prism = Prism;
   }
 
   ngOnInit(): void {
-    for(let i = 0; i < this.objet.length; i++){
-      fetch(`/assets/code/poo/objet${i}.java`)
-      .then(response => response.text())
-      .then(data => {
-        this.objet[i] = Prism.highlight(data, Prism.languages.java);
-      });
-    }
   }
 
 }
