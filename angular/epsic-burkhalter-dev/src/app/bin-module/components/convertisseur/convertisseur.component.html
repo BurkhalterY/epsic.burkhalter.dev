@@ -1,0 +1,9 @@
+<h1>Convertisseur</h1>
+<input type="text" [(ngModel)]="number" (ngModelChange)="convert()">
+<span> en base </span>
+<input type="text" [(ngModel)]="baseNumber" (ngModelChange)="convert()" size="2">
+<br><span>=</span><br>
+<input type="text" [(ngModel)]="result" readonly>
+<span> en base </span>
+<input type="text" [(ngModel)]="baseResult" (ngModelChange)="convert()" size="2">
+<p class="text-danger">{{ msg }}</p>
