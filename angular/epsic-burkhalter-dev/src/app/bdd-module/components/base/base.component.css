@@ -1,0 +1,17 @@
+.navbar {
+	background-color: #A4383B;
+	color: white;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.navbar ul, .navbar span {
+	background-color: #832C2E;
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.navbar a {
+	color: white;
+}
