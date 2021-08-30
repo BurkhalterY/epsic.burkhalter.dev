@@ -24,7 +24,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/assets",
-              "src/medias"
+              "src/medias",
+              "src/.htaccess"
             ],
             "styles": [
               "./node_modules/prismjs/themes/prism.css",
