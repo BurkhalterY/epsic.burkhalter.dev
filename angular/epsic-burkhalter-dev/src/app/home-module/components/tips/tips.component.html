@@ -1,0 +1,15 @@
+<input type="text" class="form-control" [(ngModel)]="search" (input)="applySearch()">
+<span *ngFor="let category of categories" (click)="toggleCategory(category.name)" class="badge badge-pill mr-1" [ngClass]="categoriesFilter.includes(category.name) ? 'badge-primary' : 'badge-secondary'">{{ category.name }}</span>
+<hr>
+<div class="tips w-100">
+	<div class="tip m-1" *ngFor="let tip of filteredTips">
+		<div class="card my-1">
+			<img class="card-img-top img-fluid" *ngIf="tip.image" [src]="'/medias/home/tips/'+tip.image" [alt]="tip.title"/>
+			<div class="card-body text-justify">
+				<h5 class="card-title">{{ tip.title }}</h5>
+				<p class="card-text" [innerHTML]="tip.html"></p>
+				<span *ngFor="let category of tip.categories" (click)="toggleCategory(category)" class="badge badge-pill mr-1" [ngClass]="categoriesFilter.includes(category) ? 'badge-primary' : 'badge-secondary'">{{ category }}</span>
+			</div>
+		</div>
+	</div>
+</div>

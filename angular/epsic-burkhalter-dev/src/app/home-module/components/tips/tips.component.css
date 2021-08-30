@@ -1,0 +1,48 @@
+.card, .form-control {
+	border-color: black;
+}
+
+.badge {
+	cursor: pointer;
+}
+
+@media (min-width: 576px) {
+	.tips {
+		display: block;
+	}
+	.tip {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.tips {
+		display: inline-flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		height: calc(100vh - 250px);
+		overflow-x: scroll;
+	}
+	.tip {
+		width: 50%;
+	}
+}
+
+@media (min-width: 992px) {
+	.tip {
+		width: 25%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.tip {
+		width: 20%;
+	}
+}
+
+@media (min-width: 1800px) {
+	.tip {
+		width: 15%;
+	}
+}
