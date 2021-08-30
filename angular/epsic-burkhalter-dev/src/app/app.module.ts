@@ -9,6 +9,7 @@ import { HtmlModule } from './html-module/html.module';
 import { BddModule } from './bdd-module/bdd.module';
 import { BinModule } from './bin-module/bin.module';
 import { NetworkModule } from './network-module/network.module';
+import { JavaModule } from './java-module/java.module';
 import { PooModule } from './poo-module/poo.module';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { PooModule } from './poo-module/poo.module';
     BddModule,
     BinModule,
     NetworkModule,
+    JavaModule,
     PooModule
   ],
   providers: [],
