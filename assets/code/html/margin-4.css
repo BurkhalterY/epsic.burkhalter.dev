@@ -1,0 +1,4 @@
+.test1 {
+	/* Margin de 10 pixels en haut, 20 à droite, 5 en bas et 15 à gauche (sens des aiguilles d'une montre) */
+	margin: 10px 20px 5px 15px;
+}
