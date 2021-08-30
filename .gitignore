@@ -1,36 +1,45 @@
-.DS_Store
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-application/cache/*
-!application/cache/index.html
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
 
-application/logs/*
-!application/logs/index.html
+# dependencies
+/node_modules
 
-!application/*/.htaccess
+# profiling files
+chrome-profiler-events*.json
 
-composer.lock
-
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
-
-# IDE Files
-#-------------------------
-/nbproject/
-.idea/*
-
-## Sublime Text cache files
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
 *.sublime-workspace
-*.sublime-project
-/tests/tests/
-/tests/results/
 
-application/config/config.php
-application/config/database.php
-/generator/output
-/private
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
