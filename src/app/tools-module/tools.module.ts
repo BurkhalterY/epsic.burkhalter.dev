@@ -6,6 +6,7 @@ import { BaseComponent } from './components/base/base.component';
 import { IndexComponent } from './components/index/index.component';
 import { Base64Component } from './components/base64/base64.component';
 import { BasesComponent } from './components/bases/bases.component';
+import { PasswordGeneratorComponent } from './components/password-generator/password-generator.component';
 
 
 
@@ -15,6 +16,7 @@ import { BasesComponent } from './components/bases/bases.component';
     IndexComponent,
     Base64Component,
     BasesComponent,
+    PasswordGeneratorComponent,
   ],
   imports: [
     CommonModule,
