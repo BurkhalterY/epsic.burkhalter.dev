@@ -1,0 +1,11 @@
+<h1>Conversion de bases</h1>
+<span>
+	<input type="text" [(ngModel)]="value" (ngModelChange)="convert()">
+	en base
+	<input type="number" style="width: 60px" [(ngModel)]="base" (ngModelChange)="convert()">
+</span>
+<p class="text-danger">{{ msg }}</p>
+
+<samp>
+	<span *ngFor="let result of results"> = {{ result.value }}<sub>{{ result.base }}</sub><br></span>
+</samp>

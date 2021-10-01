@@ -1,0 +1,9 @@
+:host ::ng-deep input, :host ::ng-deep textarea {
+	background-color: beige;
+}
+
+:host ::ng-deep textarea {
+	padding: 10px;
+	border-radius: 10px;
+	height: 200px
+}

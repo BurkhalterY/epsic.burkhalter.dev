@@ -1,0 +1,7 @@
+<h1>Conversion Base64</h1>
+<strong>Valeur :</strong><br>
+<textarea class="w-100" [(ngModel)]="content" (ngModelChange)="toBase64()"></textarea><br>
+<br>
+<strong>Base64 :</strong><br>
+<textarea class="w-100" [(ngModel)]="base64" (ngModelChange)="fromBase64()"></textarea><br>
+<p class="text-danger">{{ msg }}</p>
