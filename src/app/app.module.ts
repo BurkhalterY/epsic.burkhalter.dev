@@ -12,7 +12,7 @@ import { NetworkModule } from './network-module/network.module';
 import { ServerModule } from './server-module/server.module';
 import { JavaModule } from './java-module/java.module';
 import { PooModule } from './poo-module/poo.module';
-import { ToolsModule } from './Tools-module/Tools.module';
+import { ToolsModule } from './tools-module/tools.module';
 
 @NgModule({
   declarations: [
