@@ -4,59 +4,59 @@
 		<p class="text-justify">Bonjour, bienvenue sur mon site. Ici j'essaie de retranscrire et de réexpliquer les modules que nous voyons aux cours. Vous pouvez aussi poser vos questions en rejoigant le serveur Discord, ou y apporter vos idées d'amélioration. Je suis ouvert à toutes les questions donc n'hésitez pas. Il est également possible que je commette des erreurs, merci de me les signaler si vous en voyez. Le site ne contient pour le moment que certains modules de première année. Sur ce, révisez bien 😃</p>
 		<div class="row">
 			<div class="col-md-4">
-				<a href="" routerLink="/access">
-					<img src="/medias/home/access.png" alt="Module 100" width="75%" class="link" />
+				<router-link to="/access">
+					<img src="/medias/home/access.png" alt="Module 100" class="link" />
 					<figcaption>Module 100 : Access</figcaption>
-				</a>
+				</router-link>
 				<br>
 			</div>
 			<div class="col-md-4">
-				<a href="" routerLink="/html">
-					<img src="/medias/home/html.png" alt="CIE 101" width="75%" class="link" />
+				<router-link to="/html">
+					<img src="/medias/home/html.png" alt="CIE 101" class="link" />
 					<figcaption>CIE 101 : HTML, CSS, JavaScript</figcaption>
-				</a>
+				</router-link>
 				<br>
 			</div>
 			<div class="col-md-4">
-				<a href="" routerLink="/bdd">
-					<img src="/medias/home/bdd.png" alt="Module 104" width="75%" class="link" />
+				<router-link to="/bdd">
+					<img src="/medias/home/bdd.png" alt="Module 104" class="link" />
 					<figcaption>Module 104 : Python et SQL</figcaption>
-				</a>
+				</router-link>
 				<br>
 			</div>
 			<div class="col-md-4">
-				<a href="" routerLink="/bin">
-					<img src="/medias/home/bin.php" onerror="this.src='/medias/home/bin.png'" alt="Module 114" width="75%" class="link" />
+				<router-link to="/bin">
+					<img src="/medias/home/bin.php" onerror="this.src='/medias/home/bin.png'" alt="Module 114" class="link" />
 					<figcaption>Module 114 : Binaire</figcaption>
-				</a>
+				</router-link>
 				<br>
 			</div>
 			<div class="col-md-4">
-				<a href="" routerLink="/network">
-					<img src="/medias/home/network.png" alt="Module 117" width="75%" class="link" />
+				<router-link to="/network">
+					<img src="/medias/home/network.png" alt="Module 117" class="link" />
 					<figcaption>Module 117 : Réseau</figcaption>
-				</a>
+				</router-link>
 				<br>
 			</div>
 			<div class="col-md-4">
-				<a href="" routerLink="/server">
-					<img src="/medias/home/server.png" alt="Module 123" width="75%" class="link" />
+				<router-link to="/server">
+					<img src="/medias/home/server.png" alt="Module 123" class="link" />
 					<figcaption>Module 123 : Windows Server</figcaption>
-				</a>
+				</router-link>
 				<br>
 			</div>
 			<div class="col-md-4">
-				<a href="" routerLink="/java">
-					<img src="/medias/home/java.png" alt="Module 403" width="75%" class="link" />
+				<router-link to="/java">
+					<img src="/medias/home/java.png" alt="Module 403" class="link" />
 					<figcaption>Module 403 : Java</figcaption>
-				</a>
+				</router-link>
 				<br>
 			</div>
 			<div class="col-md-4">
-				<a href="" routerLink="/poo">
-					<img src="/medias/home/poo.png" alt="Module 404" width="75%" class="link" />
+				<router-link to="/poo">
+					<img src="/medias/home/poo.png" alt="Module 404" class="link" />
 					<figcaption>Module 404 : Java (POO)</figcaption>
-				</a>
+				</router-link>
 				<br>
 			</div>
 		</div>
@@ -79,6 +79,37 @@
 		</div>
 	</div>
 </template>
+
+<style>
+	a {
+		text-align: center;
+	}
+
+	.link {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 5px solid black;
+		border-radius: 10px;
+		width: 75%;
+	}
+
+	li.icon-moodle {
+		list-style-image: url('/medias/home/moodle.ico');
+	}
+
+	li.icon-discord {
+		list-style-image: url('/medias/home/discord.ico');
+	}
+
+	li.icon-trash {
+		list-style-image: url('/medias/home/trash.ico');
+	}
+
+	li.icon-hyperplanning {
+		list-style-image: url('/medias/home/hyperplanning.ico');
+	}
+</style>
 
 <script>
 	export default {
