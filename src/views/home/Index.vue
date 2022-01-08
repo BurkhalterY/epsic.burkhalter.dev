@@ -1,0 +1,87 @@
+<template>
+	<div class="container mt-4">
+		<h1 class="text-uppercase text-center">epsic<wbr>.burkhalter<wbr>.dev</h1>
+		<p class="text-justify">Bonjour, bienvenue sur mon site. Ici j'essaie de retranscrire et de réexpliquer les modules que nous voyons aux cours. Vous pouvez aussi poser vos questions en rejoigant le serveur Discord, ou y apporter vos idées d'amélioration. Je suis ouvert à toutes les questions donc n'hésitez pas. Il est également possible que je commette des erreurs, merci de me les signaler si vous en voyez. Le site ne contient pour le moment que certains modules de première année. Sur ce, révisez bien 😃</p>
+		<div class="row">
+			<div class="col-md-4">
+				<a href="" routerLink="/access">
+					<img src="/medias/home/access.png" alt="Module 100" width="75%" class="link" />
+					<figcaption>Module 100 : Access</figcaption>
+				</a>
+				<br>
+			</div>
+			<div class="col-md-4">
+				<a href="" routerLink="/html">
+					<img src="/medias/home/html.png" alt="CIE 101" width="75%" class="link" />
+					<figcaption>CIE 101 : HTML, CSS, JavaScript</figcaption>
+				</a>
+				<br>
+			</div>
+			<div class="col-md-4">
+				<a href="" routerLink="/bdd">
+					<img src="/medias/home/bdd.png" alt="Module 104" width="75%" class="link" />
+					<figcaption>Module 104 : Python et SQL</figcaption>
+				</a>
+				<br>
+			</div>
+			<div class="col-md-4">
+				<a href="" routerLink="/bin">
+					<img src="/medias/home/bin.php" onerror="this.src='/medias/home/bin.png'" alt="Module 114" width="75%" class="link" />
+					<figcaption>Module 114 : Binaire</figcaption>
+				</a>
+				<br>
+			</div>
+			<div class="col-md-4">
+				<a href="" routerLink="/network">
+					<img src="/medias/home/network.png" alt="Module 117" width="75%" class="link" />
+					<figcaption>Module 117 : Réseau</figcaption>
+				</a>
+				<br>
+			</div>
+			<div class="col-md-4">
+				<a href="" routerLink="/server">
+					<img src="/medias/home/server.png" alt="Module 123" width="75%" class="link" />
+					<figcaption>Module 123 : Windows Server</figcaption>
+				</a>
+				<br>
+			</div>
+			<div class="col-md-4">
+				<a href="" routerLink="/java">
+					<img src="/medias/home/java.png" alt="Module 403" width="75%" class="link" />
+					<figcaption>Module 403 : Java</figcaption>
+				</a>
+				<br>
+			</div>
+			<div class="col-md-4">
+				<a href="" routerLink="/poo">
+					<img src="/medias/home/poo.png" alt="Module 404" width="75%" class="link" />
+					<figcaption>Module 404 : Java (POO)</figcaption>
+				</a>
+				<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<h4>Liens utiles</h4>
+				<ul>
+					<li class="icon-moodle"><a href="https://www.epsic.ch/secure/moodle/" target="_blank">Moodle de l'EPSIC</a></li>
+					<li class="icon-moodle"><a href="https://ict-moodle.ch/" target="_blank">Moodle exclusif aux CIE</a></li>
+					<li class="icon-discord"><a href="https://discord.gg/ry3XrTPUzQ" target="_blank">Mon serveur Discord (Normalux)</a></li>
+					<li class="icon-discord"><a href="https://discord.gg/NejUt35yur" target="_blank">Serveur Discord de L'ELITE 2.0</a></li>
+					<li class="icon-trash"><a href="https://epsic.jacktrash.ch/" target="_blank">Site de JackTrash</a></li>
+					<li class="icon-hyperplanning"><a href="https://www.portail.vd.ch/formation/hyperplanning/epsic/invite" target="_blank">Horaires EPSIC</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-6">
+				<h4>Fil d'actualité</h4>
+				<app-news></app-news>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+	export default {
+		name: 'Index',
+	}
+</script>
