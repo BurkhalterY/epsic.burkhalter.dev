@@ -1,5 +1,0 @@
-.test3 {
-	/* Margin de 10 pixels en haut et en bas (vertical), et de 20 pixels à droite et à gauche (horizontal) */
-	/* Si que deux valeurs ne sont précisées, haut = bas et gauche = droite */
-	margin: 10px 20px;
-}
