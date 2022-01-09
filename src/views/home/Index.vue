@@ -74,7 +74,7 @@
 			</div>
 			<div class="col-lg-6">
 				<h4>Fil d'actualité</h4>
-				<app-news></app-news>
+				<News/>
 			</div>
 		</div>
 	</div>
@@ -112,7 +112,12 @@
 </style>
 
 <script>
+	import News from '../../components/News.vue'
+
 	export default {
 		name: 'Index',
+		components: {
+			News,
+		},
 	}
 </script>
