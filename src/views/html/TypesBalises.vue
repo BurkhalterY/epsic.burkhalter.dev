@@ -55,27 +55,27 @@
 			<tr>
 				<td><ShowCode class="language-html" inlineCode='<a href="">' lang="html"/></td>
 				<td>Inline</td>
-				<td><a href="" routerLink="/html/hypertexte">Un lien hypertexte.</a></td>
+				<td><router-link to="/html/hypertexte">Un lien hypertexte.</router-link></td>
 			</tr>
 			<tr>
 				<td><ShowCode class="language-html" inlineCode='<img src="" alt="" />' lang="html"/></td>
 				<td>Block</td>
-				<td><a href="" routerLink="/html/image">Une image.</a></td>
+				<td><router-link to="/html/image">Une image.</router-link></td>
 			</tr>
 			<tr>
 				<td><ShowCode class="language-html" inlineCode="<ul>" lang="html"/></td>
 				<td>Block</td>
-				<td><a href="" routerLink="/html/liste">Une liste.</a></td>
+				<td><router-link to="/html/liste">Une liste.</router-link></td>
 			</tr>
 			<tr>
 				<td><ShowCode class="language-html" inlineCode="<table>" lang="html"/></td>
 				<td>Block</td>
-				<td><a href="" routerLink="/html/table">Un tableau.</a></td>
+				<td><router-link to="/html/table">Un tableau.</router-link></td>
 			</tr>
 			<tr>
 				<td><ShowCode class="language-html" inlineCode="<input>" lang="html"/></td>
 				<td>Inline</td>
-				<td><a href="" routerLink="/html/form">Des champs d'entrée.</a></td>
+				<td><router-link to="/html/form">Des champs d'entrée.</router-link></td>
 			</tr>
 		</table>
 	</div>

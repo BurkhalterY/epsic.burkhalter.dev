@@ -39,7 +39,7 @@
 			<ul>
 				<li><code>for</code> "lie" le label au champ. Principalement pour qu'un clic sur le label permette directement de modifier le champ (essayez-par vous-même 😉). Pour que cela fonctionne, il faut avoir ajouté un attribut <code>id</code> au champ. En effet, l'attribut <code>for</code> se réfère à un id et non au name. Mettre la même valeur suffira.</li>
 			</ul>
-			<li>⚠ les champs comme les labels sont des balises de type <a href="" routerLink="/html/types_balises">inline</a>. Si vous ne les forcé pas (par exemple avec un <ShowCode inlineCode="<br>" lang="html"/>), elles se mettront toute sur une ligne.</li>
+			<li>⚠ les champs comme les labels sont des balises de type <router-link to="/html/types_balises">inline</router-link>. Si vous ne les forcé pas (par exemple avec un <ShowCode inlineCode="<br>" lang="html"/>), elles se mettront toute sur une ligne.</li>
 			<li>Les boutons d'envoie ne sont en fait que des balises <ShowCode inlineCode="<input>" lang="html"/> avec le type submit. Leur attribut <code>value</code> permet de modifier le texte de leur bouton.</li>
 			<ul>
 				<li>Il existe aussi un bouton de type <code>reset</code> qui vide entièrement le formulaire.</li>
