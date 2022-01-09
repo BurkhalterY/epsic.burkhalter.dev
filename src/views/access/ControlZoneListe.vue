@@ -22,13 +22,18 @@
 		<p>Maintenant, passons aux choses sérieuses. Allez dans les propriétés du formulaire, sous Événement, cliquer sur Après insertion</p>
 		<img src="/medias/access/icud_c3.png" />
 		<p>L'éditeur VBA s'ouvre, collez-y le code suivant :</p>
-		<pre class="language-visual-basic"><ShowCode file="access/Form_AfterInsert.vba" lang="Prism.languages.vba"></ShowCode></pre>
+		<pre class="language-visual-basic"><ShowCode file="access/Form_AfterInsert.vba" lang="vba"></ShowCode></pre>aa
 		
 	</div>
 </template>
 
 <script>
+	import ShowCode from '../../components/ShowCode.vue'
+
 	export default {
 		name: 'ControlZoneListe',
+		components: {
+			ShowCode,
+		},
 	}
 </script>

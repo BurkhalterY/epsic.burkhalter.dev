@@ -1,8 +1,13 @@
 <template>
-	<code innerHTML="content"><slot></slot></code>
+	<code v-html="content"></code>aa
 </template>
 
 <script>
+	import Prism from 'prismjs';
+	import 'prismjs/components/prism-visual-basic';
+
+	Prism.manual = true;
+
 	export default {
 		name: 'ShowCode',
 		props: {
@@ -10,5 +15,15 @@
 			file: String,
 			inlineCode: String,
 		},
+		data() {
+			let content = "";
+			if(this.inlineCode == "") {
+				const fileContent = require('raw-loader!../assets/code/'+this.file);
+				content = Prism.highlight(fileContent, Prism.languages[this.lang]);
+			} else {
+				content = Prism.highlight(this.inlineCode, Prism.languages[this.lang]);
+			}
+			return { content: content };
+		}
 	}
 </script>
