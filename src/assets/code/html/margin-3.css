@@ -1,0 +1,5 @@
+.test2 {
+	/* Margin de 10 pixels en haut, 20 à droite et à gauche et 5 en bas */
+	/* Si gauche n'est pas spécifié, il prend la valeur de droite */
+	margin: 10px 20px 5px;
+}
