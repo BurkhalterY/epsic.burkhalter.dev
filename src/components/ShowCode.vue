@@ -1,5 +1,5 @@
 <template>
-	<code v-html="content"></code>aa
+	<code v-html="content"></code>
 </template>
 
 <script>
@@ -17,8 +17,8 @@
 		},
 		data() {
 			let content = "";
-			if(this.inlineCode == "") {
-				const fileContent = require('raw-loader!../assets/code/'+this.file);
+			if(!this.inlineCode) {
+				const fileContent = require('raw-loader!../assets/code/'+this.file).default;
 				content = Prism.highlight(fileContent, Prism.languages[this.lang]);
 			} else {
 				content = Prism.highlight(this.inlineCode, Prism.languages[this.lang]);
