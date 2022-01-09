@@ -295,6 +295,168 @@ const routes = [
 				},
 			},
 		],
+	}, {
+		path: '/java',
+		component: () => import('../views/java/Base.vue'),
+		meta: {
+			favicon: 'java.ico',
+		},
+		children: [
+			{
+				path: '',
+				component: () => import('../views/java/Index.vue'),
+				meta: {
+					title: 'Menu - Module 403',
+				},
+			}, {
+				path: 'new',
+				component: () => import('../views/java/New'),
+				meta: {
+					title: 'Créer un nouveau projet',
+				},
+			}, {
+				path: 'commentaires',
+				component: () => import('../views/java/Commentaires'),
+				meta: {
+					title: 'Les commentaires',
+				},
+			}, {
+				path: 'variables',
+				component: () => import('../views/java/Variables'),
+				meta: {
+					title: 'Les variables',
+				},
+			}, {
+				path: 'operateurs',
+				component: () => import('../views/java/Operateurs'),
+				meta: {
+					title: 'Les opérateurs',
+				},
+			}, {
+				path: 'afficher',
+				component: () => import('../views/java/Afficher'),
+				meta: {
+					title: 'Afficher du texte dans la console',
+				},
+			}, {
+				path: 'clavier',
+				component: () => import('../views/java/Clavier'),
+				meta: {
+					title: 'Lire les entrées clavier',
+				},
+			}, {
+				path: 'conditions',
+				component: () => import('../views/java/Conditions'),
+				meta: {
+					title: 'Les conditions',
+				},
+			}, {
+				path: 'conditions_avancees',
+				component: () => import('../views/java/ConditionsAvancees'),
+				meta: {
+					title: 'Les conditions avancées',
+				},
+			}, {
+				path: 'boucles',
+				component: () => import('../views/java/Boucles'),
+				meta: {
+					title: 'Les boucles',
+				},
+			}, {
+				path: 'conversion_boucle',
+				component: () => import('../views/java/ConversionBoucle'),
+				meta: {
+					title: 'Conversion d\'un for en while et inversement',
+				},
+			}, {
+				path: 'methodes',
+				component: () => import('../views/java/Methodes'),
+				meta: {
+					title: 'Les méthodes',
+				},
+			}, {
+				path: 'tableaux',
+				component: () => import('../views/java/Tableaux'),
+				meta: {
+					title: 'Les tableaux',
+				},
+			}, {
+				path: 'tri_a_bulle',
+				component: () => import('../views/java/TriABulle'),
+				meta: {
+					title: 'Tri à bulle',
+				},
+			}, {
+				path: 'structogramme',
+				component: () => import('../views/java/Structogramme'),
+				meta: {
+					title: 'Symboles Nassi-Shneidermann',
+				},
+			},
+		],
+	}, {
+		path: '/poo',
+		component: () => import('../views/poo/Base.vue'),
+		meta: {
+			favicon: 'poo.ico',
+		},
+		children: [
+			{
+				path: '',
+				component: () => import('../views/poo/Index.vue'),
+				meta: {
+					title: 'Menu - Module 404',
+				},
+			}, {
+				path: 'objet',
+				component: () => import('../views/poo/Objet'),
+				meta: {
+					title: 'Qu\'est-ce qu\'un objet',
+				},
+			}, {
+				path: 'constructeur',
+				component: () => import('../views/poo/Constructeur'),
+				meta: {
+					title: 'Les constructeurs',
+				},
+			}, {
+				path: 'encapsulation',
+				component: () => import('../views/poo/Encapsulation'),
+				meta: {
+					title: 'L\'encapsulation',
+				},
+			}, {
+				path: 'heritage',
+				component: () => import('../views/poo/Heritage'),
+				meta: {
+					title: 'L\'héritage',
+				},
+			}, {
+				path: 'polymorphisme',
+				component: () => import('../views/poo/Polymorphisme'),
+				meta: {
+					title: 'Le polymorphisme',
+				},
+			}, {
+				path: 'classes_abstraites',
+				component: () => import('../views/poo/ClassesAbstraites'),
+				meta: {
+					title: 'Les classes abstraites',
+				},
+			}, {
+				path: 'interfaces',
+				component: () => import('../views/poo/Interfaces'),
+				meta: {
+					title: 'Les interfaces',
+				},
+			}, {
+				path: 'fenetre',
+				component: () => import('../views/poo/Fenetre'),
+				meta: {
+					title: 'Première fenêtre',
+				},
+			},
+		],
 	},
 ]
 

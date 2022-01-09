@@ -1,0 +1,92 @@
+<template>
+	<div>
+		<h1>Lire les entrées clavier</h1>
+		<p>Pour qu'on puisse interagir avec notre programme, le plus simple est d'utiliser le clavier pour écrire.</p>
+
+		<h3>La classe Scanner</h3>
+		<p>Pour cela, il existe la classe Scanner. Elle permet de lire ce qu'on a écrit dans la console.</p>
+		<p>Avant de l'utiliser, il faut l'importer. Placer cela après le package :</p>
+		<pre class="language-java"><ShowCode file="java/import-scanner.java" lang="java"/></pre>
+		<p>Normalement, si vous ne la mettez pas, NetBeans vous proposera de la mettre lui-même quand vous l'utiliserez.</p>
+
+		<h3>Instanciation</h3>
+		<p>Pour l'utiliser, nous devons écrire ceci au début de la fonction main :</p>
+		<pre class="language-java"><ShowCode file="java/new-scanner.java" lang="java"/></pre>
+		<span><strong>Scanner</strong> -&gt; Pour l'instant, imaginez-vous que c'est comme un type de variable : on crée une variable de type Scanner.</span><br>
+		<span><strong>sc</strong> -&gt; Le nom de votre Scanner, appelez-le comme vous souhaitez.</span><br>
+		<span><strong>= new Scanner(System.in)</strong> -&gt; Un truc qui vous semble bizarre pour l'instant. Vous comprendrez immédiatement quand j'aborderais la POO.</span>
+
+		<h3>Utilisation</h3>
+		<p>Lorsque vous écrivez une des fonctions si dessous, le programme ce met en pause et attend que vous entriez quelque chose :</p>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Fonction</th>
+					<th>Retourne</th>
+					<th>Exemple</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>sc.nextByte()</td>
+					<td>byte</td>
+					<td><pre class="language-java"><ShowCode inlineCode="byte maVar = sc.nextByte();" lang="java"/></pre></td>
+				</tr>
+				<tr>
+					<td>sc.nextShort())</td>
+					<td>short</td>
+					<td><pre class="language-java"><ShowCode inlineCode="short maVar = sc.nextShort();" lang="java"/></pre></td>
+				</tr>
+				<tr>
+					<td>sc.nextInt()</td>
+					<td>int</td>
+					<td><pre class="language-java"><ShowCode inlineCode="int maVar = sc.nextInt();" lang="java"/></pre></td>
+				</tr>
+				<tr>
+					<td>sc.nextLong()</td>
+					<td>long</td>
+					<td><pre class="language-java"><ShowCode inlineCode="long maVar = sc.nextLong();" lang="java"/></pre></td>
+				</tr>
+				<tr>
+					<td>sc.nextFloat()</td>
+					<td>float</td>
+					<td><pre class="language-java"><ShowCode inlineCode="float maVar = sc.nextFloat();" lang="java"/></pre></td>
+				</tr>
+				<tr>
+					<td>sc.nextDouble()</td>
+					<td>double</td>
+					<td><pre class="language-java"><ShowCode inlineCode="double maVar = sc.nextDouble();" lang="java"/></pre></td>
+				</tr>
+				<tr>
+					<td>sc.nextLine()</td>
+					<td>String</td>
+					<td><pre class="language-java"><ShowCode inlineCode="String maVar = sc.nextLine();" lang="java"/></pre></td>
+				</tr>
+			</tbody>
+		</table>
+		<p>Attention donc à ce que pourrait écrire l'utilisateur. Car s'il écrit 3.5 dans un nextInt(), votre programme plantera car on ne peut pas stocker de nombre à virgule dans un int par exemple.</p>
+
+		<h3>Le bloc try catch</h3>
+		<p>Pour pallier à ce problème, nous pouvons utiliser les exceptions. Les exceptions permettent d'exécuter un autre bout de code si le premier plante. Elles se présentent comme suit :</p>
+		<pre class="language-java"><ShowCode file="java/try-catch.java" lang="java"/></pre>
+		<p>En entrant dans le try, le code se déroule normalement. Si le try se passe bien, le catch n'est pas exécuté. Mais si le try plante, alors nous exécutons ce qu'il y a dans le catch. N'utiliser le bloc try catch seulement là où il est nécessaire, inutile de mettre tout votre programme dans un try catch.</p>
+		<p>En paramètre, dans le catch, nous avons NomDeLException. Il s'agit du nom de l'exception. Indiquez ici le nom de l'exception à intercepter.</p>
+		<p>Voici un bout de code qui l'utilise pour empêcher notre utilisateur de noter n'importe quoi :</p>
+		<pre class="language-java"><ShowCode file="java/programme-saisie-nombres.java" lang="java"/></pre>
+		<ul>
+			<li>Voyez qu'on a utilisé l'exception : NumberFormatException.</li>
+			<li>Integer.parseInt(line) prends en paramètre un texte String et renvoie un int si le String ne contient que des chiffres. Sinon il appelle le bloc catch.</li>
+		</ul>
+	</div>
+</template>
+
+<script>
+	import ShowCode from '../../components/ShowCode.vue'
+
+	export default {
+		name: 'Clavier',
+		components: {
+			ShowCode,
+		},
+	}
+</script>
