@@ -20,7 +20,7 @@
 		data() {
 			let content = "";
 			if(!this.inlineCode) {
-				const fileContent = require('raw-loader!../assets/code/'+this.file).default;
+				const fileContent = require('!raw-loader!../assets/code/'+this.file).default;
 				content = Prism.highlight(fileContent, Prism.languages[this.lang]);
 			} else {
 				content = Prism.highlight(this.inlineCode, Prism.languages[this.lang]);
