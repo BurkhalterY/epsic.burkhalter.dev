@@ -4,6 +4,7 @@
 
 <script>
 	import Prism from 'prismjs';
+	import 'prismjs/components/prism-sql';
 	import 'prismjs/components/prism-visual-basic';
 
 	Prism.manual = true;

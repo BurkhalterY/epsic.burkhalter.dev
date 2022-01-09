@@ -4,6 +4,9 @@ const routes = [
 	{
 		path: '/',
 		component: () => import('../views/home/Index.vue'),
+		meta: {
+			title: 'Accuel - epsic.burkhalter.dev',
+		},
 	}, {
 		path: '/access',
 		component: () => import('../views/access/Base.vue'),
@@ -89,6 +92,174 @@ const routes = [
 				meta: {
 					title: 'Ma base de données en Access 1.0',
 				}
+			},
+		],
+	}, {
+		path: '/bdd',
+		component: () => import('../views/bdd/Base.vue'),
+		meta: {
+			favicon: 'bdd.ico',
+		},
+		children: [
+			{
+				path: '',
+				component: () => import('../views/bdd/Index.vue'),
+				meta: {
+					title: 'Menu - Module 100',
+				},
+			}, {
+				path: 'fk_theorie',
+				component: () => import('../views/bdd/FkTheorie.vue'),
+				meta: {
+					title: 'Mieux comprendre les FK',
+				},
+			}, {
+				path: 'install_mysql',
+				component: () => import('../views/bdd/InstallMysql.vue'),
+				meta: {
+					title: 'Installer un serveur MySQL',
+				},
+			}, {
+				path: 'phpmyadmin',
+				component: () => import('../views/bdd/Phpmyadmin.vue'),
+				meta: {
+					title: 'Prise en main de phpMyAdmin',
+				},
+			}, {
+				path: 'fk',
+				component: () => import('../views/bdd/Fk.vue'),
+				meta: {
+					title: 'Lier un champ FK_',
+				},
+			}, {
+				path: 'sql_select',
+				component: () => import('../views/bdd/SqlSelect.vue'),
+				meta: {
+					title: 'Récuperer des données avec des requêtes SQL',
+				},
+			}, {
+				path: 'sql_inner_join',
+				component: () => import('../views/bdd/SqlInnerJoin.vue'),
+				meta: {
+					title: 'Requêtes sur plusieurs tables',
+				},
+			},
+		],
+	}, {
+		path: '/bin',
+		component: () => import('../views/bin/Base.vue'),
+		meta: {
+			favicon: 'bin.ico',
+		},
+		children: [
+			{
+				path: '',
+				component: () => import('../views/bin/Index.vue'),
+				meta: {
+					title: 'Menu - Module 114',
+				},
+			}, {
+				path: 'n_to_10',
+				component: () => import('../views/bin/NTo10.vue'),
+				mata: {
+					title: 'Conversion base n en base 10',
+				},
+			}, {
+				path: '10_to_n',
+				component: () => import('../views/bin/10ToN.vue'),
+				mata: {
+					title: 'Conversion base 10 en base n',
+				},
+			}, {
+				path: 'voc',
+				component: () => import('../views/bin/Voc.vue'),
+				mata: {
+					title: 'Vocabulaire',
+				},
+			}, {
+				path: 'bin_hex',
+				component: () => import('../views/bin/BinHex.vue'),
+				mata: {
+					title: 'Conversion binaire - hexa',
+				},
+			}, {
+				path: 'gray',
+				component: () => import('../views/bin/Gray.vue'),
+				mata: {
+					title: 'Code Gray',
+				},
+			}, {
+				path: 'bcd',
+				component: () => import('../views/bin/Bcd.vue'),
+				mata: {
+					title: 'BCD',
+				},
+			}, {
+				path: 'x_parmi_n',
+				component: () => import('../views/bin/XParmiN.vue'),
+				mata: {
+					title: 'Code x parmi n',
+				},
+			}, {
+				path: 'ascii',
+				component: () => import('../views/bin/Ascii.vue'),
+				mata: {
+					title: 'Code ASCII',
+				},
+			}, {
+				path: 'unicode_utf8',
+				component: () => import('../views/bin/UnicodeUtf8.vue'),
+				mata: {
+					title: 'L\'Unicode et UTF-8',
+				},
+			}, {
+				path: 'ean',
+				component: () => import('../views/bin/Ean.vue'),
+				mata: {
+					title: 'Les codes-barres EAN',
+				},
+			}, {
+				path: 'qr_code',
+				component: () => import('../views/bin/QrCode.vue'),
+				mata: {
+					title: 'Les QR codes',
+				},
+			}, {
+				path: 'convertisseur',
+				component: () => import('../views/bin/Convertisseur.vue'),
+				mata: {
+					title: 'Convertisseur',
+				},
+			}, {
+				path: 'addition',
+				component: () => import('../views/bin/Addition.vue'),
+				mata: {
+					title: 'Additions en binaire',
+				},
+			}, {
+				path: 'negativ',
+				component: () => import('../views/bin/Negativ.vue'),
+				mata: {
+					title: 'Soustractions et nombres négatifs',
+				},
+			}, {
+				path: 'float',
+				component: () => import('../views/bin/Float.vue'),
+				mata: {
+					title: 'Nombres à virgules flottantes',
+				},
+			}, {
+				path: 'fonctions_logiques',
+				component: () => import('../views/bin/FonctionsLogiques.vue'),
+				mata: {
+					title: 'Les fonctions logiques',
+				},
+			}, {
+				path: 'partie3',
+				component: () => import('../views/bin/Partie3.vue'),
+				mata: {
+					title: 'Partie 3',
+				},
 			},
 		],
 	}, {
