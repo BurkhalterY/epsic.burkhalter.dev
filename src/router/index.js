@@ -641,13 +641,13 @@ const routes = [
 				path: 'passgen',
 				component: () => import('../views/tools/PasswordGenerator.vue'),
 				meta: {
-					title: 'Générateur de mots de passes',
+					title: 'Générateur de mots de passe',
 				},
 			}, {
 				path: 'qrcode',
 				component: () => import('../views/tools/QrCode.vue'),
 				meta: {
-					title: '',
+					title: 'Générateur de QR Code',
 				},
 			},
 		],
