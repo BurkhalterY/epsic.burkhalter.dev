@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>Conversion binaire - hexa</h1>
-		<table>
+		<table class="table-responsive">
 			<tr><th>Décimal</th><th>Hexadécimal</th><th>Binaire</th></tr>
 			<tr><td>0</td><td>0</td><td>0000</td></tr>
 			<tr><td>1</td><td>1</td><td>0001</td></tr>
@@ -23,7 +23,7 @@
 		<hr>
 		<p>Un symbole hexadécimal équivaut à 4 bits. On peut donc directement regrouper les bits par groupe de 4 et les remplacer selon le tableau.</p>
 		<p>Exemple : 10010111010<sub>2</sub> = 4BA<sub>16</sub></p>
-		<table style="text-align: center;">
+		<table class="table-responsive text-center">
 			<tr><td style="border-right: 1px solid black;">4</td><td style="border-right: 1px solid black;">B</td><td>A</td></tr>
 			<tr><td style="border-right: 1px solid black;">100</td><td style="border-right: 1px solid black;">1011</td><td>1010</td></tr>
 		</table>

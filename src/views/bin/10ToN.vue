@@ -5,8 +5,8 @@
 
 		<h3>Du décimal au binaire</h3>
 		<p>Prenons par exemple le nombre 106<sub>10</sub></p>
-		<table>
-			<tr><td>106 ÷ 2 = 53&nbsp;</td><td>reste 0&nbsp;</td><td rowspan="7"><img src="/medias/bin/up.png" alr="fleche" /></td></tr>
+		<table class="table-responsive">
+			<tr><td>106 ÷ 2 = 53&nbsp;</td><td>reste 0&nbsp;</td><td rowspan="7"><img src="/medias/bin/up.png" alt="fleche"/></td></tr>
 			<tr><td>53 ÷ 2 = 26</td><td>reste 1</td></tr>
 			<tr><td>26 ÷ 2 = 13</td><td>reste 0</td></tr>
 			<tr><td>13 ÷ 2 = 6</td><td>reste 1</td></tr>
@@ -20,8 +20,8 @@
 		<h3>De décimal à l'hexa</h3>
 		<p>Ici c'est un peu plus compliqué car il faut diviser par 16. Je recommande une calculatrice.</p>
 		<p>Prenons par exemple le nombre 2675<sub>16</sub></p>
-		<table>
-			<tr><td>2675 ÷ 16 = 167&nbsp;</td><td>reste 3</td><td rowspan="3"><img src="/medias/bin/up1.png" alr="fleche" /></td></tr>
+		<table class="table-responsive">
+			<tr><td>2675 ÷ 16 = 167&nbsp;</td><td>reste 3</td><td rowspan="3"><img src="/medias/bin/up1.png" alt="fleche"/></td></tr>
 			<tr><td>167 ÷ 16 = 10</td><td>reste 7</td></tr>
 			<tr><td>10 ÷ 16 = 0</td><td>reste 10 → A</td></tr>
 		</table>

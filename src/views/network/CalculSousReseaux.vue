@@ -63,20 +63,20 @@
 		<h3>5) Calculer les adresses de chaque sous-réseau</h3>
 		<p>Ici, il faut écrire toutes les possibilités de sous-réseau, on doit supprimer le premier et le dernier :</p>
 		<pre><s>00000000</s>
-		00100000
-		01000000
-		01100000
-		10000000
-		10100000
-		11000000
-		<s>11100000</s></pre>
+00100000
+01000000
+01100000
+10000000
+10100000
+11000000
+<s>11100000</s></pre>
 		<p>On traduit en décimal, le premier donne le pas.</p>
 		<pre>00100000 = 32
-		01000000 = 64 (32 + 32)
-		01100000 = 96 (64 + 32)
-		10000000 = 128 (96 + 32)
-		10100000 = 160 (128 + 32)
-		11000000 = 192 (160 + 32)</pre>
+01000000 = 64 (32 + 32)
+01100000 = 96 (64 + 32)
+10000000 = 128 (96 + 32)
+10100000 = 160 (128 + 32)
+11000000 = 192 (160 + 32)</pre>
 
 		<hr>
 		<h3>6) Réaliser l'annuaire</h3>

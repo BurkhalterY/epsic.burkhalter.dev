@@ -35,7 +35,7 @@
 		<h3>Format d'image et d'écran</h3>
 		<p>Le format d'une image ou d'un écran désigne le rapport largeur sur hauteur (x:y)</p>
 		<p>Voici une liste des formats les plus courants :</p>
-		<table style="text-align: center;">
+		<table class="table-responsive text-center">
 			<tr>
 				<th>x</th>
 				<th></th>
@@ -93,7 +93,7 @@
 		<p>Attention : ces formules ne sont pas toujours valables... Il arrive parfois que l'on utilise moins de bits par couleurs, auquel cas il faut adapter le calcul.</p>
 		<br>
 		<p>Pour convertir le résultat obtenu dans l'unité adéquate :</p>
-		<table>
+		<table class="table-responsive">
 			<tr>
 				<td>bits</td>
 				<td>→</td>

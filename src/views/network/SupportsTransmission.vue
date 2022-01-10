@@ -2,7 +2,7 @@
 	<div>
 		<h1>Les supports de transmission</h1>
 		<h3>Câble paire torsadée</h3>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<td>UTP</td>
 				<td>Unshielded twisted pair</td>
@@ -45,15 +45,15 @@
 		<p>Ne pas confondre le connecteur (RJ-45) avec le cable (paire torsadée) → les cables RJ-45 n'existent pas !</p>
 		<br><br>
 		<p><strong>Câblage droit :</strong></p>
-		<img src="/medias/network/RJ-45_droit.png" alt="Câblage droit" style="max-width: 100%; border: 1px solid black;" />
+		<img src="/medias/network/RJ-45_droit.png" alt="Câblage droit" class="img-fluid" style="border: 1px solid black;"/>
 		<p><strong>Câblage croisé :</strong></p>
-		<img src="/medias/network/RJ-45_croise.png" alt="Câblage croisé" style="max-width: 100%; border: 1px solid black;" />
+		<img src="/medias/network/RJ-45_croise.png" alt="Câblage croisé" class="img-fluid" style="border: 1px solid black;"/>
 		<br><br>
 
 		<h3>Fibre optique</h3>
-		<img src="/medias/network/fibre_optique_schema.png" alt="Schéma fibre optique" style="max-width: 100%;" />
+		<img src="/medias/network/fibre_optique_schema.png" alt="Schéma fibre optique" class="img-fluid"/>
 		<hr>
-		<img src="/medias/network/fibre_optique_comp.png" alt="Comparaison fibre optique" style="max-width: 100%;" />
+		<img src="/medias/network/fibre_optique_comp.png" alt="Comparaison fibre optique" class="img-fluid"/>
 	</div>
 </template>
 

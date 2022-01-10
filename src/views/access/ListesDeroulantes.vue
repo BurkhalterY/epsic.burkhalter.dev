@@ -3,7 +3,7 @@
 		<h1>Listes déroulantes pour les FK</h1>
 		<p>Les tables d'association sont au minimum composées de 2 champs FK. Mais les FK sont numériques... Donc on ne voit que les ID des enregistrements correspondants. Mais il est possible d'afficher les noms à la place.</p>
 		<p>État actuel :</p>
-		<img src="/medias/access/liste_deroulante_0.png" alt="État actuel" />
+		<img src="/medias/access/liste_deroulante_0.png" alt="État actuel" class="img-fluid"/>
 		<br><br>
 		<div class="row">
 			<div class="col-md-6">
@@ -19,11 +19,11 @@
 				</ul>
 			</div>
 			<div class="col-md-6">
-				<img src="/medias/access/liste_deroulante_1.png" alt="Options" />
+				<img src="/medias/access/liste_deroulante_1.png" alt="Options" class="img-fluid"/>
 			</div>
 		</div>
 		<p>Résultat :</p>
-		<img src="/medias/access/liste_deroulante_2.png" alt="Résultat" />
+		<img src="/medias/access/liste_deroulante_2.png" alt="Résultat" class="img-fluid"/>
 	</div>
 </template>
 

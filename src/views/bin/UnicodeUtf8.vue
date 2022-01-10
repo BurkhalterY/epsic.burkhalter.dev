@@ -18,7 +18,7 @@
 			<li>Le nombre de 1 sur le premier octet donne le nombre d'octets utilisés. Il est suivit d'un 0 qui marque le début du point code.</li>
 			<li>Tous les octets suivant commencent par 10</li>
 		</ul>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th>Caractères codés</th>
 				<th>Représentation binaire UTF-8</th>

@@ -2,12 +2,12 @@
 	<div>
 		<h1>Structure d'une adresse IP</h1>
 
-		<p style="text-align: center;"><span style="background-color: lightgray;"><strong><span style="color: red;">[ NET_ID ]</span>&nbsp;<span style="color: blue;">[ HOST_ID ]</span></strong></span></p>
-		<p style="text-align: center;">Classe A: <span style="background-color: lightgray;"><strong><span style="color: red;">x</span>.<span style="color: blue;">x.x.x</span></strong></span></p>
-		<p style="text-align: center;">Classe B: <span style="background-color: lightgray;"><strong><span style="color: red;">x.x</span>.<span style="color: blue;">x.x</span></strong></span></p>
-		<p style="text-align: center;">Classe C: <span style="background-color: lightgray;"><strong><span style="color: red;">x.x.x</span>.<span style="color: blue;">x</span></strong></span></p>
+		<p class="center"><span style="background-color: lightgray;"><strong><span style="color: red;">[ NET_ID ]</span>&nbsp;<span style="color: blue;">[ HOST_ID ]</span></strong></span></p>
+		<p class="center">Classe A: <span style="background-color: lightgray;"><strong><span style="color: red;">x</span>.<span style="color: blue;">x.x.x</span></strong></span></p>
+		<p class="center">Classe B: <span style="background-color: lightgray;"><strong><span style="color: red;">x.x</span>.<span style="color: blue;">x.x</span></strong></span></p>
+		<p class="center">Classe C: <span style="background-color: lightgray;"><strong><span style="color: red;">x.x.x</span>.<span style="color: blue;">x</span></strong></span></p>
 		<hr>
-		<p style="text-align: center;"><span style="background-color: lightgray;"><strong><span style="color: red;">[ NET_ID ]</span>&nbsp;<span style="color: green;">[ SUBNET_ID ]</span>&nbsp;<span style="color: blue;">[ HOST_ID ]</span></strong></span></p>
+		<p class="center"><span style="background-color: lightgray;"><strong><span style="color: red;">[ NET_ID ]</span>&nbsp;<span style="color: green;">[ SUBNET_ID ]</span>&nbsp;<span style="color: blue;">[ HOST_ID ]</span></strong></span></p>
 		<p>S'il y a un sous-réseau, le SUBNET_ID ce calcul comme ceci : IP & MASQUE.</p>
 		<h4>L'opération &</h4>
 		<p>Revoie 1 si les deux paramètres valent 1.</p>

@@ -10,9 +10,9 @@
 		<h3>Créer une classe</h3>
 		<p>Commencer par <router-link to="/java/new">créer un nouveau projet</router-link>.</p>
 		<p>Faites un clic droit sur le package, puis New et Java Class :</p>
-		<img src="/medias/poo/new_class_1.png" alt="Nouvelle classe" />
+		<img src="/medias/poo/new_class_1.png" alt="Nouvelle classe" class="img-fluid"/>
 		<p>Donnez un nom à votre classe, par exemple Personne. Les noms des classes commencent toujours par une majuscule.</p>
-		<img src="/medias/poo/new_class_2.png" alt="Nouvelle classe" />
+		<img src="/medias/poo/new_class_2.png" alt="Nouvelle classe" class="img-fluid"/>
 		<p>Supprimez les commentaires par défaut.</p>
 		<pre class="language-java"><ShowCode file="poo/objet0.java" lang="java"/></pre>
 

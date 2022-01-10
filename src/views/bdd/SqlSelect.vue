@@ -17,7 +17,7 @@
 		<p>Le mot clé <strong>WHERE</strong> permet d'ajouter un filtre à une requête, ne prendre que les enregistrements qui remplissent la condition située après le WHERE. Exemple :</p>
 		<pre class="language-sql"><ShowCode inlineCode="SELECT * FROM t_personnes WHERE nom LIKE 'a%'" lang="sql"/></pre>
 		<p>Ici, l'opérateur est <strong>LIKE</strong>. Voici une liste des principaux opérateurs :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th>Opérateur</th>
 				<th>Description</th>

@@ -2,7 +2,7 @@
 	<div>
 		<h1>Les méthodes</h1>
 		<p>Les méthodes permettent de subdiviser un programme en plusieurs parties et d'éviter la redondance.</p>
-		<img src="/medias/java/methodes.png" alt="methodes" />
+		<img src="/medias/java/methodes.png" alt="methodes" class="img-fluid"/>
 		<br><br>
 		<p>Son avantage est qu'elle peut être utiliser plusieurs fois dans le programme. Plus besoin de copier-coller un code, il suffit de le mettre dans une méthode.</p>
 

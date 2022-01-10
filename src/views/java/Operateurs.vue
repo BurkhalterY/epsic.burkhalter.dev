@@ -8,7 +8,7 @@
 
 		<h3>Effectuer un calcul</h3>
 		<p>Il existe 5 opérations de bases :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<thead>
 				<tr>
 					<th>Symbole</th>
@@ -61,7 +61,7 @@ maVar = (2 + 3) * 5; //maVar vaut 25" lang="java"/></pre>
 
 		<h3>Raccourci de programmation</h3>
 		<p>C'est bien connu, les programmeurs sont des flemmards, il existe donc des écritures raccourcies pour certaines opérations :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<thead>
 				<tr>
 					<th>Symbole</th>

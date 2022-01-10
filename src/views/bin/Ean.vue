@@ -13,11 +13,11 @@
 
 		<h3>Les éléments EAN</h3>
 		<p>Chaque chiffre (de 0 à 9) est codé sur 7 bits. Ils sont toujours organisés de manière à avoir 2 barres blanches et 2 barres noires.<br>Il y a 3 manières de coder chacun des chiffres, selon qu'il soit un élément A, B ou C.</p>
-		<img src="/medias/bin/EAN_list_codes.png" alt="Liste des codes EAN" />
+		<img src="/medias/bin/EAN_list_codes.png" alt="Liste des codes EAN" class="img-fluid"/>
 
 		<h3>Les zones de garde</h3>
 		<p>Les zones de garde sont des petits groupes d'octets qui sont utilisé pour délimiter le code-barres ou une partie du code-barre.</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<td>Zone de garde normale (normal guard)</td>
 				<td>101</td>
@@ -30,7 +30,7 @@
 			</tr>
 		</table>
 		<p>Les zones de garde dépassent du code-barres dessous.</p>
-		<img src="/medias/bin/EAN_guard.png" />
+		<img src="/medias/bin/EAN_guard.png" class="img-fluid"/>
 
 		<h3>EAN-8</h3>
 		<p>Les codes-barres EAN-8 sont composés de 8 chiffres :</p>
@@ -41,7 +41,7 @@
 			<li>Chiffres 5 à 8 sous la forme d'éléments C</li>
 			<li>Zone de garde normale</li>
 		</ul>
-		<img src="/medias/bin/EAN-8_structure.png" alt="Structure d'EAN-8" />
+		<img src="/medias/bin/EAN-8_structure.png" alt="Structure d'EAN-8" class="img-fluid"/>
 
 		<h3>EAN-13</h3>
 		<p>Les codes-barres EAN-13 sont composés de 13 chiffres :</p>
@@ -54,7 +54,7 @@
 			<li>Zone de garde normale</li>
 		</ul>
 		<p>Les paternes en fonction du premier chiffre :</p>
-		<table>
+		<table class="table-responsive">
 			<tr>
 				<th>1<sup>er</sup> chiffre&nbsp;</th>
 				<th>Paterne</th>

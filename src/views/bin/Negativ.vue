@@ -3,7 +3,7 @@
 		<h1>Soustractions et nombres négatifs</h1>
 		<p>Pour utiliser des entiers signés dans l'ordinateur, on doit utiliser le MSB pour le signe.</p>
 		<p>Et afin de pouvoir faire des opérations avec nombres négatifs, il faut que ces nombres se suivent. D'où le cercle suivant :</p>
-		<img src="/medias/bin/negativ_circle.gif" alt="Cyclicité" width="400" />
+		<img src="/medias/bin/negativ_circle.gif" alt="Cyclicité" class="img-fluid" width="400"/>
 		<br><br>
 		<p>Avec ce système, on peut coder les nombres de -2<sup>N-1</sup> à 2<sup>N-1</sup>-1. Par exemple avec 8 bits : -128 à 127.</p>
 
@@ -33,7 +33,7 @@
 		<p>Au lieu de faire 7 - 3, on fait 7 + (-3).</p>
 		<p>Donc en binaire au lieu de faire 0111 - 0011, on fait 0111 + 1101.</p>
 		<p>Exemple :</p>
-		<img src="/medias/bin/sub.png" alt="0111 + 1101 = 0100" width="200" />
+		<img src="/medias/bin/sub.png" alt="0111 + 1101 = 0100" class="img-fluid" width="200"/>
 		<p>Si le nombre dépasse (comme ici le 1 barré), simplement ne pas en tenir compte.</p>
 
 		<h3>Trouver la valeur d'un nombre négatif</h3>

@@ -9,10 +9,10 @@
 		</ul>
 
 		<h3>Code 2 parmi 5</h3>
-		<p>Consiste à utiliser 2 chiffres sur 5 qui, additionnés, donne un chiffre entre 0 et 9. C'est aussi une notation <a href="/bin/bcd">BCD</a> car on n'utilise pas les symboles A à F.</p>
+		<p>Consiste à utiliser 2 chiffres sur 5 qui, additionnés, donne un chiffre entre 0 et 9. C'est aussi une notation <router-link to="/bin/bcd">BCD</router-link> car on n'utilise pas les symboles A à F.</p>
 		<p>En télécommunications, on utilise les chiffres <strong>0, 1, 2, 3 et 6</strong>.</p>
 		<p>Dans le système POSTNET, on utilise les chiffres <strong>7, 4, 2, 1 et 0</strong>.</p>
-		<table style="text-align: center;">
+		<table class="table-responsive text-center">
 			<tr><th>Décimale</th><th>Télécommunications&nbsp;<br>01236</th><th>POSTNET<br>74210</th></tr>
 			<tr><td>0</td><td>01100</td><td>11000</td></tr>
 			<tr><td>1</td><td>11000</td><td>00011</td></tr>

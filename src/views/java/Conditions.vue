@@ -10,7 +10,7 @@
 
 		<h3>Les opérateurs de comparaison</h3>
 		<p>Pour créer des valeurs boolean (qui ne peut contenir que vrai ou faux), on utilise des opérateurs de comparaison. Voici la liste :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<thead>
 				<tr>
 					<th>Symbole</th>
@@ -61,7 +61,7 @@
 
 		<h3>Conditions avancées</h3>
 		<p>On peut également créer des combinaisons de conditions. Pour cela, on utilise les opérateurs logiques. Voici la liste avec des exemples.</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<thead>
 				<tr>
 					<th>Symbole</th>

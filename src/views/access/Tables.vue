@@ -13,11 +13,11 @@
 		<div class="row">
 			<div class="col-md-6">
 				<p>Structure de la table T_Personnes :</p>
-				<img src="/medias/access/t_personnes.png" alt="T_Personnes" />
+				<img src="/medias/access/t_personnes.png" alt="T_Personnes" class="img-fluid"/>
 			</div>
 			<div class="col-md-6">
 				<p>Structure de la table T_Voitures :</p>
-				<img src="/medias/access/t_voitures.png" alt="T_Voitures" />
+				<img src="/medias/access/t_voitures.png" alt="T_Voitures" class="img-fluid"/>
 			</div>
 		</div>
 		<br>
@@ -26,7 +26,7 @@
 		<p>Les tables d'association servent à faire une association entre 2 tables de données (exemples: Personne_avoir_Voiture).</p>
 		<hr>
 		<p>Structure de la table T_Avoir_Voiture :</p>
-		<img src="/medias/access/t_avoir_voiture.png" alt="T_Avoir_Voiture" />
+		<img src="/medias/access/t_avoir_voiture.png" alt="T_Avoir_Voiture" class="img-fluid"/>
 	</div>
 </template>
 

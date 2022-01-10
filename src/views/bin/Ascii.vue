@@ -11,7 +11,7 @@
 		<p>Les 32 premiers caractères (0 à 31) et le dernier (127) ne sont pas directement utilisables, ils étaient utilisé par la machines pour différentes choses</p>
 		<div class="row">
 			<div class="col-xs-3">
-				<table style="text-align: center; border: 1px solid black;" cellpadding="0">
+				<table class="table-responsive text-center" style="border: 1px solid black;" cellpadding="0">
 					<tr><th>Décimale&nbsp;</th><th>Hexadécimale&nbsp;</th><th>ASCII&nbsp;</th></tr>
 					<tr><td>0</td><td>0</td><td><i>NUL</i></td></tr>
 					<tr><td>1</td><td>1</td><td><i>SOH</i></td></tr>
@@ -48,7 +48,7 @@
 				</table>
 			</div>
 			<div class="col-xs-3">
-				<table style="text-align: center; border: 1px solid black" cellpadding="0">
+				<table class="table-responsive text-center" style="border: 1px solid black;" cellpadding="0">
 					<tr><th>Décimale&nbsp;</th><th>Hexadécimale&nbsp;</th><th>ASCII&nbsp;</th></tr>
 					<tr><td>32</td><td>20</td><td>SP (Space)</td></tr>
 					<tr><td>33</td><td>21</td><td>!</td></tr>
@@ -85,7 +85,7 @@
 				</table>
 			</div>
 			<div class="col-xs-3">
-				<table style="text-align: center; border: 1px solid black" cellpadding="0">
+				<table class="table-responsive text-center" style="border: 1px solid black;" cellpadding="0">
 					<tr><th>Décimale&nbsp;</th><th>Hexadécimale&nbsp;</th><th>ASCII&nbsp;</th></tr>
 					<tr><td>64</td><td>40</td><td>@</td></tr>
 					<tr><td>65</td><td>41</td><td>A</td></tr>
@@ -122,7 +122,7 @@
 				</table>
 			</div>
 			<div class="col-xs-3">
-				<table style="text-align: center; border: 1px solid black" cellpadding="0">
+				<table class="table-responsive text-center" style="border: 1px solid black;" cellpadding="0">
 					<tr><th>Décimale&nbsp;</th><th>Hexadécimale&nbsp;</th><th>ASCII&nbsp;</th></tr>
 					<tr><td>96</td><td>60</td><td>`</td></tr>
 					<tr><td>97</td><td>61</td><td>a</td></tr>
@@ -163,7 +163,7 @@
 
 		<h3>ASCII étendu</h3>
 		<p>Le code ASCII étendu utilise 8 bits (au lieu de 7 pour l'ASCII). Il n'est cependant pas normalisé. Il est donc possible de voir des tables différentes de celle-ci :</p>
-		<img src="/medias/bin/extended_ascii.jpg" alt="Table ASCII étendu" />
+		<img src="/medias/bin/extended_ascii.jpg" alt="Table ASCII étendu" class="img-fluid"/>
 	</div>
 </template>
 

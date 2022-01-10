@@ -7,7 +7,7 @@
 
 		<h2>Les sélecteurs</h2>
 		<p>Pour savoir sur quel(s) élement(s) le CSS doit s'appliquer, on utilise les sélecteurs. Il y a 3 types de sélecteurs : pour les balises HTML, les classes et les id.</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th>Balise HTML</th>
 				<th>Classe</th>

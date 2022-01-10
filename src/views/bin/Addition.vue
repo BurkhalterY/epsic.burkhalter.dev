@@ -9,7 +9,7 @@
 			1 + 1 = 10 (on écrit 0 et on retient 1)
 		</p>
 		<p>Exemple :</p>
-		<img src="/medias/bin/add.png" alt="0101 + 0110 = 1011" width="200" />
+		<img src="/medias/bin/add.png" alt="0101 + 0110 = 1011" class="img-fluid" width="200"/>
 	</div>
 </template>
 

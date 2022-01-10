@@ -1,10 +1,10 @@
 <template>
 	<div>
 		<h1>Les QR codes</h1>
-		<img style="float: right;" src="/medias/bin/qr_code.png" alt="un code QR" />
+		<img src="/medias/bin/qr_code.png" alt="un code QR" class="img-fluid float-right"/>
 		<p>Le QR code (Quick Response Code) est un type de code-barres en 2 dimensions.<br>Ils peuvent contenir divers données tel que du texte, des URL, des mots de passe wifi, etc.</p>
 		<p>Il existe 40 versions de QR code. Chaque version ajoute 4 pixels en longueur et en largeur au QR code :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<td>Version 1</td>
 				<td>21 x 21 px</td>

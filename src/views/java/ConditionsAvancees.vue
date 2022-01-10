@@ -4,7 +4,7 @@
 
 		<h3>Le switch</h3>
 		<p>Le bloc switch permet de simplifier un code où on utiliserait plusieurs else if à la suite. Exemple :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<thead>
 				<tr>
 					<th>If else if</th>

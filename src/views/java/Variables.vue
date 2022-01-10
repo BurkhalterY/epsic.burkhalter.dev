@@ -4,7 +4,7 @@
 		<p>Les variables servent à mémoriser des données dans la RAM, pour pouvoir les réutiliser plus tard.</p>
 
 		<h3>Les types de variables</h3>
-		<table class="table">
+		<table class="table table-responsive">
 			<thead>
 				<tr>
 					<th>Nom</th>

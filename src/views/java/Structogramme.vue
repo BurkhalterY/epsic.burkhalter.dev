@@ -2,7 +2,7 @@
 	<div>
 		<h1>Symboles Nassi-Shneidermann</h1>
 		<p>Une petite liste des symboles Nassi-Shneidermann :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<thead>
 				<tr>
 					<th>Symbole</th>

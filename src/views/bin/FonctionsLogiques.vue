@@ -17,7 +17,7 @@
 		<h3>NOT (fonction inverse)</h3>
 		<p>Ne prend qu'un paramètre et en renvoie l'inverse :</p>
 		<p>Table de vérité :</p>
-		<table>
+		<table class="table-responsive">
 			<tr><th>A</th><th>S</th></tr>
 			<tr><td>0</td><td>1</td></tr>
 			<tr><td>1</td><td>0</td></tr>
@@ -29,7 +29,7 @@
 		<h3>AND (fonction ET)</h3>
 		<p>Renvoie 1 si toutes les entrées sont à 1</p>
 		<p>Table de vérité :</p>
-		<table>
+		<table class="table-responsive">
 			<tr><th>A</th><th>B</th><th>S</th></tr>
 			<tr><td>0</td><td>0</td><td>0</td></tr>
 			<tr><td>0</td><td>1</td><td>0</td></tr>
@@ -45,7 +45,7 @@
 		<h3>OR (fonction OU)</h3>
 		<p>Renvoie 1 si au moins une entrée est à 1</p>
 		<p>Table de vérité :</p>
-		<table>
+		<table class="table-responsive">
 			<tr><th>A</th><th>B</th><th>S</th></tr>
 			<tr><td>0</td><td>0</td><td>0</td></tr>
 			<tr><td>0</td><td>1</td><td>1</td></tr>
@@ -61,7 +61,7 @@
 		<h3>XOR (fonction OU exclusif)</h3>
 		<p>Renvoie 1 si une seule entrée est à 1</p>
 		<p>Table de vérité :</p>
-		<table>
+		<table class="table-responsive">
 			<tr><th>A</th><th>B</th><th>S</th></tr>
 			<tr><td>0</td><td>0</td><td>0</td></tr>
 			<tr><td>0</td><td>1</td><td>1</td></tr>
@@ -76,7 +76,7 @@
 		<h3>NAND (combinaison de NOT et AND)</h3>
 		<p>Renvoie 0 si toutes les entrées sont à 1</p>
 		<p>Table de vérité :</p>
-		<table>
+		<table class="table-responsive">
 			<tr><th>A</th><th>B</th><th>S</th></tr>
 			<tr><td>0</td><td>0</td><td>1</td></tr>
 			<tr><td>0</td><td>1</td><td>1</td></tr>
@@ -92,7 +92,7 @@
 		<h3>NOR (combinaison de NOT et OR)</h3>
 		<p>Renvoie 0 si au moins une entrée est à 1</p>
 		<p>Table de vérité :</p>
-		<table>
+		<table class="table-responsive">
 			<tr><th>A</th><th>B</th><th>S</th></tr>
 			<tr><td>0</td><td>0</td><td>1</td></tr>
 			<tr><td>0</td><td>1</td><td>0</td></tr>
@@ -108,7 +108,7 @@
 		<h3>NXOR (combinaison de NOT et XOR)</h3>
 		<p>Renvoie 0 si une seule entrée est à 1</p>
 		<p>Table de vérité :</p>
-		<table>
+		<table class="table-responsive">
 			<tr><th>A</th><th>B</th><th>S</th></tr>
 			<tr><td>0</td><td>0</td><td>1</td></tr>
 			<tr><td>0</td><td>1</td><td>0</td></tr>

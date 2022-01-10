@@ -27,7 +27,7 @@
 
 		<h3>Les types d'enregistrements</h3>
 		<p>Certains domaines possèdent plusieurs services différent (site web, email, etc...).<br>Le serveur DNS va alors rediriger la requête vers le bon service en se basant sur les enregistrement DNS pour le domaine.</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th>Type</th>
 				<th>Explication</th>

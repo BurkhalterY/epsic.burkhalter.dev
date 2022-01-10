@@ -2,7 +2,7 @@
 	<div>
 		<h1>Code Gray</h1>
 		<p>Le code de Gray, également appelé code Gray ou code binaire réfléchi, est un type de codage binaire permettant de ne modifier qu'un seul bit à la fois quand un nombre est augmenté d'une unité.</p>
-		<table>
+		<table class="table-responsive">
 			<tr><th>Décimal&nbsp;</th><th>Binaire pur&nbsp;</th><th>Code Gray</th></tr>
 			<tr><td>0</td><td>0000</td><td>0000</td></tr>
 			<tr><td>1</td><td>0001</td><td>0001</td></tr>

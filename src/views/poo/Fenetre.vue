@@ -7,7 +7,7 @@
 		<p>Et la classe principale dans laquelle nous instancions cette Fenetre :</p>
 		<pre class="language-java"><ShowCode file="poo/fenetre1.java" lang="java"/></pre>
 		<p>Lancez le programme, une fenêtre vide devrait apparaitre au milieu de l'écran :</p>
-		<img src="/medias/poo/fenetre.png" alt="Fenêtre de 600x800" />
+		<img src="/medias/poo/fenetre.png" alt="Fenêtre de 600x800" class="img-fluid"/>
 	</div>
 </template>
 

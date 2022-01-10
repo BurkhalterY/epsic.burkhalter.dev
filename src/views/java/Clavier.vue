@@ -18,7 +18,7 @@
 
 		<h3>Utilisation</h3>
 		<p>Lorsque vous écrivez une des fonctions si dessous, le programme ce met en pause et attend que vous entriez quelque chose :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<thead>
 				<tr>
 					<th>Fonction</th>

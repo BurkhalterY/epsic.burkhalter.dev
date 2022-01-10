@@ -2,17 +2,17 @@
 	<div>
 		<h1>Lier un champ FK_</h1>
 		<p>Pour l'exemple, j'ai ajouté une table t_sexe</p>
-		<img src="/medias/bdd/ajout_fk_1.png" alt="Table sexe" />
+		<img src="/medias/bdd/ajout_fk_1.png" alt="Table sexe" class="img-fluid"/>
 		<p>Ainsi qu'un champ fk_sexe à la fin de ma table t_personne</p>
-		<img src="/medias/bdd/ajout_fk_2.png" alt="Champ fk_sexe" />
+		<img src="/medias/bdd/ajout_fk_2.png" alt="Champ fk_sexe" class="img-fluid"/>
 		<p>Pour définir le FK, cliquez sur index du champ fk</p>
-		<img src="/medias/bdd/ajout_fk_3.png" alt="Définir l'ndex" />
+		<img src="/medias/bdd/ajout_fk_3.png" alt="Définir l'ndex" class="img-fluid"/>
 		<p>Un pop-up apparait, cliquez sur OK pour confirmer.</p>
-		<img src="/medias/bdd/ajout_fk_4.png" alt="Confirmer" />
+		<img src="/medias/bdd/ajout_fk_4.png" alt="Confirmer" class="img-fluid"/>
 		<p>Une petite clé grise est apparue à côté du champ</p>
-		<img src="/medias/bdd/ajout_fk_5.png" alt="Clé étrangère" />
+		<img src="/medias/bdd/ajout_fk_5.png" alt="Clé étrangère" class="img-fluid"/>
 		<p>Passez en vue relationnelle :</p>
-		<img src="/medias/bdd/ajout_fk_6.png" alt="(btn) Vue relationnelle" />
+		<img src="/medias/bdd/ajout_fk_6.png" alt="(btn) Vue relationnelle" class="img-fluid"/>
 		<p>Dans la partie Contraintes de clé étrangère,</p>
 		<ol>
 			<li>Le champ fk (ici fk_sexe)</li>
@@ -20,7 +20,7 @@
 			<li>L'id (devrait se remplir tout seul donc pas besoin de toucher)</li>
 			<li>Cliquez sur Sauvegarder et votre relation est prête</li>
 		</ol>
-		<img src="/medias/bdd/ajout_fk_7.png" alt="Contraintes de clé étrangère" />
+		<img src="/medias/bdd/ajout_fk_7.png" alt="Contraintes de clé étrangère" class="img-fluid"/>
 	</div>
 </template>
 

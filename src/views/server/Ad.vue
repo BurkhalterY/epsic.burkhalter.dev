@@ -30,7 +30,7 @@
 			<li>Un domaine contient une ou plusieurs UO</li>
 			<li>Une UO contient un ou plusieurs objets</li>
 		</ul>
-		<img src="/medias/server/arborescence.png" alt="Arborescence" style="max-width: 100%;" />
+		<img src="/medias/server/arborescence.png" alt="Arborescence" class="img-fluid"/>
 		<p>Les triangles bleus et oranges sont des domaines.<br>Un ensemble de triangle est un arbre et un ensemble d'arbre est une forêt.</p>
 	</div>
 </template>

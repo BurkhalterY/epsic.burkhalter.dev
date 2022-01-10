@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>Les classes d'adresses IP</h1>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th>Classe</th>
 				<th>Premier octet</th>

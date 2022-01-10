@@ -2,7 +2,7 @@
 	<div>
 		<h1>Les types de balises</h1>
 		<p>Il existe deux types de balises : <strong>block</strong> et <strong>inline</strong>. Voici un petit tableau récapitulatif :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th></th>
 				<th>Block</th>
@@ -26,7 +26,7 @@
 		</table>
 
 		<p>Mais en pratique, à quoi servent ces balises ? Voici un tableau avec les principales balises à connaître :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th>Balise</th>
 				<th>Inline/block</th>

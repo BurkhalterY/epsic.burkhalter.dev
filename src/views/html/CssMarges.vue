@@ -8,7 +8,7 @@
 		</ul>
 		<div class="row">
 			<div class="col-md-6">
-				<img src="/medias/html/css-margin-padding.png" alt="" />
+				<img src="/medias/html/css-margin-padding.png" alt="" class="img-fluid"/>
 			</div>
 			<div class="col-md-6">
 				<br>

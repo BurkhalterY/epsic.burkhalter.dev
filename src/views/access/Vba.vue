@@ -5,10 +5,10 @@
 
 		<h3>Associer du code VBA à un bouton</h3>
 		<p>Créez un bouton normal avec n'importe quelle fonction. Puis allez dans les propriétés puis Événement et changer [Macro incorporée] en [Procédure événementielle].</p>
-		<img src="/medias/access/vba_bouton.png" />
+		<img src="/medias/access/vba_bouton.png" class="img-fluid"/>
 		<p>Cliquez sur les 3 points (...)<br>L'éditeur VBA s'ouvre.</p>
 		<p>Voici les pricipales fonctions VBA :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<td><samp>DoCmd.OpenForm "F_Formulaire"</samp></td>
 				<td>Ouvre le formulaire F_Formulaire.</td>

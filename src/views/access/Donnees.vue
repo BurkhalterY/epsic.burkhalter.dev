@@ -2,7 +2,7 @@
 	<div>
 		<h1>Ajouter des données</h1>
 		<p>Pour remplir notre base de données, nous allons utiliser le site <a href="https://www.generatedata.com/?lang=fr" target="_blank">generatedata.com</a></p>
-		<img src="/medias/access/generatedata.com.png" alt="generatedata.com" style="max-width: 100%;" />
+		<img src="/medias/access/generatedata.com.png" alt="generatedata.com" class="img-fluid"/>
 		<br><br>
 		<p>Il faut entrer le nom de tous les champs, avec le type de données voulu.</p>
 		<ul>
@@ -14,10 +14,10 @@
 		<p>Copiez ensuite toutes les données générées sans les entêtes comme ceci.</p>
 		<div class="row">
 			<div class="col-xs-3">
-				<img src="/medias/access/excel_copy.png" alt="Excel" style="max-width: 100%;" />
+				<img src="/medias/access/excel_copy.png" alt="Excel" class="img-fluid"/>
 			</div>
 			<div class="col-xs-9">
-				<img src="/medias/access/import.gif" alt="Import dans Access" style="max-width: 100%;" />
+				<img src="/medias/access/import.gif" alt="Import dans Access" class="img-fluid"/>
 			</div>
 		</div>
 		<br>

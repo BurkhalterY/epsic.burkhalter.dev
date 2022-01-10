@@ -7,7 +7,7 @@
 		<p>La boucle while s'écrit comme ceci :</p>
 		<pre class="language-java"><ShowCode file="java/while.java" lang="java"/></pre>
 		<p>La variable condition doit être une boolean. Si la condition est juste, on entre dans la boucle, le code s'exécute. Quand il arrive à la fin, il vérifie à nouveau la condition. Si elle vaut toujours true, il recommence, sinon il sort de la boucle.</p>
-		<img src="/medias/java/boucle.png" alt="Boucle" />
+		<img src="/medias/java/boucle.png" alt="Boucle" class="img-fluid"/>
 		<p>Il faut donc s'assurer que le code qui s'exécute dans la boucle influence la condition, car sinon la condition vaudra toujours true et la boucle ne s'arrêtera jamais.</p>
 
 		<h3>La boucle do ... while</h3>

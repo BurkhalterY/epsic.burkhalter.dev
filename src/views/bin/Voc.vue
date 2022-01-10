@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>Vocabulaire</h1>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<td>Un bit</td>
 				<td>0 ou 1</td>

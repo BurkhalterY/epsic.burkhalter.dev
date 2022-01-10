@@ -80,7 +80,7 @@
 		</table>
 
 		<h3>Remplir la matrice des jonctions :</h3>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th>Nom</th>
 				<th>Modèle</th>

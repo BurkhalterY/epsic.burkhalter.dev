@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>Modèle OSI</h1>
-		<table style="width: 100%;">
+		<table class="w-100">
 			<tr>
 				<th></th>
 				<th>N°</th>

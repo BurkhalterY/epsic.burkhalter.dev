@@ -5,7 +5,7 @@
 		<p>Pour la partie entière, garder le même principe. Puis prendre la partie après la virgule.</p>
 		<p>Il faut multiplier le nombre par 2 et si c'est supérieur ou égal à 1, noter 1, sinon noter 0. Puis recommencer en prenant la partie après la virgule :</p>
 		<p>6,625 → 0,625</p>
-		<table>
+		<table class="table-responsive">
 			<tr><td>0,625 × 2 = <strong>1</strong>,25&nbsp;</td><td>→ 1</td></tr>
 			<tr><td>0,25 × 2 = <strong>0</strong>,5</td><td>→ 0</td></tr>
 			<tr><td>0,5 × 2 = <strong>1</strong>,0</td><td>→ 1</td></tr>
@@ -19,7 +19,7 @@
 		<h3>La norme IEEE 754</h3>
 		<p>C'est la norme la plus utilisé pour stocker des nombres à virgules.<br>Elle existe en précision simple (32 bits) et double (64 bits).</p>
 		<p>Elle est constituée comme suit :</p>
-		<img src="/medias/bin/ieee754.png" alt="structure de IEEE 754" style="max-width: 100%;" />
+		<img src="/medias/bin/ieee754.png" alt="structure de IEEE 754" class="img-fluid"/>
 		<ul>
 			<li>(S)igne :</li>
 			<ul>

@@ -3,7 +3,7 @@
 		<h1>Valide si</h1>
 		<p>Valide si est une des propriétés des champs. Elle permet de n'autoriser à entrer que des valeurs qui correspondent à cette règle.</p>
 		<p>Exemples de valide si :</p>
-		<table class="table">
+		<table class="table table-responsive">
 			<tr>
 				<th>Valide si</th>
 				<th>Description</th>
