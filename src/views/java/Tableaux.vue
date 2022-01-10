@@ -26,21 +26,21 @@
 		<pre class="language-java"><ShowCode inlineCode="int monTableau[][] = { {0, 1, 2},{3, 4, 5},{6, 7, 8} };" lang="java"/></pre>
 		<p>On y accède comme cela :</p>
 		<pre class="language-java"><ShowCode inlineCode="System.out.println(monTableau[0][0]); //affiche 0
-		System.out.println(monTableau[0][1]); //affiche 1
-		System.out.println(monTableau[1][0]); //affiche 3" lang="java"/></pre>
+System.out.println(monTableau[0][1]); //affiche 1
+System.out.println(monTableau[1][0]); //affiche 3" lang="java"/></pre>
 		<p>On peut bien sûr aussi faire des tableaux à 3, 4 ou 5 dimensions. Mais ça n'a pas vraiment d'intérêt.</p>
 
 		<h3>Parcourir un tableau</h3>
 		<p>Les boucles for sont très pratiques pour parcourir un tableau :</p>
 		<pre class="language-java"><ShowCode inlineCode="for (int i = 0; i < monTableau.length; i++) {
-			System.out.println(monTableau[i]);
-		}" lang="java"/></pre>
+	System.out.println(monTableau[i]);
+}" lang="java"/></pre>
 		<p>Et pour un tableau 2D :</p>
 		<pre class="language-java"><ShowCode inlineCode="for (int i = 0; i < monTableau.length; i++) {
-			for (int j = 0; j < monTableau[i].length; j++) {
-				System.out.println(monTableau[i][j]);
-			}
-		}" lang="java"/></pre>
+	for (int j = 0; j < monTableau[i].length; j++) {
+		System.out.println(monTableau[i][j]);
+	}
+}" lang="java"/></pre>
 	</div>
 </template>
 

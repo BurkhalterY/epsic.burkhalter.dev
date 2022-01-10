@@ -16,5 +16,5 @@ public class Monprogramme {
 		personne[1].afficher();
 		personne[2].afficher();
 	}
-	
+
 }

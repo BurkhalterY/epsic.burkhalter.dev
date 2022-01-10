@@ -40,7 +40,7 @@
 					<td>/</td>
 					<td>Division</td>
 					<td><pre class="language-java"><ShowCode inlineCode="maVar = 20 / 4; //maVar vaut 5
-		maVar = 20 / 3; //maVar vaut 6" lang="java"/></pre></td>
+maVar = 20 / 3; //maVar vaut 6" lang="java"/></pre></td>
 					<td>Si les deux nombres sont des entiers (byte, short, int ou long), alors le résultat sera aussi un nombre entier. Arrondi inférieur.</td>
 				</tr>
 				<tr>
@@ -57,7 +57,7 @@
 		<pre class="language-java"><ShowCode inlineCode="maVar = 2 + 3 + 4; //maVar vaut 9" lang="java"/></pre>
 		<p>Attention cependant à la priorité des opérations. Vous pouvez mettre des parenthèses comme en mathématique.</p>
 		<pre class="language-java"><ShowCode inlineCode="maVar = 2 + 3 * 5; //maVar vaut 17
-		maVar = (2 + 3) * 5; //maVar vaut 25" lang="java"/></pre>
+maVar = (2 + 3) * 5; //maVar vaut 25" lang="java"/></pre>
 
 		<h3>Raccourci de programmation</h3>
 		<p>C'est bien connu, les programmeurs sont des flemmards, il existe donc des écritures raccourcies pour certaines opérations :</p>
@@ -109,6 +109,12 @@
 		</table>
 	</div>
 </template>
+
+<style scoped>
+	td {
+		vertical-align: middle;
+	}
+</style>
 
 <script>
 	import ShowCode from '../../components/ShowCode.vue'

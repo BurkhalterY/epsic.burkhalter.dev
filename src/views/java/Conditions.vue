@@ -93,13 +93,19 @@
 		</table>
 		<p>Comme pour les calculs, on peut utiliser des parenthèses pour donner une priorité de calcul</p>
 		<pre class="language-java"><ShowCode inlineCode="if ((a == 5 || b == 5) && c > 10)
-		//pour que cette condition soit valide, il faut que soit a, soit b soit à 5 et que c soit plus grand que 10" lang="java"/></pre>
+//pour que cette condition soit valide, il faut que soit a, soit b soit à 5 et que c soit plus grand que 10" lang="java"/></pre>
 
 		<h3>Else</h3>
 		<p>Else sert à exécuter un autre bout de code si la première condition n'est pas valide, exemple</p>
 		<pre class="language-java"><ShowCode file="java/else.java" lang="java"/></pre>
 	</div>
 </template>
+
+<style scoped>
+	td {
+		vertical-align: middle;
+	}
+</style>
 
 <script>
 	import ShowCode from '../../components/ShowCode.vue'

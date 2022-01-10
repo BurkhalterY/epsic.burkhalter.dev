@@ -2,10 +2,10 @@ public static void main(String[] args) {
 
 	//Déclaration su Scanner
 	Scanner sc = new Scanner(System.in);
-	
+
 	//Une variable qui contiendra notre nombre
 	int number = 0;
-	
+
 	//Tant que le nombre est plus petit que 1 ou plus grand que 10
 	while(number < 1 || number > 10){
 

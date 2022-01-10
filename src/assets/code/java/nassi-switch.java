@@ -5,6 +5,6 @@ switch (feu) {
 	case "Vert":
 		System.out.println("Passer");
 		break;
-	default
+	default:
 		System.out.println("!!!");
 }

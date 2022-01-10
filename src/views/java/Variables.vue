@@ -69,7 +69,7 @@
 
 		<h3>Exemples</h3>
 		<pre class="language-java"><ShowCode inlineCode="int maVariable; //crée une variable avec le nom maVariable
-		maVariable = 0; //initialise la variable à 0" lang="java"/></pre>
+maVariable = 0; //initialise la variable à 0" lang="java"/></pre>
 		<pre class="language-java"><ShowCode inlineCode="int maVariable = 0; //crée et initialise la variable sur la même ligne" lang="java"/></pre>
 
 		<h3>Remarques</h3>

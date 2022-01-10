@@ -22,7 +22,7 @@
 				</tr>
 			</tbody>
 		</table>
-		<p>Le break est très important : il sert à sortir du switch si la condition est remplie. Si vous l'oubliez alors votre switch exécutera la condition plus toutes celles qui se trouve après.</p>
+		<p>Le break est très important : il sert à sortir du switch si la condition est remplie. Si vous l'oubliez alors votre switch exécutera la condition plus toutes celles qui se trouvent après.</p>
 	</div>
 </template>
 
