@@ -651,6 +651,63 @@ const routes = [
 				},
 			},
 		],
+	}, {
+		path: '/lang',
+		component: () => import('../views/lang/Base.vue'),
+		meta: {
+			favicon: 'lang.ico',
+		},
+		children: [
+			{
+				path: '',
+				component: () => import('../views/lang/Index.vue'),
+				meta: {
+					title: 'Menu - Langues',
+				},
+			}, {
+				path: 'fr',
+				component: () => import('../views/lang/fr/Base.vue'),
+				meta: {
+					favicon: 'fr.ico',
+				},
+				children: [
+					{
+						path: '',
+						component: () => import('../views/lang/fr/Index.vue'),
+						meta: {
+							title: 'Menu - Langue 🇫🇷',
+						},
+					},
+				],
+			}, {
+				path: 'ja',
+				component: () => import('../views/lang/ja/Base.vue'),
+				meta: {
+					favicon: 'ja.ico',
+				},
+				children: [
+					{
+						path: '',
+						component: () => import('../views/lang/ja/Index.vue'),
+						meta: {
+							title: 'Menu - Langue 🇯🇵',
+						},
+					}, {
+						path: 's1/ecriture',
+						component: () => import('../views/lang/ja/s1/Ecriture.vue'),
+						meta: {
+							title: 'Menu - Langue 🇯🇵',
+						},
+					}, {
+						path: 's1/hiragana',
+						component: () => import('../views/lang/ja/s1/Hiragana.vue'),
+						meta: {
+							title: 'Menu - Langue 🇯🇵',
+						},
+					},
+				],
+			},
+		],
 	},
 ]
 
