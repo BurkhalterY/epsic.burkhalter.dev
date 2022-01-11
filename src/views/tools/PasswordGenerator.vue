@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>Générateur de mots de passes</h1>
+		<h1>Générateur de mots de passe</h1>
 		<strong>Longeur du mot de passe :</strong><br>
 		<input type="range" min="4" max="32" v-model="length"><br>
 		<input type="number" v-model="length">&nbsp;<span title="Pour une longueur supérieure à 32, utiliser ce champ">🛈</span><br>

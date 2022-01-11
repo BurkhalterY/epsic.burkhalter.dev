@@ -8,7 +8,7 @@
 		</ul>
 
 		<h3>Table ASCII</h3>
-		<p>Les 32 premiers caractères (0 à 31) et le dernier (127) ne sont pas directement utilisables, ils étaient utilisé par la machines pour différentes choses</p>
+		<p>Les 32 premiers caractères (0 à 31) et le dernier (127) ne sont pas directement utilisables, ils étaient utilisés par la machine pour différentes choses</p>
 		<div class="row">
 			<div class="col-xs-3">
 				<table class="table-responsive text-center" style="border: 1px solid black;" cellpadding="0">

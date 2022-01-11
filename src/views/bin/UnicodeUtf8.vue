@@ -2,7 +2,7 @@
 	<div>
 		<h1>L'Unicode et UTF-8</h1>
 		<h3>L'Unicode</h3>
-		<img src="/medias/bin/Unicode_logo.svg" alt="logo Unicode" width="100" style="float: right;" />
+		<img src="/medias/bin/Unicode_logo.svg" alt="logo Unicode" width="100" class="float-right"/>
 		<p>Unicode est un jeu de caractères comme ASCII, sauf qu'il en contient beaucoup plus.</p>
 		<p>Il a été développé pour contenir tous les symboles de toutes les langues.</p>
 		<ul>
@@ -50,7 +50,7 @@
 		<p>Le caractère « é » utilise le point code Unicode U+00E9.</p>
 		<p>Ici, on a besoin de 8 bits, on utilise donc le 2<sup>ème</sup> modèle dans le tableau.</p>
 		<p>On écrit simplement les bits dans le premier emplacement libre en partant de la droite.</p>
-		<table style="text-align: center; width: 100%;">
+		<table class="w-100 text-center">
 			<tr><th>Point code base 16</th><td></td><td></td><td><span class="bg-blue">E</span></td><td><span class="bg-orange">9</span></td></tr>
 			<tr><th>Point code base 2</th><td><i><span class="bg-green">0000</span></i></td><td><i><span class="bg-green">0000</span></i></td><td><span class="bg-blue">1110</span></td><td><span class="bg-orange">1001</span></td></tr>
 			<tr><th>Modèle UTF-8</th><td><span class="bg-red">110</span>x</td><td>xxxx</td><td><span class="bg-red">10</span>xx</td><td>xxxx</td></tr>
