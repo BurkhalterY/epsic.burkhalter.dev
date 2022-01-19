@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { trackRouter } from 'vue-gtag-next'
 
 const routes = [
 	{
@@ -248,103 +249,103 @@ const routes = [
 			}, {
 				path: 'n_to_10',
 				component: () => import('../views/bin/NTo10.vue'),
-				mata: {
+				meta: {
 					title: 'Conversion base n en base 10',
 				},
 			}, {
 				path: '10_to_n',
 				component: () => import('../views/bin/10ToN.vue'),
-				mata: {
+				meta: {
 					title: 'Conversion base 10 en base n',
 				},
 			}, {
 				path: 'voc',
 				component: () => import('../views/bin/Voc.vue'),
-				mata: {
+				meta: {
 					title: 'Vocabulaire',
 				},
 			}, {
 				path: 'bin_hex',
 				component: () => import('../views/bin/BinHex.vue'),
-				mata: {
+				meta: {
 					title: 'Conversion binaire - hexa',
 				},
 			}, {
 				path: 'gray',
 				component: () => import('../views/bin/Gray.vue'),
-				mata: {
+				meta: {
 					title: 'Code Gray',
 				},
 			}, {
 				path: 'bcd',
 				component: () => import('../views/bin/Bcd.vue'),
-				mata: {
+				meta: {
 					title: 'BCD',
 				},
 			}, {
 				path: 'x_parmi_n',
 				component: () => import('../views/bin/XParmiN.vue'),
-				mata: {
+				meta: {
 					title: 'Code x parmi n',
 				},
 			}, {
 				path: 'ascii',
 				component: () => import('../views/bin/Ascii.vue'),
-				mata: {
+				meta: {
 					title: 'Code ASCII',
 				},
 			}, {
 				path: 'unicode_utf8',
 				component: () => import('../views/bin/UnicodeUtf8.vue'),
-				mata: {
+				meta: {
 					title: 'L\'Unicode et UTF-8',
 				},
 			}, {
 				path: 'ean',
 				component: () => import('../views/bin/Ean.vue'),
-				mata: {
+				meta: {
 					title: 'Les codes-barres EAN',
 				},
 			}, {
 				path: 'qr_code',
 				component: () => import('../views/bin/QrCode.vue'),
-				mata: {
+				meta: {
 					title: 'Les QR codes',
 				},
 			}, {
 				path: 'convertisseur',
 				component: () => import('../views/bin/Convertisseur.vue'),
-				mata: {
+				meta: {
 					title: 'Convertisseur',
 				},
 			}, {
 				path: 'addition',
 				component: () => import('../views/bin/Addition.vue'),
-				mata: {
+				meta: {
 					title: 'Additions en binaire',
 				},
 			}, {
 				path: 'negativ',
 				component: () => import('../views/bin/Negativ.vue'),
-				mata: {
+				meta: {
 					title: 'Soustractions et nombres négatifs',
 				},
 			}, {
 				path: 'float',
 				component: () => import('../views/bin/Float.vue'),
-				mata: {
+				meta: {
 					title: 'Nombres à virgules flottantes',
 				},
 			}, {
 				path: 'fonctions_logiques',
 				component: () => import('../views/bin/FonctionsLogiques.vue'),
-				mata: {
+				meta: {
 					title: 'Les fonctions logiques',
 				},
 			}, {
 				path: 'partie3',
 				component: () => import('../views/bin/Partie3.vue'),
-				mata: {
+				meta: {
 					title: 'Partie 3',
 				},
 			},
@@ -690,5 +691,7 @@ router.beforeEach(to => {
 	document.title = to.meta.title;
 	document.querySelector("link[rel~='icon']").href = '/icon/' + to.meta.favicon;
 })
+
+trackRouter(router)
 
 export default router
