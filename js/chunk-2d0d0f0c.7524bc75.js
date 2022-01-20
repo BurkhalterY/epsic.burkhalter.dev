@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0d0f0c"],{"69b5":function(e){e.exports=JSON.parse('{"title":"Commun","shortcuts":[{"keys":["Ctrl","Shift","T"],"description":"Rouvrir le dernier onglet fermé"}]}')}}]);
+//# sourceMappingURL=chunk-2d0d0f0c.7524bc75.js.map

@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e4e41"],{"91c6":function(e){e.exports=JSON.parse('{"title":"Windows 10","shortcuts":[{"keys":["Win","V"],"description":"Historique du presse-papier"},{"keys":["Win","."],"description":"Menu des émojis"}]}')}}]);
-//# sourceMappingURL=chunk-2d0e4e41.61c45989.js.map
