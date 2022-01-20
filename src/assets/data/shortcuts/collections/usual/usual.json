@@ -1,0 +1,11 @@
+{
+	"title": "Général",
+	"shortcuts": [
+		{ "keys": ["Ctrl", "A"], "description": "Tout sélectionner" },
+		{ "keys": ["Ctrl", "C"], "description": "Copier" },
+		{ "keys": ["Ctrl", "X"], "description": "Couper" },
+		{ "keys": ["Ctrl", "V"], "description": "Coller" },
+		{ "keys": ["Ctrl", "Z"], "description": "Annuler" },
+		{ "keys": [["Ctrl", "Y"], "||", ["Ctrl", "Shift", "Z"]], "description": "Rétablir" }
+	]
+}

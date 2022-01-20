@@ -4,6 +4,7 @@ import App from './App.vue'
 import VueGtag from 'vue-gtag-next'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'prismjs/themes/prism.css'
+import './global.css'
 
 createApp(App)
 	.use(VueGtag, { property: { id: "G-S0S5QEJLMW" }})

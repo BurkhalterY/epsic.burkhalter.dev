@@ -80,7 +80,7 @@
 	</div>
 </template>
 
-<style>
+<style scoped>
 	a {
 		text-align: center;
 	}

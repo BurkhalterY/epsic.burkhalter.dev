@@ -10,7 +10,7 @@
 </template>
 
 <script>
-	import { applications } from '../../assets/data/shortcuts.json'
+	import { applications } from '../../assets/data/shortcuts/applications.json'
 
 	export default {
 		name: 'ShortcutsIndex',

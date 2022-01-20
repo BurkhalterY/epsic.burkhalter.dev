@@ -1,53 +1,45 @@
 <template>
-	<h2>{{ app.name }}</h2>
-	<table class="table table-responsive">
-		<tr>
-			<th>Raccourci</th>
-			<th>Description</th>
-		</tr>
-		<tr v-for="shortcut in shortcuts" :key="shortcut">
-			<td>
-				<span v-for="(key, index) in shortcut.keys" :key="key">
-					<span v-if="index > 0"> + </span>
-					<kbd>{{ key }}</kbd>
-				</span>
-			</td>
-			<td>{{ shortcut.description }}</td>
-		</tr>
-	</table>
+	<h2>{{ app.title }}</h2>
+	<template v-for="group in groups" :key="group">
+		<h3>{{ group.title }}</h3>
+		<table class="table table-responsive">
+			<tr>
+				<th>Raccourci</th>
+				<th>Description</th>
+			</tr>
+			<tr v-for="shortcut in group.shortcuts" :key="shortcut">
+				<td>
+					<KeyCode :keys="shortcut.keys"/>
+				</td>
+				<td>{{ shortcut.description }}</td>
+			</tr>
+		</table>
+	</template>
 </template>
 
 <script>
-	import { applications, shortcuts } from '../../assets/data/shortcuts.json'
+	import KeyCode from '../../components/KeyCode.vue';
 
 	export default {
 		name: 'Shortcuts',
+		components: {
+			KeyCode,
+		},
 		data() {
-			const app = applications.find(x => x.path == this.$route.params.app);
-			const keptShortcuts = [];
-			for(let i = 0; i < shortcuts.length; i++){
-				if(shortcuts[i].softwares.includes(app.name)){
-					keptShortcuts.push(shortcuts[i]);
-				}
-			}
-
-			keptShortcuts.sort((a, b) => {
-				const aStr = a.keys.join(' + ');
-				const bStr = b.keys.join(' + ');
-
-				if (aStr < bStr) {
-					return -1;
-				}
-				if (aStr > bStr) {
-					return 1;
-				}
-				return 0;
-			});
-
 			return {
-				app,
-				shortcuts: keptShortcuts,
+				app: '',
+				groups: [],
+			};
+		},
+		async created() {
+			const appName = this.$route.params.app;
+			this.app = (await import(`../../assets/data/shortcuts/collections/${appName}/_index.json`)).data;
+			document.title += ' - ' + this.app.title;
+
+			for(let groupPath of this.app.groups){
+				const group = await import(`../../assets/data/shortcuts/collections/${groupPath}.json`);
+				this.groups.push(group);
 			}
-		}
+		},
 	}
 </script>

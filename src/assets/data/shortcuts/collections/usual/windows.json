@@ -1,0 +1,7 @@
+{
+	"title": "Windows 10",
+	"shortcuts": [
+		{ "keys": ["Win", "V"], "description": "Historique du presse-papier" },
+		{ "keys": ["Win", "."], "description": "Menu des émojis" }
+	]
+}
