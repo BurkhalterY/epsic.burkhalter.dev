@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c7cf3"],{"51cd":function(e){e.exports=JSON.parse('{"title":"Général","shortcuts":[{"keys":["Ctrl","A"],"description":"Tout sélectionner"},{"keys":["Ctrl","C"],"description":"Copier"},{"keys":["Ctrl","X"],"description":"Couper"},{"keys":["Ctrl","V"],"description":"Coller"},{"keys":["Ctrl","Z"],"description":"Annuler"},{"keys":[["Ctrl","Y"],"||",["Ctrl","Shift","Z"]],"description":"Rétablir"}]}')}}]);
+//# sourceMappingURL=chunk-2d0c7cf3.b8174473.js.map
