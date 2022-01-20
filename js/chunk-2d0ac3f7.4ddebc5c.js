@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ac3f7"],{1970:function(e){e.exports=JSON.parse('{"data":{"title":"Sublime Text","groups":["sublime-text/sublime-text"]}}')}}]);
-//# sourceMappingURL=chunk-2d0ac3f7.4ddebc5c.js.map
