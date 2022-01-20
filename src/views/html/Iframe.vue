@@ -16,7 +16,9 @@
 		<img src="/medias/html/youtube-share-3.png" alt="Step 3" class="img-fluid"/>
 		<hr>
 		<h3>Résultat</h3>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item"></iframe>
+		</div>
 	</div>
 </template>
 

@@ -1,0 +1,6 @@
+{
+	"title": "Paint.NET",
+	"shortcuts": [
+		{ "keys": ["Ctrl", "I"], "description": "Inverser la sélection" }
+	]
+}

@@ -11,6 +11,7 @@
 		{ "keys": ["Ctrl", "S"], "description": "Enregister" },
 		{ "keys": ["Ctrl", "Shift", "S"], "description": "Enregister sous" },
 		{ "keys": ["Ctrl", "F"], "description": "Rechercher" },
+		{ "keys": ["F11", "||", ["Alt", "Enter"]], "description": "Plein écran" },
 		{ "keys": ["F2"], "description": "Editer" }
 	]
 }

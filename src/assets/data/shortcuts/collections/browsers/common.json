@@ -1,6 +1,7 @@
 {
 	"title": "Commun",
 	"shortcuts": [
-		{ "keys": ["Ctrl", "Shift", "T"], "description": "Rouvrir le dernier onglet fermé" }
+		{ "keys": ["F12"], "description": "Outils de développement" },
+		{ "keys": ["Ctrl", "Shift", "T"], "description": "Restaurer le dernier onglet fermé" }
 	]
 }
