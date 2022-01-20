@@ -1,5 +1,7 @@
 {
 	"applications": [
-		{ "name": "Général", "path": "usual" }
+		{ "name": "Général", "path": "usual" },
+		{ "name": "Navigateurs web", "path": "browsers" },
+		{ "name": "Sublime Text", "path": "sublime-text" }
 	]
 }

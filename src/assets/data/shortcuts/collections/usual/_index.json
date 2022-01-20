@@ -1,6 +1,6 @@
 {
 	"data": {
 		"title": "Général",
-		"groups": ["usual/usual", "usual/windows"]
+		"groups": ["usual/usual", "usual/text", "usual/windowing", "usual/windows"]
 	}
 }

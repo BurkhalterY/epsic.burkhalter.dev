@@ -1,0 +1,6 @@
+{
+	"title": "Commun",
+	"shortcuts": [
+		{ "keys": ["Ctrl", "Shift", "T"], "description": "Rouvrir le dernier onglet fermé" }
+	]
+}

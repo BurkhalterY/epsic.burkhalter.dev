@@ -4,6 +4,7 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item"><router-link class="nav-link" to="/">Accueil</router-link></li>
 				<li class="nav-item"><router-link class="nav-link" to="/misc">Menu</router-link></li>
+				<li class="nav-item"><router-link class="nav-link" to="/misc/shortcuts">Raccourcis clavier</router-link></li>
 			</ul>
 			<span class="navbar-text">© Burkhalter Yannis</span>
 		</nav>

@@ -1,7 +1,9 @@
 {
 	"title": "Windows 10",
 	"shortcuts": [
+		{ "keys": ["Win", "E"], "description": "Ouvrir l'explorateur de fichiers" },
 		{ "keys": ["Win", "V"], "description": "Historique du presse-papier" },
-		{ "keys": ["Win", "."], "description": "Menu des émojis" }
+		{ "keys": ["Win", "."], "description": "Menu des émojis" },
+		{ "keys": ["Win", "Print Sc"], "description": "Enregister une capture d'écran dans le dossier Images/Captures d’écran" }
 	]
 }
