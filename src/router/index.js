@@ -675,7 +675,7 @@ const routes = [
 						path: '',
 						component: () => import('../views/lang/fr/Index.vue'),
 						meta: {
-							title: 'Menu - Langue 🇫🇷',
+							title: 'Menu 🇫🇷',
 						},
 					},
 				],
@@ -690,19 +690,49 @@ const routes = [
 						path: '',
 						component: () => import('../views/lang/ja/Index.vue'),
 						meta: {
-							title: 'Menu - Langue 🇯🇵',
+							title: 'Menu 🇯🇵',
 						},
 					}, {
 						path: 's1/ecriture',
 						component: () => import('../views/lang/ja/s1/Ecriture.vue'),
 						meta: {
-							title: 'Menu - Langue 🇯🇵',
+							title: 'Les systèmes d\'écriture',
 						},
 					}, {
-						path: 's1/hiragana',
-						component: () => import('../views/lang/ja/s1/Hiragana.vue'),
+						path: 's1/kana',
+						component: () => import('../views/lang/ja/s1/Kana.vue'),
 						meta: {
-							title: 'Menu - Langue 🇯🇵',
+							title: 'Les hiragana et les katakana',
+						},
+					}, {
+						path: 's1/trace',
+						component: () => import('../views/lang/ja/s1/Trace.vue'),
+						meta: {
+							title: 'Tracer les kana',
+						},
+					}, {
+						path: 's1/accents',
+						component: () => import('../views/lang/ja/s1/Accents.vue'),
+						meta: {
+							title: 'Les accents',
+						},
+					}, {
+						path: 's1/pause',
+						component: () => import('../views/lang/ja/s1/Pause.vue'),
+						meta: {
+							title: 'La pause',
+						},
+					}, {
+						path: 's1/allongements',
+						component: () => import('../views/lang/ja/s1/Allongements.vue'),
+						meta: {
+							title: 'Les allongements',
+						},
+					}, {
+						path: 's1/combinaisons',
+						component: () => import('../views/lang/ja/s1/Combinaisons.vue'),
+						meta: {
+							title: 'Les combinaisons',
 						},
 					},
 				],

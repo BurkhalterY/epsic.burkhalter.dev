@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>L'écriture de la langue japonaise<YouTubeLink url="2v_CM-uEmmU"/></h1>
+		<h1>Les systèmes d'écriture<YouTubeLink url="2v_CM-uEmmU"/></h1>
 		<p>Les japonais n'écrivent pas comme nous.</p>
 		<p>En japonais, il y a 4 systèmes d'écriture :</p>
 		<ul>

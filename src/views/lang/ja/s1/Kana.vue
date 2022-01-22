@@ -1,8 +1,11 @@
 <template>
 	<div>
-		<h1>Les hiragana<YouTubeLink url="_PCJnq_-oT8"/></h1>
-		<p>Les hiragana sont un alphabet de syllabes et non pas de sons comme nous avons en français.</p>
+		<h1>Les hiragana<YouTubeLink url="_PCJnq_-oT8"/> et les katakana<YouTubeLink url="xnjpl0mNQOQ"/></h1>
+		<p>Les kana, composés des hiragana et des katakana, sont un alphabet de syllabes et non pas de sons comme nous avons en français.</p>
 		<table class="table table-responsive text-center">
+			<tr>
+				<th colspan="6" class="text-left">Tableau des hiragana</th>
+			</tr>
 			<tr>
 				<td>あ<br>a</td>
 				<td>い<br>i</td>
@@ -67,7 +70,7 @@
 			</tr>
 			<tr>
 				<td>ら<br>ra</td>
-				<td>リ<br>ri</td>
+				<td>り<br>ri</td>
 				<td>る<br>ru</td>
 				<td>れ<br>re</td>
 				<td>ろ<br>ro</td>
@@ -86,6 +89,85 @@
 				<td>ん<br>n</td>
 			</tr>
 		</table>
+		<table class="table table-responsive text-center">
+			<tr>
+				<th colspan="5" class="text-left">Tableau des katakana</th>
+			</tr>
+			<tr>
+				<td>ア<br>A</td>
+				<td>イ<br>I</td>
+				<td>ウ<br>U</td>
+				<td>エ<br>E</td>
+				<td>オ<br>O</td>
+			</tr>
+			<tr>
+				<td>カ<br>KA</td>
+				<td>キ<br>KI</td>
+				<td>ク<br>KU</td>
+				<td>ケ<br>KE</td>
+				<td>コ<br>KO</td>
+			</tr>
+			<tr>
+				<td>サ<br>SA</td>
+				<td>シ<br>SHI</td>
+				<td>ス<br>SU</td>
+				<td>セ<br>SE</td>
+				<td>ソ<br>SO</td>
+			</tr>
+			<tr>
+				<td>タ<br>TA</td>
+				<td>チ<br>CHI</td>
+				<td>ツ<br>TSU</td>
+				<td>テ<br>TE</td>
+				<td>ト<br>TO</td>
+			</tr>
+			<tr>
+				<td>ナ<br>NA</td>
+				<td>ニ<br>NI</td>
+				<td>ヌ<br>NU</td>
+				<td>ネ<br>NE</td>
+				<td>ノ<br>NO</td>
+			</tr>
+			<tr>
+				<td>ガ<br>HA</td>
+				<td>ヒ<br>HI</td>
+				<td>フ<br>FU</td>
+				<td>ヘ<br>HE</td>
+				<td>ホ<br>HO</td>
+			</tr>
+			<tr>
+				<td>マ<br>MA</td>
+				<td>ミ<br>MI</td>
+				<td>ム<br>MU</td>
+				<td>ネ<br>ME</td>
+				<td>モ<br>MO</td>
+			</tr>
+			<tr>
+				<td>ヤ<br>YA</td>
+				<td></td>
+				<td>ユ<br>YU</td>
+				<td></td>
+				<td>ヨ<br>YO</td>
+			</tr>
+			<tr>
+				<td>ラ<br>RA</td>
+				<td>リ<br>RI</td>
+				<td>ル<br>RU</td>
+				<td>レ<br>RE</td>
+				<td>ロ<br>RO</td>
+			</tr>
+			<tr>
+				<td>ワ<br>WA</td>
+				<td style="background-color: #ccc;">ヰ<br>WI</td>
+				<td></td>
+				<td style="background-color: #ccc;">ヱ<br>WE</td>
+				<td>ヲ<br>WO</td>
+			</tr>
+			<tr>
+				<td colspan="4"></td>
+				<td>ン<br>N</td>
+			</tr>
+		</table>
 	</div>
 </template>
 
@@ -93,7 +175,7 @@
 	import YouTubeLink from '../../../../components/YouTubeLink.vue'
 
 	export default {
-		name: 'Hiragana',
+		name: 'Kana',
 		components: {
 			YouTubeLink,
 		},
