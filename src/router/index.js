@@ -762,6 +762,24 @@ const routes = [
 						meta: {
 							title: 'Les combinaisons',
 						},
+					}, {
+						path: 's1/katakanisation',
+						component: () => import('../views/lang/ja/s1/Katakanisation.vue'),
+						meta: {
+							title: 'La katakanisation',
+						},
+					}, {
+						path: 's1/noms-propres',
+						component: () => import('../views/lang/ja/s1/NomsPropres.vue'),
+						meta: {
+							title: 'Les noms propres étrangers',
+						},
+					}, {
+						path: 's1/nouvelles-combinaisons',
+						component: () => import('../views/lang/ja/s1/NouvellesCombinaisons.vue'),
+						meta: {
+							title: 'Les nouvelles combinaisons',
+						},
 					},
 				],
 			},
