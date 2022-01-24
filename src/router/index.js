@@ -780,6 +780,12 @@ const routes = [
 						meta: {
 							title: 'Les nouvelles combinaisons',
 						},
+					}, {
+						path: 'ex/kana',
+						component: () => import('../views/lang/ja/ex/Kana.vue'),
+						meta: {
+							title: '...',
+						},
 					},
 				],
 			},
