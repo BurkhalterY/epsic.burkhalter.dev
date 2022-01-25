@@ -781,10 +781,16 @@ const routes = [
 							title: 'Les nouvelles combinaisons',
 						},
 					}, {
-						path: 'ex/kana',
-						component: () => import('../views/lang/ja/ex/Kana.vue'),
+						path: 'ex/trace',
+						component: () => import('../views/lang/ja/ex/Trace.vue'),
 						meta: {
 							title: '...',
+						},
+					}, {
+						path: 'ex/romaji-to-kana',
+						component: () => import('../views/lang/ja/ex/RomajiToKana.vue'),
+						meta: {
+							title: 'Exercice: Rōmaji vers kana',
 						},
 					},
 				],

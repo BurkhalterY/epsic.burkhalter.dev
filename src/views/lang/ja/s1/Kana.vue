@@ -61,11 +61,11 @@
 				<td>も<br>mo</td>
 			</tr>
 			<tr>
-				<td>ざ<br>ya</td>
+				<td>や<br>ya</td>
 				<td></td>
-				<td>ず<br>yu</td>
+				<td>ゆ<br>yu</td>
 				<td></td>
-				<td>ぞ<br>yo</td>
+				<td>よ<br>yo</td>
 				<td class="text-left"><br>Pas de yi ni de ye</td>
 			</tr>
 			<tr>
@@ -129,7 +129,7 @@
 				<td>ノ<br>NO</td>
 			</tr>
 			<tr>
-				<td>ガ<br>HA</td>
+				<td>ハ<br>HA</td>
 				<td>ヒ<br>HI</td>
 				<td>フ<br>FU</td>
 				<td>ヘ<br>HE</td>
@@ -139,7 +139,7 @@
 				<td>マ<br>MA</td>
 				<td>ミ<br>MI</td>
 				<td>ム<br>MU</td>
-				<td>ネ<br>ME</td>
+				<td>メ<br>ME</td>
 				<td>モ<br>MO</td>
 			</tr>
 			<tr>
