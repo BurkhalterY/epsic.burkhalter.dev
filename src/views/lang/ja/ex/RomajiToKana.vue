@@ -246,7 +246,7 @@
 			};
 		},
 		mounted() {
-			const previousValues = JSON.parse(localStorage.getItem('selectedKana'));
+			const previousValues = JSON.parse(localStorage.getItem('selectedKana') || '{}');
 			const firstTime = Object.keys(previousValues).length !== 0;
 			for(let group of this.defaults){
 				for(let char of group.characters){
