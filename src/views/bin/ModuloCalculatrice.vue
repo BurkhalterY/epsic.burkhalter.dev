@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>Comment effectuer l'opératin modulo sur la calculatrice ?</h1>
+		<h1>Comment effectuer l'opération modulo sur la calculatrice ?</h1>
 		<h3>Sur la TI-30X Pro</h3>
 		<div class="row">
 			<div class="col-lg-4">
