@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>Plan du site</h1>
-		<div class="my-3"><router-link to="/bin/modulo-ti30xpro">Astuce : Comment effectuer l'opératin modulo sur la calculatrice ?</router-link></div>
+		<div class="my-3"><router-link to="/bin/modulo-ti30xpro">Astuce : Comment effectuer l'opération modulo sur la calculatrice ?</router-link></div>
 		<h3>Partie 1</h3>
 		<ul>
 			<li><router-link to="/bin/n_to_10">Conversion base n en base 10</router-link></li>
