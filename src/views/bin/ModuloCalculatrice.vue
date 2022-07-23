@@ -14,6 +14,7 @@
 					<li>Saisir le nombre à diviser</li>
 					<li><kbd>2nd</kbd> + <kbd>.</kbd> pour insérer une virgule (comme pour les paramètres d'une fonction)</li>
 					<li>Saisir le diviseur</li>
+					<li>Refermer la paranthèse <kbd>)</kbd></li>
 					<li><kbd>enter</kbd> : la calculatrice affiche le reste</li>
 				</ul>
 			</div>
