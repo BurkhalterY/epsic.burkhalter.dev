@@ -71,6 +71,10 @@
 					<li class="icon-trash"><a href="https://epsic.jacktrash.ch/" target="_blank">Site de JackTrash</a></li>
 					<li class="icon-hyperplanning"><a href="https://www.portail.vd.ch/formation/hyperplanning/epsic/invite" target="_blank">Horaires EPSIC</a></li>
 				</ul>
+				<h4>Documents</h4>
+				<ul>
+					<li><a href="/medias/home/planFormationDevWeb-edit.png" target="_blank">Plan de formation développeur d'applications web par Netanonima</a></li>
+				</ul>
 			</div>
 			<div class="col-lg-6">
 				<h4>Fil d'actualité</h4>
