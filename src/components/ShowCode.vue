@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Prism from "prismjs"
-import "prismjs/components/prism-java"
-import "prismjs/components/prism-sql"
-import "prismjs/components/prism-visual-basic"
+import Prism from "prismjs";
+import "prismjs/components/prism-java";
+import "prismjs/components/prism-sql";
+import "prismjs/components/prism-visual-basic";
 
-Prism.manual = true
+Prism.manual = true;
 
 export default {
   name: "ShowCode",
@@ -18,15 +18,15 @@ export default {
     inlineCode: String,
   },
   data() {
-    let content = ""
+    let content = "";
     if (!this.inlineCode) {
       const fileContent = require("!raw-loader!../assets/code/" +
-        this.file).default
-      content = Prism.highlight(fileContent, Prism.languages[this.lang])
+        this.file).default;
+      content = Prism.highlight(fileContent, Prism.languages[this.lang]);
     } else {
-      content = Prism.highlight(this.inlineCode, Prism.languages[this.lang])
+      content = Prism.highlight(this.inlineCode, Prism.languages[this.lang]);
     }
-    return { content: content }
+    return { content: content };
   },
-}
+};
 </script>

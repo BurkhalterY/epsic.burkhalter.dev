@@ -162,12 +162,12 @@ li.icon-hyperplanning {
 </style>
 
 <script>
-import News from "../../components/News.vue"
+import News from "../../components/News.vue";
 
 export default {
   name: "Index",
   components: {
     News,
   },
-}
+};
 </script>

@@ -101,5 +101,5 @@
 <script>
 export default {
   name: "Dns",
-}
+};
 </script>

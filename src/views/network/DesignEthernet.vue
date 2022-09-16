@@ -471,5 +471,5 @@
 <script>
 export default {
   name: "DesignEthernet",
-}
+};
 </script>

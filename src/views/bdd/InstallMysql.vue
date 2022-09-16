@@ -41,5 +41,5 @@
 <script>
 export default {
   name: "InstallMysql",
-}
+};
 </script>

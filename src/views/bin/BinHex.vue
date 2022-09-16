@@ -112,5 +112,5 @@
 <script>
 export default {
   name: "BinHex",
-}
+};
 </script>

@@ -729,5 +729,5 @@
 <script>
 export default {
   name: "Ascii",
-}
+};
 </script>

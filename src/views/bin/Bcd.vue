@@ -111,5 +111,5 @@
 <script>
 export default {
   name: "Bcd",
-}
+};
 </script>

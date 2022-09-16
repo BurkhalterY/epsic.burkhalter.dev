@@ -62,5 +62,5 @@
 <script>
 export default {
   name: "NTo10",
-}
+};
 </script>

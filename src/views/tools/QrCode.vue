@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import VueQrcode from "@chenfengyuan/vue-qrcode"
+import VueQrcode from "@chenfengyuan/vue-qrcode";
 
 export default {
   name: "QrCode",
@@ -19,7 +19,7 @@ export default {
   data() {
     return {
       qrValue: "",
-    }
+    };
   },
-}
+};
 </script>

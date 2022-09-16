@@ -136,5 +136,5 @@
 <script>
 export default {
   name: "Ean",
-}
+};
 </script>

@@ -37,30 +37,30 @@ export default {
       value: "",
       msg: "",
       results: [],
-    }
+    };
   },
   methods: {
     convert() {
-      let base = parseFloat(this.base)
+      let base = parseFloat(this.base);
 
       if (base >= 2 && base <= 36 && base % 1 === 0) {
-        this.results = []
-        let last = ""
+        this.results = [];
+        let last = "";
         for (let i = 2; i <= 36; i++) {
-          let intValue = parseInt(this.value, base)
-          let value = intValue.toString(i)
+          let intValue = parseInt(this.value, base);
+          let value = intValue.toString(i);
           if (value == last || isNaN(intValue)) {
-            break
+            break;
           }
-          last = value
-          this.results.push({ base: i, value: value })
+          last = value;
+          this.results.push({ base: i, value: value });
         }
-        this.msg = ""
+        this.msg = "";
       } else {
-        this.results = []
-        this.msg = "Uniquement bases entières entre 2 et 36 supportées !"
+        this.results = [];
+        this.msg = "Uniquement bases entières entre 2 et 36 supportées !";
       }
     },
   },
-}
+};
 </script>

@@ -41,7 +41,7 @@ summary::marker {
 </style>
 
 <script>
-import KeyCode from "../../components/KeyCode.vue"
+import KeyCode from "../../components/KeyCode.vue";
 
 export default {
   name: "Shortcuts",
@@ -55,23 +55,23 @@ export default {
       flags: {
         "no-ubuntu": "Indisponible sous Ubuntu",
       },
-    }
+    };
   },
   async created() {
-    const appName = this.$route.params.app
+    const appName = this.$route.params.app;
     this.app = (
       await import(
         `../../assets/data/shortcuts/collections/${appName}/_index.json`
       )
-    ).data
-    document.title += " - " + this.app.title
+    ).data;
+    document.title += " - " + this.app.title;
 
     for (let groupPath of this.app.groups) {
       const group = await import(
         `../../assets/data/shortcuts/collections/${groupPath}.json`
-      )
-      this.groups.push(group)
+      );
+      this.groups.push(group);
     }
   },
-}
+};
 </script>

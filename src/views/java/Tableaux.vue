@@ -90,12 +90,12 @@ System.out.println(monTableau[1][0]); //affiche 3" lang="java"/></pre>
 </template>
 
 <script>
-import ShowCode from "../../components/ShowCode.vue"
+import ShowCode from "../../components/ShowCode.vue";
 
 export default {
   name: "Tableaux",
   components: {
     ShowCode,
   },
-}
+};
 </script>

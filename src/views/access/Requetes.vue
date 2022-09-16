@@ -66,5 +66,5 @@
 <script>
 export default {
   name: "Requetes",
-}
+};
 </script>

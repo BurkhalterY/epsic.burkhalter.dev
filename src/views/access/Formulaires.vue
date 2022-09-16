@@ -22,5 +22,5 @@
 <script>
 export default {
   name: "Formulaires",
-}
+};
 </script>

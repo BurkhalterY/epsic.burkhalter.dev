@@ -119,5 +119,5 @@
 <script>
 export default {
   name: "Phpmyadmin",
-}
+};
 </script>

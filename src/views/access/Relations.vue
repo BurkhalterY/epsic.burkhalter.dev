@@ -37,5 +37,5 @@
 <script>
 export default {
   name: "Relations",
-}
+};
 </script>

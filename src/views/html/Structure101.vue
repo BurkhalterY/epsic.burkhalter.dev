@@ -33,12 +33,12 @@
 </template>
 
 <script>
-import ShowCode from "../../components/ShowCode.vue"
+import ShowCode from "../../components/ShowCode.vue";
 
 export default {
   name: "Structure101",
   components: {
     ShowCode,
   },
-}
+};
 </script>

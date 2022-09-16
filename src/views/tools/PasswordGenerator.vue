@@ -71,39 +71,39 @@ export default {
       useSymbols: true,
       avoidSimilar: true,
       history: [],
-    }
+    };
   },
   methods: {
     generate() {
-      let characters = ""
+      let characters = "";
 
       if (this.useLower) {
-        characters += this.lower
+        characters += this.lower;
       }
       if (this.useUpper) {
-        characters += this.upper
+        characters += this.upper;
       }
       if (this.useNumbers) {
-        characters += this.numbers
+        characters += this.numbers;
       }
       if (this.useSymbols) {
-        characters += this.symbols
+        characters += this.symbols;
       }
       if (this.avoidSimilar) {
         for (let i = 0; i < this.similar.length; i++) {
-          characters = characters.replace(this.similar.charAt(i), "")
+          characters = characters.replace(this.similar.charAt(i), "");
         }
       }
 
-      let password = ""
-      let charactersLength = characters.length
+      let password = "";
+      let charactersLength = characters.length;
       for (let i = 0; i < this.length; i++) {
         password += characters.charAt(
           Math.floor(Math.random() * charactersLength)
-        )
+        );
       }
-      this.history.unshift(password)
+      this.history.unshift(password);
     },
   },
-}
+};
 </script>

@@ -79,5 +79,5 @@
 <script>
 export default {
   name: "10ToN",
-}
+};
 </script>

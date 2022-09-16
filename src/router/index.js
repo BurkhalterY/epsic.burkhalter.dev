@@ -1,5 +1,5 @@
-import { createRouter, createWebHistory } from "vue-router"
-import { trackRouter } from "vue-gtag-next"
+import { createRouter, createWebHistory } from "vue-router";
+import { trackRouter } from "vue-gtag-next";
 
 const routes = [
   {
@@ -786,18 +786,18 @@ const routes = [
       },
     ],
   },
-]
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
-})
+});
 
 router.beforeEach((to) => {
-  document.title = to.meta.title
-  document.querySelector("link[rel~='icon']").href = "/icon/" + to.meta.favicon
-})
+  document.title = to.meta.title;
+  document.querySelector("link[rel~='icon']").href = "/icon/" + to.meta.favicon;
+});
 
-trackRouter(router)
+trackRouter(router);
 
-export default router
+export default router;

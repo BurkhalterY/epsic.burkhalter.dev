@@ -69,5 +69,5 @@
 <script>
 export default {
   name: "StructureIp",
-}
+};
 </script>

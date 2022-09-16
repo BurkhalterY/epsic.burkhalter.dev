@@ -263,5 +263,5 @@
 <script>
 export default {
   name: "FonctionsLogiques",
-}
+};
 </script>

@@ -76,5 +76,5 @@
 <script>
 export default {
   name: "ModeleOsi",
-}
+};
 </script>

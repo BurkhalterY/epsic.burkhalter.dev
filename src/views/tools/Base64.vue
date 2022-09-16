@@ -20,20 +20,20 @@ export default {
       content: "",
       base64: "",
       msg: "",
-    }
+    };
   },
   methods: {
     toBase64() {
-      this.base64 = window.btoa(unescape(encodeURIComponent(this.content)))
+      this.base64 = window.btoa(unescape(encodeURIComponent(this.content)));
     },
     fromBase64() {
       try {
-        this.content = decodeURIComponent(escape(window.atob(this.base64)))
-        this.msg = ""
+        this.content = decodeURIComponent(escape(window.atob(this.base64)));
+        this.msg = "";
       } catch (e) {
-        this.msg = "Base64 invalide."
+        this.msg = "Base64 invalide.";
       }
     },
   },
-}
+};
 </script>

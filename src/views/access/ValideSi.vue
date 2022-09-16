@@ -55,5 +55,5 @@
 <script>
 export default {
   name: "ValideSi",
-}
+};
 </script>

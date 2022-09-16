@@ -12,14 +12,14 @@
 </template>
 
 <script>
-import { applications } from "../../assets/data/shortcuts/applications.json"
+import { applications } from "../../assets/data/shortcuts/applications.json";
 
 export default {
   name: "ShortcutsIndex",
   data() {
     return {
       apps: applications,
-    }
+    };
   },
-}
+};
 </script>

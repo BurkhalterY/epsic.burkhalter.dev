@@ -161,5 +161,5 @@
 <script>
 export default {
   name: "Gray",
-}
+};
 </script>

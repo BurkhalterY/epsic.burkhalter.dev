@@ -140,5 +140,5 @@
 <script>
 export default {
   name: "UnicodeUtf8",
-}
+};
 </script>
