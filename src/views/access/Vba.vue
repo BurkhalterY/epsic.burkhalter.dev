@@ -1,32 +1,39 @@
 <template>
-	<div>
-		<h1>Les bases du VBA</h1>
-		<p>Le VBA (Visual Basic for Applications) permet, de faire divers actions dans et entre les formuaires d'Access.</p>
+  <div>
+    <h1>Les bases du VBA</h1>
+    <p>
+      Le VBA (Visual Basic for Applications) permet, de faire divers actions
+      dans et entre les formuaires d'Access.
+    </p>
 
-		<h3>Associer du code VBA à un bouton</h3>
-		<p>Créez un bouton normal avec n'importe quelle fonction. Puis allez dans les propriétés puis Événement et changer [Macro incorporée] en [Procédure événementielle].</p>
-		<img src="/medias/access/vba_bouton.png" class="img-fluid"/>
-		<p>Cliquez sur les 3 points (...)<br>L'éditeur VBA s'ouvre.</p>
-		<p>Voici les pricipales fonctions VBA :</p>
-		<table class="table table-responsive">
-			<tr>
-				<td><samp>DoCmd.OpenForm "F_Formulaire"</samp></td>
-				<td>Ouvre le formulaire F_Formulaire.</td>
-			</tr>
-			<tr>
-				<td><samp>DoCmd.OpenForm "F_Formulaire", , , , acFormAdd</samp></td>
-				<td>Ouvre le formulaire F_Formulaire sur un nouvel enregistrement.</td>
-			</tr>
-			<tr>
-				<td><samp>DoCmd.Close</samp></td>
-				<td>Ferme le formulaire.</td>
-			</tr>
-		</table>
-	</div>
+    <h3>Associer du code VBA à un bouton</h3>
+    <p>
+      Créez un bouton normal avec n'importe quelle fonction. Puis allez dans les
+      propriétés puis Événement et changer [Macro incorporée] en [Procédure
+      événementielle].
+    </p>
+    <img src="/medias/access/vba_bouton.png" class="img-fluid" />
+    <p>Cliquez sur les 3 points (...)<br />L'éditeur VBA s'ouvre.</p>
+    <p>Voici les pricipales fonctions VBA :</p>
+    <table class="table table-responsive">
+      <tr>
+        <td><samp>DoCmd.OpenForm "F_Formulaire"</samp></td>
+        <td>Ouvre le formulaire F_Formulaire.</td>
+      </tr>
+      <tr>
+        <td><samp>DoCmd.OpenForm "F_Formulaire", , , , acFormAdd</samp></td>
+        <td>Ouvre le formulaire F_Formulaire sur un nouvel enregistrement.</td>
+      </tr>
+      <tr>
+        <td><samp>DoCmd.Close</samp></td>
+        <td>Ferme le formulaire.</td>
+      </tr>
+    </table>
+  </div>
 </template>
 
 <script>
-	export default {
-		name: 'Vba',
-	}
+export default {
+  name: "Vba",
+};
 </script>

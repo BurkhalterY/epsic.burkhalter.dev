@@ -1,11 +1,11 @@
 {
-	"title": "Fenêtrage",
-	"shortcuts": [
-		{ "keys": ["Alt", "F4"], "description": "Fermer la fenêtre" },
-		{ "keys": ["Alt", "Tab"], "description": "Switcher de fenêtre" },
-		{ "keys": ["Win", "↑"], "description": "Maximiser" },
-		{ "keys": ["Win", "↓"], "description": "Minimiser" },
-		{ "keys": ["Win", "←"], "description": "Ancrer sur la gauche" },
-		{ "keys": ["Win", "→"], "description": "Ancrer sur la droite" }
-	]
+  "title": "Fenêtrage",
+  "shortcuts": [
+    { "keys": ["Alt", "F4"], "description": "Fermer la fenêtre" },
+    { "keys": ["Alt", "Tab"], "description": "Switcher de fenêtre" },
+    { "keys": ["Win", "↑"], "description": "Maximiser" },
+    { "keys": ["Win", "↓"], "description": "Minimiser" },
+    { "keys": ["Win", "←"], "description": "Ancrer sur la gauche" },
+    { "keys": ["Win", "→"], "description": "Ancrer sur la droite" }
+  ]
 }
