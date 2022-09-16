@@ -1,8 +1,8 @@
 {
-  "applications": [
-    { "name": "Général", "path": "usual" },
-    { "name": "Navigateurs web", "path": "browsers" },
-    { "name": "Sublime Text", "path": "sublime-text" },
-    { "name": "Paint.NET", "path": "paint-dot-net" }
-  ]
+	"applications": [
+		{ "name": "Général", "path": "usual" },
+		{ "name": "Navigateurs web", "path": "browsers" },
+		{ "name": "Sublime Text", "path": "sublime-text" },
+		{ "name": "Paint.NET", "path": "paint-dot-net" }
+	]
 }

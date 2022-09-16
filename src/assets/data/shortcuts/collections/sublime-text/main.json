@@ -1,27 +1,13 @@
 {
-  "title": "Sublime Text",
-  "shortcuts": [
-    { "keys": ["Ctrl", "D"], "description": "Sélectionner suivant" },
-    { "keys": ["Ctrl", "Shift", "↑"], "description": "Monter la ligne" },
-    { "keys": ["Ctrl", "Shift", "↓"], "description": "Déscendre la ligne" },
-    {
-      "keys": ["Ctrl", "Alt", "↑"],
-      "description": "Duppliquer le curseur sur la ligne du haut",
-      "flags": ["no-ubuntu"]
-    },
-    {
-      "keys": ["Ctrl", "Alt", "↓"],
-      "description": "Duppliquer le curseur sur la ligne du bas",
-      "flags": ["no-ubuntu"]
-    },
-    {
-      "keys": [["Ctrl", "K"], "&&", ["Ctrl", "L"]],
-      "description": "To lowercase"
-    },
-    {
-      "keys": [["Ctrl", "K"], "&&", ["Ctrl", "U"]],
-      "description": "To uppercase"
-    },
-    { "keys": ["F9"], "description": "Trier" }
-  ]
+	"title": "Sublime Text",
+	"shortcuts": [
+		{ "keys": ["Ctrl", "D"], "description": "Sélectionner suivant" },
+		{ "keys": ["Ctrl", "Shift", "↑"], "description": "Monter la ligne" },
+		{ "keys": ["Ctrl", "Shift", "↓"], "description": "Déscendre la ligne" },
+		{ "keys": ["Ctrl", "Alt", "↑"], "description": "Duppliquer le curseur sur la ligne du haut", "flags": ["no-ubuntu"] },
+		{ "keys": ["Ctrl", "Alt", "↓"], "description": "Duppliquer le curseur sur la ligne du bas", "flags": ["no-ubuntu"] },
+		{ "keys": [["Ctrl", "K"], "&&", ["Ctrl", "L"]], "description": "To lowercase" },
+		{ "keys": [["Ctrl", "K"], "&&", ["Ctrl", "U"]], "description": "To uppercase" },
+		{ "keys": ["F9"], "description": "Trier" }
+	]
 }

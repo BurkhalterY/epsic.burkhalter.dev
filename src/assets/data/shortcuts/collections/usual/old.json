@@ -1,7 +1,7 @@
 {
-  "title": "Historiques",
-  "shortcuts": [
-    { "keys": ["Ctrl", "Insert"], "description": "Copier" },
-    { "keys": ["Shift", "Insert"], "description": "Coller" }
-  ]
+	"title": "Historiques",
+	"shortcuts": [
+		{ "keys": ["Ctrl", "Insert"], "description": "Copier" },
+		{ "keys": ["Shift", "Insert"], "description": "Coller" }
+	]
 }

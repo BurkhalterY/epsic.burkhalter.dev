@@ -1,28 +1,13 @@
 {
-  "title": "Navigation dans le texte",
-  "shortcuts": [
-    {
-      "keys": ["Ctrl", "←"],
-      "description": "Déplacer le curseur au mot précédent"
-    },
-    {
-      "keys": ["Ctrl", "→"],
-      "description": "Déplacer le curseur au mot suivant"
-    },
-    {
-      "keys": ["Ctrl", "Shift", "←"],
-      "description": "Sélectionner jusqu'au mot précédent"
-    },
-    {
-      "keys": ["Ctrl", "Shift", "→"],
-      "description": "Sélectionner jusqu'au mot suivant"
-    },
-    {
-      "keys": ["Ctrl", "Backspace"],
-      "description": "Effacer le mot précédent"
-    },
-    { "keys": ["Ctrl", "Del"], "description": "Effacer le mot suivant" },
-    { "keys": ["Home"], "description": "Début de la ligne" },
-    { "keys": ["End"], "description": "Fin de la ligne" }
-  ]
+	"title": "Navigation dans le texte",
+	"shortcuts": [
+		{ "keys": ["Ctrl", "←"], "description": "Déplacer le curseur au mot précédent" },
+		{ "keys": ["Ctrl", "→"], "description": "Déplacer le curseur au mot suivant" },
+		{ "keys": ["Ctrl", "Shift", "←"], "description": "Sélectionner jusqu'au mot précédent" },
+		{ "keys": ["Ctrl", "Shift", "→"], "description": "Sélectionner jusqu'au mot suivant" },
+		{ "keys": ["Ctrl", "Backspace"], "description": "Effacer le mot précédent" },
+		{ "keys": ["Ctrl", "Del"], "description": "Effacer le mot suivant" },
+		{ "keys": ["Home"], "description": "Début de la ligne" },
+		{ "keys": ["End"], "description": "Fin de la ligne" }
+	]
 }

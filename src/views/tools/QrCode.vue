@@ -1,25 +1,23 @@
 <template>
-  <div>
-    <h1>Générateur de QR Code</h1>
-    <textarea class="w-100" v-model="qrValue"></textarea>
-    <div class="text-center" v-if="qrValue">
-      <vue-qrcode :value="qrValue" />
-    </div>
-  </div>
+	<div>
+		<h1>Générateur de QR Code</h1>
+		<textarea class="w-100" v-model="qrValue"></textarea>
+		<div class="text-center" v-if="qrValue"><vue-qrcode :value="qrValue"/></div>
+	</div>
 </template>
 
 <script>
-import VueQrcode from "@chenfengyuan/vue-qrcode";
+	import VueQrcode from '@chenfengyuan/vue-qrcode'
 
-export default {
-  name: "QrCode",
-  components: {
-    VueQrcode,
-  },
-  data() {
-    return {
-      qrValue: "",
-    };
-  },
-};
+	export default {
+		name: 'QrCode',
+		components: {
+			VueQrcode,
+		},
+		data() {
+			return {
+				qrValue: "",
+			}
+		},
+	}
 </script>

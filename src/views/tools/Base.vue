@@ -1,41 +1,36 @@
 <template>
-  <div>
-    <nav class="navbar navbar-expand navbar-light bg-light">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <router-link class="nav-link" to="/">Accueil</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link class="nav-link" to="/tools">Menu</router-link>
-        </li>
-      </ul>
-      <span class="navbar-text">© Burkhalter Yannis</span>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <router-view />
-        </div>
-      </div>
-    </div>
-  </div>
+	<div>
+		<nav class="navbar navbar-expand navbar-light bg-light">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"><router-link class="nav-link" to="/">Accueil</router-link></li>
+				<li class="nav-item"><router-link class="nav-link" to="/tools">Menu</router-link></li>
+			</ul>
+			<span class="navbar-text">© Burkhalter Yannis</span>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<router-view/>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>
 
 <style scoped>
-:deep() input,
-:deep() textarea {
-  background-color: beige;
-}
+	:deep() input, :deep() textarea {
+		background-color: beige;
+	}
 
-:deep() textarea {
-  padding: 10px;
-  border-radius: 10px;
-  height: 200px;
-}
+	:deep() textarea {
+		padding: 10px;
+		border-radius: 10px;
+		height: 200px
+	}
 </style>
 
 <script>
-export default {
-  name: "Base",
-};
+	export default {
+		name: 'Base',
+	}
 </script>
