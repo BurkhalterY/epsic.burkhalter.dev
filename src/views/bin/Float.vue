@@ -120,5 +120,5 @@
 <script>
 export default {
   name: "Float",
-};
+}
 </script>

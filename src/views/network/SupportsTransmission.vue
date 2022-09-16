@@ -104,5 +104,5 @@
 <script>
 export default {
   name: "SupportsTransmission",
-};
+}
 </script>

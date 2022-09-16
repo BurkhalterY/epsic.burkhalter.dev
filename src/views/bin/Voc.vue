@@ -44,5 +44,5 @@
 <script>
 export default {
   name: "Voc",
-};
+}
 </script>

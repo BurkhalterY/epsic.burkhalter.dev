@@ -8,5 +8,5 @@ export default {
   props: {
     url: String,
   },
-};
+}
 </script>

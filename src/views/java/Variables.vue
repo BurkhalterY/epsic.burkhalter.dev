@@ -114,12 +114,12 @@ maVariable = 0; //initialise la variable à 0" lang="java"/></pre>
 </template>
 
 <script>
-import ShowCode from "../../components/ShowCode.vue";
+import ShowCode from "../../components/ShowCode.vue"
 
 export default {
   name: "Variables",
   components: {
     ShowCode,
   },
-};
+}
 </script>

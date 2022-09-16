@@ -175,12 +175,12 @@ td {
 </style>
 
 <script>
-import ShowCode from "../../components/ShowCode.vue";
+import ShowCode from "../../components/ShowCode.vue"
 
 export default {
   name: "Conditions",
   components: {
     ShowCode,
   },
-};
+}
 </script>

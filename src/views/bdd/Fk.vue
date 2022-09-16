@@ -47,5 +47,5 @@
 <script>
 export default {
   name: "Fk",
-};
+}
 </script>

@@ -232,5 +232,5 @@
 <script>
 export default {
   name: "Partie3",
-};
+}
 </script>

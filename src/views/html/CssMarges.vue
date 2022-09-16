@@ -70,12 +70,12 @@
 </template>
 
 <script>
-import ShowCode from "../../components/ShowCode.vue";
+import ShowCode from "../../components/ShowCode.vue"
 
 export default {
   name: "CssMarges",
   components: {
     ShowCode,
   },
-};
+}
 </script>

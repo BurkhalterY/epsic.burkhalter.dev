@@ -31,5 +31,5 @@
 <script>
 export default {
   name: "Access1",
-};
+}
 </script>

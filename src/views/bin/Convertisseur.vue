@@ -22,12 +22,12 @@ export default {
       result: "",
       baseResult: 2,
       msg: "",
-    };
+    }
   },
   methods: {
     convert() {
-      let baseNumber = parseFloat(this.baseNumber);
-      let baseResult = parseFloat(this.baseResult);
+      let baseNumber = parseFloat(this.baseNumber)
+      let baseResult = parseFloat(this.baseResult)
 
       if (
         baseNumber >= 2 &&
@@ -37,12 +37,12 @@ export default {
         baseNumber % 1 === 0 &&
         baseResult % 1 === 0
       ) {
-        this.msg = "";
-        this.result = parseInt(this.number, baseNumber).toString(baseResult);
+        this.msg = ""
+        this.result = parseInt(this.number, baseNumber).toString(baseResult)
       } else {
-        this.msg = "Uniquement bases entières entre 2 et 36 supportées !";
+        this.msg = "Uniquement bases entières entre 2 et 36 supportées !"
       }
     },
   },
-};
+}
 </script>

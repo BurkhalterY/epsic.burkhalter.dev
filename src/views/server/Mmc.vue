@@ -73,5 +73,5 @@ img.thumb {
 <script>
 export default {
   name: "Mmc",
-};
+}
 </script>

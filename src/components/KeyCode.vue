@@ -29,21 +29,21 @@ export default {
     format(key) {
       switch (key) {
         case "Shift":
-          return "⇧Shift";
+          return "⇧Shift"
         case "Caps Lock":
-          return "⇪Caps Lock";
+          return "⇪Caps Lock"
         case "Tab":
-          return "Tab↹";
+          return "Tab↹"
         case "Enter":
-          return "Enter↵";
+          return "Enter↵"
         case "Backspace":
-          return "Backspace⇤";
+          return "Backspace⇤"
         case "Del":
-          return "Del⌦";
+          return "Del⌦"
         default:
-          return key;
+          return key
       }
     },
   },
-};
+}
 </script>

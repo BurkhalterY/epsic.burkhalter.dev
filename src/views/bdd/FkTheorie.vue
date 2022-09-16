@@ -244,5 +244,5 @@ td {
 <script>
 export default {
   name: "FkTheorie",
-};
+}
 </script>
