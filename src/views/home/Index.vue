@@ -64,7 +64,7 @@
 			<div class="col-lg-6">
 				<h4>Liens utiles</h4>
 				<ul>
-					<li class="icon-moodle"><a href="https://www.epsic.ch/secure/moodle/" target="_blank">Moodle de l'EPSIC</a></li>
+					<li class="icon-moodle"><a href="https://moodle.epsic.ch/" target="_blank">Moodle de l'EPSIC</a></li>
 					<li class="icon-moodle"><a href="https://ict-moodle.ch/" target="_blank">Moodle exclusif aux CIE</a></li>
 					<li class="icon-discord"><a href="https://discord.gg/ry3XrTPUzQ" target="_blank">Mon serveur Discord (Normalux)</a></li>
 					<li class="icon-discord"><a href="https://discord.gg/NejUt35yur" target="_blank">Serveur Discord de L'ELITE 2.0</a></li>
