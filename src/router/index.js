@@ -6,7 +6,7 @@ const routes = [
 		path: '/',
 		component: () => import('../views/home/Index.vue'),
 		meta: {
-			title: 'Accuel - epsic.burkhalter.dev',
+			title: 'Accueil - epsic.burkhalter.dev',
 		},
 	}, {
 		path: '/access',
