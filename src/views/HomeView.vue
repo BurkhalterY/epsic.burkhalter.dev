@@ -1,8 +1,9 @@
 <script setup>
 import access from "@/router/access"
+import bdd from "@/router/bdd"
 import html from "@/router/html"
 
-const routes = [access, html]
+const routes = [access, html, bdd]
 
 const externalLinks = [
   {

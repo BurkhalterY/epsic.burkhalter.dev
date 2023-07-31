@@ -46,10 +46,10 @@ import ShowCode from "@/components/ShowCode.vue"
       côté (dans le sens des aiguilles d'une montre en partant de
       <code>top</code>) :
     </p>
-    <ShowCode file="html/code/margin-4.css" lang="css" />
-    <ShowCode file="html/code/margin-3.css" lang="css" />
-    <ShowCode file="html/code/margin-2.css" lang="css" />
-    <ShowCode file="html/code/margin-1.css" lang="css" />
+    <ShowCode file="/html/code/margin-4.css" lang="css" />
+    <ShowCode file="/html/code/margin-3.css" lang="css" />
+    <ShowCode file="/html/code/margin-2.css" lang="css" />
+    <ShowCode file="/html/code/margin-1.css" lang="css" />
     <p>
       Il existe aussi les quatre propriétés <code>margin-top</code>,
       <code>margin-right</code>, <code>margin-bottom</code> et

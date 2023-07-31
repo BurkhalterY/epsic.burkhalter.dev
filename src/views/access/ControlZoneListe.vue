@@ -47,7 +47,7 @@ import ShowCode from "@/components/ShowCode.vue"
     </p>
     <img src="/access/medias/icud_c3.png" />
     <p>L'éditeur VBA s'ouvre. Collez-y le code suivant :</p>
-    <ShowCode file="access/code/Form_AfterInsert.vba" lang="vba" />
+    <ShowCode file="/access/code/Form_AfterInsert.vba" lang="vba" />
     <p>Explication du code :</p>
     <p>
       La deuxième ligne (<code>DoCmd.RunSQL</code>) permet d'exécuter une
@@ -72,7 +72,7 @@ import ShowCode from "@/components/ShowCode.vue"
       Il faut ensuite retourner dans F_Personne et ajouter un évènement
       <i>Sur clic</i> au bouton + :
     </p>
-    <ShowCode file="access/code/Btn_ajouter_email_Click.vba" lang="vba" />
+    <ShowCode file="/access/code/Btn_ajouter_email_Click.vba" lang="vba" />
     <p>Cela ouvrira le formulaire F_Ajouter_Email.</p>
 
     <h2>Importer une adresse</h2>
@@ -106,12 +106,12 @@ import ShowCode from "@/components/ShowCode.vue"
       Vous pouvez y coller le même code que précédemment, à l'exception de la
       requête SQL qui diffère un peu :
     </p>
-    <ShowCode file="access/code/Btn_selectionner_Click.vba" lang="vba" />
+    <ShowCode file="/access/code/Btn_selectionner_Click.vba" lang="vba" />
     <p>
       Et, ne pas oublier de donner un évènement au bouton v dans le formulaire
       F_Personne :
     </p>
-    <ShowCode file="access/code/Btn_importer_email_Click.vba" lang="vba" />
+    <ShowCode file="/access/code/Btn_importer_email_Click.vba" lang="vba" />
 
     <h2>Supprimer une adresse</h2>
     <p>
@@ -122,7 +122,7 @@ import ShowCode from "@/components/ShowCode.vue"
       Ici, pas besoin de créer de formulaire. Allez dans les propriétés du
       bouton et ajouté un l'événement <i>Sur clic</i> :
     </p>
-    <ShowCode file="access/code/Btn_supprimer_email_Click.vba" lang="vba" />
+    <ShowCode file="/access/code/Btn_supprimer_email_Click.vba" lang="vba" />
     <p>
       Nous avons ici deux conditions. La première est qu'il y ai un élément
       sélectionné dans la liste. La deuxième est que l'utilisateur confirme la
@@ -145,9 +145,9 @@ import ShowCode from "@/components/ShowCode.vue"
       Le code est très simple, je pense qu'il n'y a même pas besoin de
       l'expliquer :
     </p>
-    <ShowCode file="access/code/Form_AfterUpdate.vba" lang="vba" />
+    <ShowCode file="/access/code/Form_AfterUpdate.vba" lang="vba" />
     <p>Il faut aussi mettre un peu de code sur le bouton d'édition :</p>
-    <ShowCode file="access/code/Btn_modifier_email_Click.vba" lang="vba" />
+    <ShowCode file="/access/code/Btn_modifier_email_Click.vba" lang="vba" />
     <p>Je fais juste un petit test pour voir si un élément est sélectionné.</p>
 
     <p>

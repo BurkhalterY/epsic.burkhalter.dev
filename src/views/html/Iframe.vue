@@ -11,7 +11,7 @@ import ShowCode from "@/components/ShowCode.vue"
       <ShowCode raw="<iframe>" lang="html" :inline="true" /> avec l'attribut
       <code>src</code>.
     </p>
-    <ShowCode file="html/code/iframe.html" lang="html" />
+    <ShowCode file="/html/code/iframe.html" lang="html" />
     <iframe src="/" class="w-3/4 mx-auto border h-96"></iframe>
 
     <h2>Vidéo YouTube</h2>

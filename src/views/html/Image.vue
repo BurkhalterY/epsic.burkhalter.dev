@@ -6,7 +6,7 @@ import ShowCode from "@/components/ShowCode.vue"
   <div>
     <h2>Images</h2>
     <p>Voici comment insérer une image dans votre page HTML :</p>
-    <ShowCode file="html/code/img.html" lang="html" />
+    <ShowCode file="/html/code/img.html" lang="html" />
     <p>
       On utilise la balise
       <ShowCode raw="<img />" lang="html" :inline="true" /> qui est une balise
@@ -45,10 +45,10 @@ import ShowCode from "@/components/ShowCode.vue"
     </p>
 
     <span class="text-lg">Exemple audio</span>
-    <ShowCode file="html/code/audio.html" lang="html" />
+    <ShowCode file="/html/code/audio.html" lang="html" />
 
     <span class="text-lg">Exemple vidéo</span>
-    <ShowCode file="html/code/video.html" lang="html" />
+    <ShowCode file="/html/code/video.html" lang="html" />
     <p>
       Afin de remédier à ces problèmes de compatibilité, la plupart des sites
       postent leurs vidéos sur YouTube puis les intégrent via un

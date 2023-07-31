@@ -32,7 +32,7 @@ import ShowCode from "@/components/ShowCode.vue"
     </p>
     <div class="grid grid-cols-2">
       <div>
-        <ShowCode file="html/code/table.html" lang="html" />
+        <ShowCode file="/html/code/table.html" lang="html" />
       </div>
       <div>
         <table class="m-5">

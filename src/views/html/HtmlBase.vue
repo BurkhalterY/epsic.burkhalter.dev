@@ -28,7 +28,7 @@ import ShowCode from "@/components/ShowCode.vue"
       écrit la structure de la page HTML. La structure de base d'une page HTML
       est la suivante :
     </p>
-    <ShowCode file="html/code/base.html" lang="html" />
+    <ShowCode file="/html/code/base.html" lang="html" />
 
     <p>Cette structure minimale est obligatoire. Analysons-la ensembles.</p>
     <p>Elle contient les balises suivantes :</p>

@@ -18,9 +18,11 @@ const props = defineProps({
 const html = ref("")
 
 if (props.file) {
-  import(`../assets/${props.file}?raw`).then((content) => {
-    html.value = Prism.highlight(content.default, Prism.languages[props.lang])
-  })
+  fetch(props.file)
+    .then((response) => response.text())
+    .then((content) => {
+      html.value = Prism.highlight(content, Prism.languages[props.lang])
+    })
 } else if (props.raw) {
   html.value = Prism.highlight(props.raw, Prism.languages[props.lang])
 }

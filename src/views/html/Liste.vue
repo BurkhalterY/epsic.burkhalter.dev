@@ -18,7 +18,7 @@ import ShowCode from "@/components/ShowCode.vue"
     <table>
       <tr>
         <td>
-          <ShowCode file="html/code/ul.html" lang="html" />
+          <ShowCode file="/html/code/ul.html" lang="html" />
         </td>
         <td>
           <ul>
@@ -39,7 +39,7 @@ import ShowCode from "@/components/ShowCode.vue"
     <table>
       <tr>
         <td>
-          <ShowCode file="html/code/ol.html" lang="html" />
+          <ShowCode file="/html/code/ol.html" lang="html" />
         </td>
         <td>
           <ol>
@@ -60,7 +60,7 @@ import ShowCode from "@/components/ShowCode.vue"
     <table>
       <tr>
         <td>
-          <ShowCode file="html/code/ul-lvl2.html" lang="html" />
+          <ShowCode file="/html/code/ul-lvl2.html" lang="html" />
         </td>
         <td>
           <ul>

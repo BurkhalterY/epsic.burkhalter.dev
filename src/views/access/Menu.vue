@@ -2,6 +2,7 @@
 import route from "@/router/access"
 
 const routes = route.children
+const access1 = routes.find((r) => r.meta?.special)
 </script>
 
 <template>
@@ -10,7 +11,7 @@ const routes = route.children
     <ul>
       <li
         v-for="route of routes.filter(
-          (r) => r.meta && !r.meta.isIndex && !r.meta.isSpecial
+          (r) => r.meta && !r.meta.isIndex && !r.meta.special
         )"
       >
         <router-link :to="route">
@@ -18,10 +19,10 @@ const routes = route.children
         </router-link>
       </li>
       <br />
-      <li v-for="route of routes.filter((r) => r.meta?.isSpecial)">
+      <li v-if="access1">
         <strong>Bonus : </strong>
-        <router-link :to="route">
-          {{ route.meta.title }}
+        <router-link :to="access1">
+          {{ access1.meta.title }}
         </router-link>
       </li>
     </ul>

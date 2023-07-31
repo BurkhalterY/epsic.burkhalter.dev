@@ -107,7 +107,7 @@ const route = {
       component: () => import("@/views/access/Access1.vue"),
       meta: {
         title: "Ma base de données en Access 1.0",
-        isSpecial: true,
+        special: true,
       },
     },
   ],

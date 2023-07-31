@@ -24,7 +24,7 @@ import ShowCode from "@/components/ShowCode.vue"
       ouvrante de l'élément HTML. On peut aussi utiliser plusieurs attributs
       comme ceci :
     </p>
-    <ShowCode file="html/code/attribute.html" lang="html" />
+    <ShowCode file="/html/code/attribute.html" lang="html" />
     <p>
       ⚠ La valeur est toujours mise entre guillemets même s'il s'agit d'un
       nombre.
@@ -53,7 +53,7 @@ import ShowCode from "@/components/ShowCode.vue"
       Pour faire un lien vers un site externe, mettre l'URL complète. Par
       exemple : https://www.google.ch
     </p>
-    <ShowCode file="html/code/a-href.html" lang="html" />
+    <ShowCode file="/html/code/a-href.html" lang="html" />
     <p>
       Ici, j'ai ajouté l'attribut <code>target="_blank"</code> afin que le
       navigateur ouvre la page dans un nouvel onglet. C'est une bonne pratique

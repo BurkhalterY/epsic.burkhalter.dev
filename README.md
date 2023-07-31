@@ -17,3 +17,6 @@ ctrl + shift + f:
 - email
 - ex
 - :
+- alt=
+- N°
+- %

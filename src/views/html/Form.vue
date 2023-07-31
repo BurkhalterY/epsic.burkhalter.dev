@@ -15,7 +15,7 @@ import ShowCode from "@/components/ShowCode.vue"
     <p>Voici un exemple de formulaire avec quelques champs :</p>
     <div class="grid grid-cols-2">
       <div>
-        <ShowCode file="html/code/form.html" lang="html" />
+        <ShowCode file="/html/code/form.html" lang="html" />
       </div>
       <div class="text-center">
         <br />
@@ -120,7 +120,7 @@ import ShowCode from "@/components/ShowCode.vue"
     </p>
     <div class="grid grid-cols-2">
       <div>
-        <ShowCode file="html/code/select.html" lang="html" />
+        <ShowCode file="/html/code/select.html" lang="html" />
       </div>
       <div class="text-center">
         <br />

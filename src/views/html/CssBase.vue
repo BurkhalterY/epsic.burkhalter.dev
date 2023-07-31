@@ -13,7 +13,7 @@ import ShowCode from "@/components/ShowCode.vue"
       Le CSS a besoin de deux choses pour s'appliquer : les élements sur
       lesquels agir et quel style leur appliquer. Et on l'écrira comme ça :
     </p>
-    <ShowCode file="html/code/base.css" lang="css" />
+    <ShowCode file="/html/code/base.css" lang="css" />
 
     <h2>Les sélecteurs</h2>
     <p>
@@ -29,13 +29,13 @@ import ShowCode from "@/components/ShowCode.vue"
       </tr>
       <tr>
         <td>
-          <ShowCode file="html/code/selector-tag.css" lang="css" />
+          <ShowCode file="/html/code/selector-tag.css" lang="css" />
         </td>
         <td>
-          <ShowCode file="html/code/selector-class.css" lang="css" />
+          <ShowCode file="/html/code/selector-class.css" lang="css" />
         </td>
         <td>
-          <ShowCode file="html/code/selector-id.css" lang="css" />
+          <ShowCode file="/html/code/selector-id.css" lang="css" />
         </td>
       </tr>
       <tr class="align-text-top">
@@ -68,7 +68,7 @@ import ShowCode from "@/components/ShowCode.vue"
       virgule afin de créer un <i>ou</i>. C'est-à-dire que l'élement soit
       affecté s'il respecte l'un ou l'autre des sélecteurs. Exemple :
     </p>
-    <ShowCode file="html/code/selector-or.css" lang="css" />
+    <ShowCode file="/html/code/selector-or.css" lang="css" />
 
     <h2>Les propriétés CSS</h2>
     <p>
@@ -79,11 +79,11 @@ import ShowCode from "@/components/ShowCode.vue"
     <div class="grid grid-cols-2">
       <div>
         <pre class="text-center">CSS</pre>
-        <ShowCode file="html/code/properties.css" lang="css" />
+        <ShowCode file="/html/code/properties.css" lang="css" />
       </div>
       <div>
         <pre class="text-center">HTML</pre>
-        <ShowCode file="html/code/css-base-exemple1.html" lang="html" />
+        <ShowCode file="/html/code/css-base-exemple1.html" lang="html" />
       </div>
     </div>
     <span>Résultat :</span>

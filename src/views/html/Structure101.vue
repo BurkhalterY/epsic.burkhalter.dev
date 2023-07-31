@@ -10,7 +10,7 @@ import ShowCode from "@/components/ShowCode.vue"
       le développement web, mais dans le cadre de ce module, nous devons
       l'utiliser.
     </p>
-    <ShowCode file="html/code/structure-101.html" lang="html" />
+    <ShowCode file="/html/code/structure-101.html" lang="html" />
     <p>
       Cette structure permet de bien séparer les 4 parties du body que sont :
     </p>
