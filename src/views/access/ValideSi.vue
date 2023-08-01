@@ -49,6 +49,6 @@
 
 <style scoped>
 th {
-  @apply pt-4 pb-1 border-t-0;
+  @apply text-start pt-4 pb-1 border-t-0;
 }
 </style>

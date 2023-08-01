@@ -49,11 +49,11 @@
     <p>Vous pouvez ensuite définir les champs comme dans Access.</p>
     <img src="/bdd/medias/phpmyadmin_new_table2.png" alt="Définir les champs" />
     <p>Les types de champs sont les suivants :</p>
-    <table class="table table-responsive">
+    <table>
       <tr>
-        <th>Nom</th>
-        <th>Description</th>
-        <th>Exemple de valeurs</th>
+        <th class="text-start">Nom</th>
+        <th class="text-start">Description</th>
+        <th class="text-start">Exemple de valeurs</th>
       </tr>
       <tr>
         <td>BOOLEAN</td>

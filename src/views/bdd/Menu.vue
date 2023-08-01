@@ -13,8 +13,7 @@ const routes = route.children
           route.meta.title
         }}</router-link>
       </li>
-      <br />
-      <li>
+      <li class="mt-5">
         <a href="https://github.com/BurkhalterY/Ecommerce-BD104" target="_blank"
           >Mon projet au module 104</a
         >

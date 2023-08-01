@@ -20,3 +20,18 @@ ctrl + shift + f:
 - alt=
 - N°
 - %
+- &nbsp;
+- ème
+- table-responsive
+- "></"
+- <br /><br />
+- connai
+- : ''
+- : ""
+- _double space_
+- <style scoped> → double \n
+- "puis "
+
+"&nbsp;:"
+"&nbsp;%"
+"N°&nbsp;"

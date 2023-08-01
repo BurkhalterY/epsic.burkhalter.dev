@@ -56,10 +56,10 @@ import ShowCode from "@/components/ShowCode.vue"
     </p>
     <table>
       <tr>
-        <th>Opérateur</th>
-        <th>Description</th>
-        <th>Exemple</th>
-        <th>Description</th>
+        <th class="text-start">Opérateur</th>
+        <th class="text-start">Description</th>
+        <th class="text-start">Exemple</th>
+        <th class="text-start">Description</th>
       </tr>
       <tr>
         <td>=</td>

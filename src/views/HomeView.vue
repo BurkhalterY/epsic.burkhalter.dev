@@ -1,9 +1,10 @@
 <script setup>
 import access from "@/router/access"
 import bdd from "@/router/bdd"
+import bin from "@/router/bin"
 import html from "@/router/html"
 
-const routes = [access, html, bdd]
+const routes = [access, html, bdd, bin]
 
 const externalLinks = [
   {

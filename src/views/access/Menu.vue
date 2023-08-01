@@ -2,7 +2,7 @@
 import route from "@/router/access"
 
 const routes = route.children
-const access1 = routes.find((r) => r.meta?.special)
+const access1 = routes.find((r) => r.meta.special)
 </script>
 
 <template>
@@ -18,8 +18,7 @@ const access1 = routes.find((r) => r.meta?.special)
           {{ route.meta.title }}
         </router-link>
       </li>
-      <br />
-      <li v-if="access1">
+      <li v-if="access1" class="mt-5">
         <strong>Bonus : </strong>
         <router-link :to="access1">
           {{ access1.meta.title }}

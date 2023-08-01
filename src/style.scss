@@ -67,14 +67,14 @@
   ul ul ul {
     @apply list-[square];
   }
-  th {
-    @apply text-start;
-  }
   td,
   th {
     @apply border-t px-2 py-1;
   }
   code:not([data-code="true"]) {
     @apply text-sm text-pink-500 font-mono;
+  }
+  kbd {
+    @apply text-white bg-slate-800 text-sm rounded px-1 py-0.5;
   }
 }

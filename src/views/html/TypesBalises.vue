@@ -10,9 +10,9 @@ import ShowCode from "@/components/ShowCode.vue"
     </p>
     <table>
       <tr>
-        <th></th>
-        <th>Block</th>
-        <th>Inline</th>
+        <th />
+        <th class="text-start">Block</th>
+        <th class="text-start">Inline</th>
       </tr>
       <tr>
         <td class="font-bold">Taille</td>
@@ -37,9 +37,9 @@ import ShowCode from "@/components/ShowCode.vue"
     </p>
     <table>
       <tr>
-        <th>Balise</th>
-        <th>Inline/block</th>
-        <th>Description</th>
+        <th class="text-start">Balise</th>
+        <th class="text-start">Inline/block</th>
+        <th class="text-start">Description</th>
       </tr>
       <tr>
         <td><ShowCode raw="<div>" lang="html" :inline="true" /></td>

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router"
 import accessRoute from "./access"
 import bddRoute from "./bdd"
+import binRoute from "./bin"
 import htmlRoute from "./html"
 import redirectRoutes from "./redirects"
 
@@ -16,6 +17,7 @@ const routes = [
   accessRoute,
   htmlRoute,
   bddRoute,
+  binRoute,
   ...redirectRoutes,
   {
     path: "/:pathMatch(.*)*",
