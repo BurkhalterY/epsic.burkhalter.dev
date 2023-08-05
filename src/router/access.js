@@ -11,7 +11,7 @@ const route = {
       style: {
         navBgColor: "#a4383b",
         itemBgColor: "#832c2e",
-        textColor: "white",
+        textColor: "#ffffff",
       },
     },
   },

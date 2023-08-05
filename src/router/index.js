@@ -3,6 +3,7 @@ import accessRoute from "./access"
 import bddRoute from "./bdd"
 import binRoute from "./bin"
 import htmlRoute from "./html"
+import networkRoute from "./network"
 import redirectRoutes from "./redirects"
 
 const routes = [
@@ -18,6 +19,7 @@ const routes = [
   htmlRoute,
   bddRoute,
   binRoute,
+  networkRoute,
   ...redirectRoutes,
   {
     path: "/:pathMatch(.*)*",

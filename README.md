@@ -31,6 +31,9 @@ ctrl + shift + f:
 - _double space_
 - <style scoped> → double \n
 - "puis "
+- cable ^
+- :</h2>
+- Ok
 
 "&nbsp;:"
 "&nbsp;%"

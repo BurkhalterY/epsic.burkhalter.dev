@@ -11,15 +11,15 @@ const route = {
       cie: false,
       style: {
         navBgColor: "#f8f9fa",
-        itemBgColor: "#f3f4f5",
-        textColor: "grey",
+        itemBgColor: "#f8f9fa",
+        textColor: "#808080",
       },
     },
   },
   children: [
     {
       path: "/bin",
-      component: () => import("../views/bin/Menu.vue"),
+      component: () => import("@/views/bin/Menu.vue"),
       meta: {
         title: "Menu",
         isIndex: true,
@@ -27,23 +27,23 @@ const route = {
     },
     {
       path: "/bin/modulo-ti30xpro",
-      component: () => import("../views/bin/ModuloCalculatrice.vue"),
+      component: () => import("@/views/bin/ModuloCalculatrice.vue"),
       meta: {
         title: "Comment effectuer l'opération modulo sur la calculatrice ?",
         special: true,
       },
     },
     {
-      path: "/bin/n_to_10",
-      component: () => import("../views/bin/NTo10.vue"),
+      path: "/bin/n-to-10",
+      component: () => import("@/views/bin/NTo10.vue"),
       meta: {
         title: "Conversion base n en base 10",
         section: 1,
       },
     },
     {
-      path: "/bin/10_to_n",
-      component: () => import("../views/bin/10ToN.vue"),
+      path: "/bin/10-to-n",
+      component: () => import("@/views/bin/10ToN.vue"),
       meta: {
         title: "Conversion base 10 en base n",
         section: 1,
@@ -51,15 +51,15 @@ const route = {
     },
     {
       path: "/bin/voc",
-      component: () => import("../views/bin/Voc.vue"),
+      component: () => import("@/views/bin/Voc.vue"),
       meta: {
         title: "Vocabulaire",
         section: 1,
       },
     },
     {
-      path: "/bin/bin_hex",
-      component: () => import("../views/bin/BinHex.vue"),
+      path: "/bin/bin-hex",
+      component: () => import("@/views/bin/BinHex.vue"),
       meta: {
         title: "Conversion binaire - hexa",
         section: 1,
@@ -67,7 +67,7 @@ const route = {
     },
     {
       path: "/bin/gray",
-      component: () => import("../views/bin/Gray.vue"),
+      component: () => import("@/views/bin/Gray.vue"),
       meta: {
         title: "Code Gray",
         section: 1,
@@ -75,15 +75,15 @@ const route = {
     },
     {
       path: "/bin/bcd",
-      component: () => import("../views/bin/Bcd.vue"),
+      component: () => import("@/views/bin/Bcd.vue"),
       meta: {
         title: "BCD",
         section: 1,
       },
     },
     {
-      path: "/bin/x_parmi_n",
-      component: () => import("../views/bin/XParmiN.vue"),
+      path: "/bin/x-parmi-n",
+      component: () => import("@/views/bin/XParmiN.vue"),
       meta: {
         title: "Code x parmi n",
         section: 1,
@@ -91,15 +91,15 @@ const route = {
     },
     {
       path: "/bin/ascii",
-      component: () => import("../views/bin/Ascii.vue"),
+      component: () => import("@/views/bin/Ascii.vue"),
       meta: {
         title: "Code ASCII",
         section: 1,
       },
     },
     {
-      path: "/bin/unicode_utf8",
-      component: () => import("../views/bin/UnicodeUtf8.vue"),
+      path: "/bin/unicode-utf8",
+      component: () => import("@/views/bin/UnicodeUtf8.vue"),
       meta: {
         title: "L'Unicode et UTF-8",
         section: 1,
@@ -107,15 +107,15 @@ const route = {
     },
     {
       path: "/bin/ean",
-      component: () => import("../views/bin/Ean.vue"),
+      component: () => import("@/views/bin/Ean.vue"),
       meta: {
         title: "Les codes-barres EAN",
         section: 1,
       },
     },
     {
-      path: "/bin/qr_code",
-      component: () => import("../views/bin/QrCode.vue"),
+      path: "/bin/qr-code",
+      component: () => import("@/views/bin/QrCode.vue"),
       meta: {
         title: "Les QR codes",
         section: 1,
@@ -123,7 +123,7 @@ const route = {
     },
     {
       path: "/bin/convertisseur",
-      component: () => import("../views/bin/Convertisseur.vue"),
+      component: () => import("@/views/bin/Convertisseur.vue"),
       meta: {
         title: "Convertisseur",
         section: 1,
@@ -132,7 +132,7 @@ const route = {
     },
     {
       path: "/bin/addition",
-      component: () => import("../views/bin/Addition.vue"),
+      component: () => import("@/views/bin/Addition.vue"),
       meta: {
         title: "Additions en binaire",
         section: 2,
@@ -140,7 +140,7 @@ const route = {
     },
     {
       path: "/bin/negativ",
-      component: () => import("../views/bin/Negativ.vue"),
+      component: () => import("@/views/bin/Negativ.vue"),
       meta: {
         title: "Nombres négatifs et soustractions",
         section: 2,
@@ -148,15 +148,15 @@ const route = {
     },
     {
       path: "/bin/float",
-      component: () => import("../views/bin/Float.vue"),
+      component: () => import("@/views/bin/Float.vue"),
       meta: {
         title: "Nombres à virgules flottantes",
         section: 2,
       },
     },
     {
-      path: "/bin/fonctions_logiques",
-      component: () => import("../views/bin/FonctionsLogiques.vue"),
+      path: "/bin/fonctions-logiques",
+      component: () => import("@/views/bin/FonctionsLogiques.vue"),
       meta: {
         title: "Les fonctions logiques",
         section: 2,
@@ -164,7 +164,7 @@ const route = {
     },
     {
       path: "/bin/partie3",
-      component: () => import("../views/bin/Partie3.vue"),
+      component: () => import("@/views/bin/Partie3.vue"),
       meta: {
         title: "Partie 3",
         section: 3,

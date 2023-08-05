@@ -8,24 +8,18 @@ const routes = route.children
   <div>
     <h2>{{ route.meta.module.officialName }}</h2>
     <p v-for="route of routes.filter((r) => r.meta.section == 'intro')">
-      <router-link :to="route">
-        {{ route.meta.title }}
-      </router-link>
+      <router-link :to="route">{{ route.meta.title }}</router-link>
     </p>
     <h2>HTML</h2>
     <ul>
       <li v-for="route of routes.filter((r) => r.meta.section == 'html')">
-        <router-link :to="route">
-          {{ route.meta.title }}
-        </router-link>
+        <router-link :to="route">{{ route.meta.title }}</router-link>
       </li>
     </ul>
     <h2>CSS</h2>
     <ul>
       <li v-for="route of routes.filter((r) => r.meta.section == 'css')">
-        <router-link :to="route">
-          {{ route.meta.title }}
-        </router-link>
+        <router-link :to="route">{{ route.meta.title }}</router-link>
       </li>
       <li>à suivre...</li>
     </ul>

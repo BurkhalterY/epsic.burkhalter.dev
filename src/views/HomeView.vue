@@ -3,8 +3,9 @@ import access from "@/router/access"
 import bdd from "@/router/bdd"
 import bin from "@/router/bin"
 import html from "@/router/html"
+import network from "@/router/network"
 
-const routes = [access, html, bdd, bin]
+const routes = [access, html, bdd, bin, network]
 
 const externalLinks = [
   {
@@ -98,14 +99,14 @@ const allNews = [
         maîtriser un module. Sur ce, révisez bien :)
       </p> -->
     </div>
-    <div class="grid grid-cols-3 mx-16 gap-x-16 gap-y-8">
+    <div class="grid grid-cols-3 mx-16 gap-x-16 gap-y-6">
       <div v-for="route of routes">
         <router-link :to="route">
           <img
             :src="`${route.path}/square.png`"
             class="border-4 border-black rounded-xl"
           />
-          <figcaption class="text-lg text-center">
+          <figcaption class="mt-1 text-lg text-center">
             {{ route.meta.module.cie ? "CIE" : "Module" }}
             {{ route.meta.module.numero }}
             <div class="text-sm">

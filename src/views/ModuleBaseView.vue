@@ -17,11 +17,14 @@ const previousPage = computed(() => routes.value[index.value - 1])
     <nav class="w-full">
       <ul>
         <li>
-          <router-link to="/">Accueil</router-link>
+          <router-link class="pl-1" to="/">Accueil</router-link>
         </li>
         <li>/</li>
         <li>
-          <router-link :to="`/${route.meta.module.path}`">
+          <router-link
+            :class="{ 'pr-1': route.meta.isIndex }"
+            :to="`/${route.meta.module.path}`"
+          >
             {{ route.meta.module.cie ? "CIE" : "Module" }}
             {{ route.meta.module.numero }}
           </router-link>
@@ -29,7 +32,7 @@ const previousPage = computed(() => routes.value[index.value - 1])
         <template v-if="!route.meta.isIndex">
           <li>/</li>
           <li>
-            <router-link :to="route">
+            <router-link class="pr-1" :to="route">
               {{ route.meta.title }}
             </router-link>
           </li>

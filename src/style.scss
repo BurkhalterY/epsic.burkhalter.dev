@@ -34,6 +34,12 @@
 .alert-warning .alert-title {
   @apply text-yellow-800;
 }
+.alert-info {
+  @apply alert bg-sky-50 text-sky-700 border-sky-500;
+}
+.alert-info .alert-title {
+  @apply text-sky-800;
+}
 
 .ybu-content {
   h1 {
