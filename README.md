@@ -34,6 +34,9 @@ ctrl + shift + f:
 - cable ^
 - :</h2>
 - Ok
+- hote ^
+- connait ^
+- –
 
 "&nbsp;:"
 "&nbsp;%"

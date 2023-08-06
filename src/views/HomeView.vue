@@ -4,8 +4,9 @@ import bdd from "@/router/bdd"
 import bin from "@/router/bin"
 import html from "@/router/html"
 import network from "@/router/network"
+import serverRoute from "@/router/server"
 
-const routes = [access, html, bdd, bin, network]
+const routes = [access, html, bdd, bin, network, serverRoute]
 
 const externalLinks = [
   {

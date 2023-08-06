@@ -5,6 +5,7 @@ import binRoute from "./bin"
 import htmlRoute from "./html"
 import networkRoute from "./network"
 import redirectRoutes from "./redirects"
+import serverRoute from "./server"
 
 const routes = [
   {
@@ -20,6 +21,7 @@ const routes = [
   bddRoute,
   binRoute,
   networkRoute,
+  serverRoute,
   ...redirectRoutes,
   {
     path: "/:pathMatch(.*)*",
