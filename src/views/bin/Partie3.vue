@@ -130,7 +130,7 @@
     <div class="alert-warning">
       Attention : ces formules ne sont pas toujours valables car les formats
       d'images les plus populaires utilisent des algorithmes de compression. Il
-      aussi arrive parfois qu'on utilise moins de bits par couleurs, auquel cas
+      arrive aussi parfois qu'on utilise moins de bits par couleur, auquel cas
       il faut adapter le calcul.
     </div>
     <p>Pour convertir le résultat obtenu dans l'unité adéquate :</p>

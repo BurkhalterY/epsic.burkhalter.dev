@@ -30,7 +30,7 @@
     </table>
 
     <h2>Topologies des réseaux</h2>
-    <table class="all-border">
+    <table class="mx-auto all-border">
       <tr>
         <th>Topologie</th>
         <th>Schéma</th>
