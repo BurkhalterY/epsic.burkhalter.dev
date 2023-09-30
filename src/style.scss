@@ -40,6 +40,12 @@
 .alert-info .alert-title {
   @apply text-sky-800;
 }
+.alert-quote {
+  @apply alert bg-gray-50 text-gray-700 border-gray-500;
+}
+.alert-quote .alert-title {
+  @apply text-gray-800;
+}
 
 .ybu-content {
   h1 {

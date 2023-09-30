@@ -13,7 +13,7 @@ import ShowCode from "@/components/ShowCode.vue"
       auto-fermante. Une balise auto-fermante est caractérisée par le slash
       avant le crochet droit, ce qui la ferme directement. On ne peut donc pas
       mettre de contenu ou d'autres balises à l'intérieur (sauf les attributs
-      bien sûr). Ici on a d'ailleurs deux attributs obligatoires :
+      bien sûr). Ici, on a d'ailleurs deux attributs obligatoires :
     </p>
     <ul>
       <li>

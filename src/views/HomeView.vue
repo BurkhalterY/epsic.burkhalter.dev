@@ -3,10 +3,12 @@ import access from "@/router/access"
 import bdd from "@/router/bdd"
 import bin from "@/router/bin"
 import html from "@/router/html"
+import java from "@/router/java"
 import network from "@/router/network"
+import poo from "@/router/poo"
 import serverRoute from "@/router/server"
 
-const routes = [access, html, bdd, bin, network, serverRoute]
+const routes = [access, html, bdd, bin, network, serverRoute, java, poo]
 
 const externalLinks = [
   {

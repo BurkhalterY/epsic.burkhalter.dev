@@ -3,7 +3,9 @@ import accessRoute from "./access"
 import bddRoute from "./bdd"
 import binRoute from "./bin"
 import htmlRoute from "./html"
+import javaRoute from "./java"
 import networkRoute from "./network"
+import pooRoute from "./poo"
 import redirectRoutes from "./redirects"
 import serverRoute from "./server"
 
@@ -22,6 +24,8 @@ const routes = [
   binRoute,
   networkRoute,
   serverRoute,
+  javaRoute,
+  pooRoute,
   ...redirectRoutes,
   {
     path: "/:pathMatch(.*)*",

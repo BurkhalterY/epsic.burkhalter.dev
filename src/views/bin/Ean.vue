@@ -45,7 +45,7 @@
         <td>On l'utilise au milieu du code-barres.</td>
       </tr>
     </table>
-    <p>Les zones de garde dépassent du code-barres. Voir l'image si dessous.</p>
+    <p>Les zones de garde dépassent du code-barres. Voir l'image ci-dessous.</p>
     <img src="/bin/medias/EAN_guard.png" />
 
     <h2>EAN-8</h2>

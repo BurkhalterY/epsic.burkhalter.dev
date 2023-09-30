@@ -27,7 +27,7 @@ const routes = route.children
     <ul>
       <li>à venir...</li>
     </ul>
-    <h2 class="! text-xl">Liens utiles</h2>
+    <h2 class="!text-xl">Liens utiles</h2>
     <ul>
       <li>
         <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
