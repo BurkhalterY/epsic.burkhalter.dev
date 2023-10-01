@@ -12,6 +12,11 @@ const routes = [access, html, bdd, bin, network, serverRoute, java, poo]
 
 const externalLinks = [
   {
+    title: "Repo du projet",
+    url: "https://github.com/BurkhalterY/epsic.burkhalter.dev",
+    icon: "github",
+  },
+  {
     title: "Moodle de l'EPSIC",
     url: "https://moodle.epsic.ch/",
     icon: "moodle",
