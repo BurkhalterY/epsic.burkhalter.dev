@@ -1,39 +1,61 @@
-<template>
-	<div>
-		<h1>Qu'est-ce qu'un objet</h1>
-		<p>Un objet informatique représente un concept. Par exemple une fenêtre ou un bouton. Comme dans la vraie vie, un objet a des caractéristiques et des fonctionnalités. Une caractèristique, c'est par exemple, pour une voiture, le nombre de roues ou la vitesse max. Et une fonctionnalité, pour notre voiture, ça pourrait être de rouler.</p>
-		<p>En informatique, c'est la même chose. Les caractéristiques (nommées attributs) d'une fenêtre seraient sa taille et sa position. Et ses fonctionnalités (nommées méthodes) seraient par exemple de l'agrandir avec la souris, etc.</p>
-
-		<h3>Les classes</h3>
-		<p>Une classe est comparable à un moule. On crée une classe qui permettra de créer (instancier) des objets. La classe contient tous les attributs et toutes les méthodes, mais sans valeur. Une fois l'objet instancié à partir de la classe, on pourra attribuer des valeurs à ses attributs.</p>
-
-		<h3>Créer une classe</h3>
-		<p>Commencer par <router-link to="/java/new">créer un nouveau projet</router-link>.</p>
-		<p>Faites un clic droit sur le package, puis New et Java Class :</p>
-		<img src="/medias/poo/new_class_1.png" alt="Nouvelle classe" class="img-fluid"/>
-		<p>Donnez un nom à votre classe, par exemple Personne. Les noms des classes commencent toujours par une majuscule.</p>
-		<img src="/medias/poo/new_class_2.png" alt="Nouvelle classe" class="img-fluid"/>
-		<p>Supprimez les commentaires par défaut.</p>
-		<pre class="language-java"><ShowCode file="poo/objet0.java" lang="java"/></pre>
-
-		<h3>Lui ajouter des attributs</h3>
-		<p>Il suffit pour cela de mettre de noter les attributs comme des variables mais sans les initialiser.</p>
-		<pre class="language-java"><ShowCode file="poo/objet1.java" lang="java"/></pre>
-
-		<h3>Lui ajouter des méthodes</h3>
-		<p>Comme pour les attributs, écrivez simplement les méthodes dans la classe.</p>
-		<pre class="language-java"><ShowCode file="poo/objet2.java" lang="java"/></pre>
-		<p>Ici une méthode qui affichera toutes les données sur la personne.</p>
-	</div>
-</template>
-
-<script>
-	import ShowCode from '../../components/ShowCode.vue'
-
-	export default {
-		name: 'Objet',
-		components: {
-			ShowCode,
-		},
-	}
+<script setup>
+import ShowCode from "@/components/ShowCode.vue"
 </script>
+
+<template>
+  <div>
+    <p>
+      Un objet informatique représente un concept, par exemple une fenêtre ou un
+      bouton. Comme dans la vraie vie, un objet a des caractéristiques et des
+      fonctionnalités. Une caractéristique, c'est par exemple pour une voiture,
+      le nombre de roues ou la vitesse maximale. Et une fonctionnalité, pour
+      notre voiture, ça pourrait être d'avancer ou de tourner.
+    </p>
+    <p>
+      En informatique, c'est la même chose. Les caractéristiques (nommées
+      attributs) d'une fenêtre sont, entre autres, sa taille et sa position. Ses
+      fonctionnalités (nommées méthodes) serait quant à elles de l'agrandir avec
+      la souris ou de la fermer.
+    </p>
+
+    <h2>Les classes</h2>
+    <p>
+      Une classe est comparable à un moule. On crée une classe qui permettra de
+      créer (instancier) des objets. La classe contient tous les attributs et
+      toutes les méthodes, mais sans valeur. Une fois l'objet instancié à partir
+      de la classe, on pourra attribuer des valeurs à ses attributs.
+    </p>
+
+    <h2>Créer une classe</h2>
+    <p>
+      Commencer par
+      <router-link to="/java/new">créer un nouveau projet</router-link>.
+    </p>
+    <p>
+      Faites un clic droit sur le package, puis <i>New</i> et
+      <i>Java Class</i> :
+    </p>
+    <img src="/poo/medias/new_class_1.png" alt="Nouvelle classe" />
+    <p>
+      Donnez un nom à votre classe, par exemple <code>Personne</code>. Les noms
+      des classes commencent toujours par une majuscule.
+    </p>
+    <img src="/poo/medias/new_class_2.png" alt="Nouvelle classe" />
+    <p>Supprimez les commentaires par défaut.</p>
+    <ShowCode file="/poo/code/objet0.java" lang="java" />
+
+    <h2>Ajouter des attributs</h2>
+    <p>
+      Il suffit pour cela de noter les attributs comme des variables mais sans
+      les initialiser.
+    </p>
+    <ShowCode file="/poo/code/objet1.java" lang="java" />
+
+    <h2>Ajouter des méthodes</h2>
+    <p>
+      Comme pour les attributs, écrivez simplement les méthodes dans la classe.
+    </p>
+    <ShowCode file="/poo/code/objet2.java" lang="java" />
+    <p>Cette méthode affichera toutes les données de la personne.</p>
+  </div>
+</template>

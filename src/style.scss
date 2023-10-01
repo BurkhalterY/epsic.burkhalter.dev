@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.alert {
+  @apply rounded-md my-6 p-4 text-sm border;
+}
+.alert-title {
+  @apply font-semibold mb-2;
+}
+.alert-success {
+  @apply alert bg-green-50 text-green-700 border-green-500;
+}
+.alert-success .alert-title {
+  @apply text-green-800;
+}
+.alert-danger {
+  @apply alert bg-red-50 text-red-700 border-red-500;
+}
+.alert-danger .alert-title {
+  @apply text-red-800;
+}
+.alert-warning {
+  @apply alert bg-yellow-50 text-yellow-700 border-yellow-500;
+}
+.alert-warning .alert-title {
+  @apply text-yellow-800;
+}
+.alert-info {
+  @apply alert bg-sky-50 text-sky-700 border-sky-500;
+}
+.alert-info .alert-title {
+  @apply text-sky-800;
+}
+.alert-quote {
+  @apply alert bg-gray-50 text-gray-700 border-gray-500;
+}
+.alert-quote .alert-title {
+  @apply text-gray-800;
+}
+
+.ybu-content {
+  h1 {
+    @apply text-4xl my-2;
+  }
+  h2 {
+    @apply text-2xl my-4;
+  }
+  p,
+  ul,
+  img,
+  hr {
+    @apply my-4;
+  }
+  a {
+    @apply text-[#007bff] hover:underline;
+  }
+  ul,
+  ol {
+    @apply list-outside ml-5;
+  }
+  ul {
+    @apply list-disc;
+  }
+  ol {
+    @apply list-decimal;
+  }
+  ul ul {
+    @apply my-0 ml-10 list-[circle];
+  }
+  ul ul ul {
+    @apply list-[square];
+  }
+  table {
+    @apply block w-fit max-w-full overflow-x-auto;
+  }
+  td,
+  th {
+    @apply border-t px-2 py-1;
+  }
+  code:not([data-code="true"]) {
+    @apply text-sm text-pink-500 font-mono;
+  }
+  kbd {
+    @apply text-white bg-slate-800 text-sm rounded px-1 py-0.5;
+  }
+}

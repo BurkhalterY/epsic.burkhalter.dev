@@ -1,38 +1,43 @@
-<template>
-	<div>
-		<h1>Les conditions avancées</h1>
+<script setup>
+import ShowCode from "@/components/ShowCode.vue"
+</script>
 
-		<h3>Le switch</h3>
-		<p>Le bloc switch permet de simplifier un code où on utiliserait plusieurs else if à la suite. Exemple :</p>
-		<table class="table table-responsive">
-			<thead>
-				<tr>
-					<th>If else if</th>
-					<th>Switch</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>
-						<pre class="language-java"><ShowCode file="java/if-else-if-else.java" lang="java"/></pre>
-					</td>
-					<td>
-						<pre class="language-java"><ShowCode file="java/switch.java" lang="java"/></pre>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<p>Le break est très important : il sert à sortir du switch si la condition est remplie. Si vous l'oubliez alors votre switch exécutera la condition plus toutes celles qui se trouvent après.</p>
-	</div>
+<template>
+  <div>
+    <h2>Le switch</h2>
+    <p>
+      Le bloc <code>switch</code> permet de simplifier un code où on utiliserait
+      plusieurs <code>else if</code> à la suite. Exemple :
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>If else if ...</th>
+          <th>Switch</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ShowCode file="/java/code/if-else-if-else.java" lang="java" />
+          </td>
+          <td>
+            <ShowCode file="/java/code/switch.java" lang="java" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Le <code>break</code> est très important. Il sert à sortir du
+      <code>switch</code> si la condition est remplie. Si vous l'oubliez, alors
+      votre <code>switch</code> exécutera également le code des conditions se
+      trouvant après.
+    </p>
+  </div>
 </template>
 
-<script>
-	import ShowCode from '../../components/ShowCode.vue'
-
-	export default {
-		name: 'ConditionsAvancees',
-		components: {
-			ShowCode,
-		},
-	}
-</script>
+<style scoped>
+td {
+  @apply align-top;
+}
+</style>

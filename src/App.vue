@@ -1,9 +1,3 @@
 <template>
-	<router-view/>
+  <router-view class="h-screen" />
 </template>
-
-<script>
-	export default {
-		name: 'App',
-	}
-</script>

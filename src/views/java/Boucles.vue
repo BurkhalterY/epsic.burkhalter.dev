@@ -1,35 +1,50 @@
-<template>
-	<div>
-		<h1>Les boucles</h1>
-		<p>Une boucle sert à répéter une action.</p>
-
-		<h3>La boucle while</h3>
-		<p>La boucle while s'écrit comme ceci :</p>
-		<pre class="language-java"><ShowCode file="java/while.java" lang="java"/></pre>
-		<p>La variable condition doit être une boolean. Si la condition est juste, on entre dans la boucle, le code s'exécute. Quand il arrive à la fin, il vérifie à nouveau la condition. Si elle vaut toujours true, il recommence, sinon il sort de la boucle.</p>
-		<img src="/medias/java/boucle.png" alt="Boucle" class="img-fluid"/>
-		<p>Il faut donc s'assurer que le code qui s'exécute dans la boucle influence la condition, car sinon la condition vaudra toujours true et la boucle ne s'arrêtera jamais.</p>
-
-		<h3>La boucle do ... while</h3>
-		<p>La boucle do while fonctionne de la même façon que la boucle while. Sauf qu'elle vérifie la condition à la fin. Ce qui veut dire qu'elle s'exécute au moins une fois.</p>
-		<pre class="language-java"><ShowCode file="java/do-while.java" lang="java"/></pre>
-		<p>Remarquez bien la présence du point-virgule à la fin est obligatoire.</p>
-		<p>Il est déconseillé de l'utiliser, la boucle while classique est à privilégier.</p>
-
-		<h3>La boucle for</h3>
-		<p>La boucle for s'exécute tant qu'une condition est juste, comme la boucle while. Sauf qu'elle prend deux autres paramètres: l'initialisation d'une variable et une action qui sera exécuté à chaque fin de boucle</p>
-		<pre class="language-java"><ShowCode file="java/for.java" lang="java"/></pre>
-		<p>Cette boucle va se répeter 10 fois.</p>
-	</div>
-</template>
-
-<script>
-	import ShowCode from '../../components/ShowCode.vue'
-
-	export default {
-		name: 'Boucles',
-		components: {
-			ShowCode,
-		},
-	}
+<script setup>
+import ShowCode from "@/components/ShowCode.vue"
 </script>
+
+<template>
+  <div>
+    <p>Une boucle sert à répéter une action.</p>
+
+    <h2>La boucle while</h2>
+    <p>La boucle <code>while</code> s'écrit comme ceci :</p>
+    <ShowCode file="/java/code/while.java" lang="java" />
+    <p>
+      La variable <code>condition</code> doit être de type <code>boolean</code>.
+      Si la condition est vraie, on entre dans la boucle, le code s'exécute.
+      Quand il arrive à la fin, il vérifie à nouveau la condition. Si elle est
+      toujours vraie, il recommence, sinon, il sort de la boucle.
+    </p>
+    <img src="/java/medias/boucle.png" alt="Boucle" />
+    <p>
+      Il faut donc s'assurer que le code qui s'exécute dans la boucle influence
+      la condition car sinon, la condition sera toujours vraie et la boucle ne
+      s'arrêtera jamais.
+    </p>
+
+    <h2>La boucle do ... while</h2>
+    <p>
+      La boucle <code>do while</code> fonctionne de la même façon que la boucle
+      <code>while</code>, sauf qu'elle vérifie la condition à la fin. Ce qui
+      veut dire qu'elle s'exécute toujours au moins une fois.
+    </p>
+    <ShowCode file="/java/code/do-while.java" lang="java" />
+    <p>
+      Remarquez bien la présence du point-virgule à la fin qui est obligatoire.
+    </p>
+    <p>
+      Il est déconseillé de l'utiliser<sup>(?)</sup>, la boucle
+      <code>while</code> classique est à privilégier.
+    </p>
+
+    <h2>La boucle for</h2>
+    <p>
+      La boucle <code>for</code> s'exécute tant qu'une condition est vraie,
+      comme la boucle <code>while</code>, sauf qu'elle prend deux autres
+      paramètres : l'initialisation d'une variable et une action qui sera
+      exécutée à la fin de chaque itération.
+    </p>
+    <ShowCode file="/java/code/for.java" lang="java" />
+    <p>(Cette boucle va se répeter 10 fois.)</p>
+  </div>
+</template>
