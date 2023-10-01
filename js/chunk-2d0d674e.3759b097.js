@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0d674e"],{7340:function(e){e.exports=JSON.parse('{"data":{"title":"Blender","groups":["blender/"]}}')}}]);
-//# sourceMappingURL=chunk-2d0d674e.3759b097.js.map

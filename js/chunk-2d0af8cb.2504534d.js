@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0af8cb"],{"0f98":function(e){e.exports=JSON.parse('{"title":"Fenêtrage","shortcuts":[{"keys":["Alt","F4"],"description":"Fermer la fenêtre"},{"keys":["Alt","Tab"],"description":"Switcher de fenêtre"},{"keys":["Win","↑"],"description":"Maximiser"},{"keys":["Win","↓"],"description":"Minimiser"},{"keys":["Win","←"],"description":"Ancrer sur la gauche"},{"keys":["Win","→"],"description":"Ancrer sur la droite"}]}')}}]);
-//# sourceMappingURL=chunk-2d0af8cb.2504534d.js.map

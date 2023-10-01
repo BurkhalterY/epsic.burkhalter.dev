@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d217538"],{c5f6:function(n){n.exports=JSON.parse('{"data":{"title":"Paint.NET","groups":["paint-dot-net/main"]}}')}}]);
-//# sourceMappingURL=chunk-2d217538.b014589e.js.map

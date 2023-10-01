@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d207e6b"],{a303:function(o){o.exports=JSON.parse('{"data":{"title":"Navigateurs web","groups":["browsers/common"]}}')}}]);
-//# sourceMappingURL=chunk-2d207e6b.0e6fb7db.js.map
