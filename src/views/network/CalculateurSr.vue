@@ -265,7 +265,7 @@ export default {
     <h2>5) Calculer les adresses de chaque sous-réseau</h2>
     <p v-html="step5o"></p>
     <h2>6) Réaliser l'annuaire</h2>
-    <table class="w-full">
+    <table class="!w-full !table">
       <tr class="text-left">
         <th>Adresse du sous-réseau</th>
         <th>Première adresse IP</th>

@@ -1,2 +1,3 @@
-public class ClasseEnfant extends ClasseParent {
+public class ClasseEnfant extends ClasseParente {
+
 }

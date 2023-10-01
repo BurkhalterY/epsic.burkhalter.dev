@@ -36,9 +36,20 @@ const externalLinks = [
     url: "https://www.portail.vd.ch/formation/hyperplanning/epsic/invite",
     icon: "hyperplanning",
   },
+  {
+    title: "etml.burkhalter.dev",
+    url: "https://etml.burkhalter.dev/",
+    icon: "etml",
+  },
 ]
 
 const allNews = [
+  {
+    date: "03.10.2023",
+    type: "success",
+    content:
+      "Release d'une nouvelle mise à jour et publication du code en open source.",
+  },
   {
     date: "09.01.2022",
     type: "success",
@@ -78,31 +89,10 @@ const allNews = [
   >
     <div class="py-8 ybu-content">
       <h1 class="text-center uppercase">epsic<wbr />.burkhalter<wbr />.dev</h1>
-      <!-- <p class="text-justify">
-        Messieurs bonjour ! et bienvenue sur EPSIC.BURKHALTER.DEV. Il fut un
-        temps où, certainement comme vous, j'étais apprenti. C'est à cet époque
-        que ce lieu a été créé. Ce site était un incontournable pour tout
-        apprenti en informatique ayant fréquenté l'EPSIC à l'époque. J'ai
-        ensuite obtenu mon CFC de développeur d'applications et l'on m'a, dès
-        lors, forcé à quitter ce glorieux établissement.
-      </p> -->
-      <!-- <p class="text-justify">
-        je prennais peine à réexpliquer divers modules vu au sein de ce glorieux
-        bâtiment qu'est l'EPSIC. Bien qu'ayant été forcé de quitter cet
-        établissement à la suite de l'obtention d'un CFC, il me semble
-        entièrement normal que cette partie de la toile perdure afin que la
-        postérité puisse en profiter.
-      </p>
-      <p class="text-justify">
-        pouvez aussi poser vos questions en rejoigant le serveur Discord, ou y
-        apporter vos idées d'amélioration. Je suis ouvert à toutes les questions
-        donc n'hésitez pas. Il est bien sûr possible que je commette des
-        erreurs. Si vous en trouvez, merci de me les signaler. Le contenu de ce
-        site n'est pas exsaustif et ne sera pas, à lui seul, suffisant pour
-        maîtriser un module. Sur ce, révisez bien :)
-      </p> -->
     </div>
-    <div class="grid grid-cols-3 mx-16 gap-x-16 gap-y-6">
+    <div
+      class="grid grid-cols-1 mx-16 sm:grid-cols-2 md:grid-cols-3 gap-x-16 gap-y-6"
+    >
       <div v-for="route of routes">
         <router-link :to="route">
           <img
@@ -119,7 +109,7 @@ const allNews = [
         </router-link>
       </div>
     </div>
-    <div class="grid grid-cols-2 mt-8 text-center ybu-content">
+    <div class="grid grid-cols-1 mt-8 text-center md:grid-cols-2 ybu-content">
       <div>
         <h2>Liens utiles</h2>
         <ul class="!list-inside">
@@ -135,7 +125,9 @@ const allNews = [
       </div>
       <div>
         <h2>Fil d'actualité</h2>
-        <div class="mb-8 overflow-y-scroll border-y max-h-64 no-scrollbar">
+        <div
+          class="mb-8 -mt-2 md:overflow-y-scroll border-y max-h-64 no-scrollbar"
+        >
           <div
             v-for="news of allNews"
             :class="`alert-${news.type}`"

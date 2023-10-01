@@ -109,10 +109,7 @@
 
 <style scoped>
 .all-border {
-  @apply border;
-}
-.all-border td {
-  @apply border;
+  @apply border-x border-b;
 }
 .all-border td:first-child {
   @apply text-center;

@@ -28,7 +28,7 @@ const route = {
       path: "/poo/objet",
       component: () => import("@/views/poo/Objet.vue"),
       meta: {
-        title: "Qu'est-ce qu'un objet",
+        title: "Qu'est-ce qu'un objet ?",
       },
     },
     {

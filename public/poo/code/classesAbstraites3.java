@@ -7,7 +7,7 @@ public class Cercle extends Forme {
 
 	protected double rayon;
 
-	public Cercle(double rayon){
+	public Cercle(double rayon) {
 		this.rayon = rayon;
 	}
 

@@ -10,9 +10,9 @@ public class TestClasseAbstraite {
 		collection[2] = new Rectangle(100, 40);
 
 		// Affichage de l'aire et du périmètre pour chaque forme
-		for(int i = 0; i < collection.length; i++){
-			System.out.println("aire : "+collection[i].aire());
-			System.out.println("perimetre : "+collection[i].perimetre());
+		for(int i = 0; i < collection.length; i++) {
+			System.out.println("aire : " + collection[i].aire());
+			System.out.println("perimetre : " + collection[i].perimetre());
 			System.out.println();
 		}
 

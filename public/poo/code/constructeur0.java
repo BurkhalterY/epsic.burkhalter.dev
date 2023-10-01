@@ -7,14 +7,14 @@ public class Personne {
 	private int age;
 
 	// Le constructeur par défaut
-	public Personne(){
+	public Personne() {
 		this.nom = "";
 		this.sexe = '';
 		this.age = 0;
 	}
 
 	// Surcharge du constructeur par défaut
-	public Personne(String nomPers, char sexePers, int agePers){
+	public Personne(String nomPers, char sexePers, int agePers) {
 		this.nom = nomPers;
 		this.sexe = sexePers;
 		this.age = agePers;

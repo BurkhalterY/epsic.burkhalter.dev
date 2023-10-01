@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="w-full">
+    <table class="!w-full !table">
       <tr>
         <th></th>
         <th>N°</th>

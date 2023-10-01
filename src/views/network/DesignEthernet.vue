@@ -31,16 +31,16 @@
     <ol>
       <li>Le routeur est dans le local technique.</li>
       <li>
-        Il faudra utiliser des switchs (couche 2) et non des hubs (couche 1)
+        Il faudra utiliser des switchs (couche 2) et non des hubs (couche 1).
       </li>
-      <li>ok</li>
+      <li>OK.</li>
       <li>Prévoir les switchs avec 10 ports supplémentaires.</li>
       <li>
         Ne pas mettre de switch autre pars que dans le local technique ou dans
         le couloir central.
       </li>
-      <li>Choisir des imprimantes monochromes</li>
-      <li>Choisir des switchs administrables</li>
+      <li>Choisir des imprimantes monochromes.</li>
+      <li>Choisir des switchs administrables.</li>
     </ol>
 
     <h2>Marche à suivre</h2>

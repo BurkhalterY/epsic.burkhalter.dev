@@ -4,7 +4,7 @@ public class Apprenti extends Personne {
 	protected String formation;
 
 	public Apprenti() {
-		super(); // super() permet d'appeller le constructeur de la classe parent, attention : il doit toujours être appeller en premier
+		super(); // super() permet d'appeller le constructeur de la classe parente. Attention, il doit toujours être appellé en premier
 		this.formation = "";
 	}
 
@@ -14,7 +14,7 @@ public class Apprenti extends Personne {
 	}
 
 	/*
-	 *	ici la fonction afficher() n'est pas déclarée, mais elle est quand même utilisable car elle est hérité de Personne
+	 *	Ici, la fonction afficher() n'est pas déclarée, mais elle est quand même utilisable car elle est héritée de Personne
 	 */
 
 }

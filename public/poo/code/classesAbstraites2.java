@@ -4,7 +4,7 @@ public class Rectangle extends Forme {
 
 	protected double longueur, largeur;
 
-	public Rectangle(double longueurRect, double largeurRect){
+	public Rectangle(double longueurRect, double largeurRect) {
 		this.longueur = longueurRect;
 		this.largeur = largeurRect;
 	}
@@ -16,7 +16,7 @@ public class Rectangle extends Forme {
 
 	@Override
 	public double perimetre() {
-		return 2*(largeur + longueur);
+		return 2 * (largeur + longueur);
 	}
 
 }

@@ -13,7 +13,7 @@ public class Monprogramme {
 		System.out.println(resultat); // affiche 9
 	}
 
-	public static int additionner(int a, int b){
+	public static int additionner(int a, int b) {
 		return a + b;
 	}
 }

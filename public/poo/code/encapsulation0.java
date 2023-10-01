@@ -6,7 +6,7 @@ public class Personne {
 	private char sexe;
 	private int age;
 
-	public void afficher(){
+	public void afficher() {
 		System.out.println(nom);
 		System.out.println(sexe);
 		System.out.println(age);

@@ -5,8 +5,8 @@ import ShowCode from "@/components/ShowCode.vue"
 <template>
   <div>
     <p>
-      Un tableau est une variable qui contient plusieures valeurs
-      différenciables grâce à un index.
+      Un tableau est une variable qui contient plusieurs valeurs différenciables
+      grâce à un index.
     </p>
 
     <h2>Déclaration d'un tableau</h2>

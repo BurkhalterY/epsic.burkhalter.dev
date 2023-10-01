@@ -7,12 +7,7 @@
       1 + 0 = 1<br />
       1 + 1 = 10 (on écrit 0 et on retient 1)
     </p>
-    <p>Exemple :</p>
-    <img
-      src="/bin/medias/add.png"
-      alt="0101 + 0110 = 1011"
-      class="img-fluid"
-      width="200"
-    />
+    <h2>Exemple</h2>
+    <img src="/bin/medias/add.png" alt="0101 + 0110 = 1011" width="200" />
   </div>
 </template>
