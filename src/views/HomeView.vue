@@ -37,7 +37,7 @@ const externalLinks = [
     icon: "trash",
   },
   {
-    title: "Horaires de l'EPSIC",
+    title: "Horaires de l'EPSIC (down?)",
     url: "https://www.portail.vd.ch/formation/hyperplanning/epsic/invite",
     icon: "hyperplanning",
   },
@@ -53,7 +53,7 @@ const allNews = [
     date: "03.10.2023",
     type: "success",
     content:
-      "Release d'une nouvelle mise à jour et publication du code en open source.",
+      "Release d'une nouvelle mise à jour et publication du code en open source.<br /><a href='https://github.com/BurkhalterY/epsic.burkhalter.dev' target='_blank'>https://github.com/BurkhalterY/epsic.burkhalter.dev</a>",
   },
   {
     date: "09.01.2022",
