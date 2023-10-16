@@ -40,9 +40,8 @@ const router = createRouter({
 
 router.beforeEach((to) => {
   if (to.meta.module) {
-    let newTitle = to.meta.module.cie
-      ? "CIE "
-      : "Module " + to.meta.module.numero
+    let newTitle =
+      (to.meta.module.cie ? "CIE " : "Module ") + to.meta.module.numero
     if (!to.meta.isIndex) newTitle += " - " + to.meta.title
     document.title = newTitle
     document.querySelector(
