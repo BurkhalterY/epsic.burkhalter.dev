@@ -1,4 +1,4 @@
-const route = {
+export default {
   path: "/poo",
   component: () => import("@/views/ModuleBaseView.vue"),
   meta: {
@@ -13,12 +13,16 @@ const route = {
         itemBgColor: "#f8f9fa",
         textColor: "#808080",
       },
+      author: {
+        name: "Yannis Burkhalter",
+        link: "mailto:yannis@burkhalter.dev",
+      },
     },
   },
   children: [
     {
       path: "/poo",
-      component: () => import("@/views/poo/Menu.vue"),
+      component: () => import("./views/Menu.vue"),
       meta: {
         title: "Menu",
         isIndex: true,
@@ -26,56 +30,56 @@ const route = {
     },
     {
       path: "/poo/objet",
-      component: () => import("@/views/poo/Objet.vue"),
+      component: () => import("./views/Objet.vue"),
       meta: {
         title: "Qu'est-ce qu'un objet ?",
       },
     },
     {
       path: "/poo/constructeur",
-      component: () => import("@/views/poo/Constructeur.vue"),
+      component: () => import("./views/Constructeur.vue"),
       meta: {
         title: "Les constructeurs",
       },
     },
     {
       path: "/poo/encapsulation",
-      component: () => import("@/views/poo/Encapsulation.vue"),
+      component: () => import("./views/Encapsulation.vue"),
       meta: {
         title: "L'encapsulation",
       },
     },
     {
       path: "/poo/heritage",
-      component: () => import("@/views/poo/Heritage.vue"),
+      component: () => import("./views/Heritage.vue"),
       meta: {
         title: "L'héritage",
       },
     },
     {
       path: "/poo/polymorphisme",
-      component: () => import("@/views/poo/Polymorphisme.vue"),
+      component: () => import("./views/Polymorphisme.vue"),
       meta: {
         title: "Le polymorphisme",
       },
     },
     {
       path: "/poo/classes_abstraites",
-      component: () => import("@/views/poo/ClassesAbstraites.vue"),
+      component: () => import("./views/ClassesAbstraites.vue"),
       meta: {
         title: "Les classes abstraites",
       },
     },
     {
       path: "/poo/interfaces",
-      component: () => import("@/views/poo/Interfaces.vue"),
+      component: () => import("./views/Interfaces.vue"),
       meta: {
         title: "Les interfaces",
       },
     },
     {
       path: "/poo/fenetre",
-      component: () => import("@/views/poo/Fenetre.vue"),
+      component: () => import("./views/Fenetre.vue"),
       meta: {
         title: "Première fenêtre",
         special: true,
@@ -83,5 +87,3 @@ const route = {
     },
   ],
 }
-
-export default route

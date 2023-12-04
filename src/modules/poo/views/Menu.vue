@@ -1,5 +1,5 @@
 <script setup>
-import route from "@/router/poo"
+import route from ".."
 
 const routes = route.children
 </script>

@@ -1,5 +1,5 @@
 <script setup>
-import route from "@/router/java"
+import route from ".."
 
 const routes = route.children
 </script>
@@ -10,7 +10,7 @@ const routes = route.children
     <ul>
       <li
         v-for="route of routes.filter((r) => r.meta && !r.meta.isIndex)"
-        :class="route.meta.special ? 'mt-5' : ''"
+        :class="{ 'mt-5': route.meta.br }"
       >
         <router-link :to="route">{{ route.meta.title }}</router-link>
       </li>

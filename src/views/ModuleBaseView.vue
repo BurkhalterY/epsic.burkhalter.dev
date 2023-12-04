@@ -4,7 +4,9 @@ import { useRoute } from "vue-router"
 
 const route = useRoute()
 
-const routes = computed(() => route.matched[0].children)
+const routes = computed(() =>
+  route.matched[0].children.filter((r) => !r.redirect)
+)
 const index = computed(() =>
   routes.value.findIndex((r) => r.path == route.path)
 )
@@ -37,7 +39,12 @@ const previousPage = computed(() => routes.value[index.value - 1])
             </router-link>
           </li>
         </template>
-        <li class="float-right">&copy; Burkhalter Yannis</li>
+        <li class="float-right">
+          &copy;
+          <a :href="route.meta.module.author.link" target="_blank">
+            {{ route.meta.module.author.name }}
+          </a>
+        </li>
       </ul>
     </nav>
     <div

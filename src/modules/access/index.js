@@ -1,4 +1,4 @@
-const route = {
+export default {
   path: "/access",
   component: () => import("@/views/ModuleBaseView.vue"),
   meta: {
@@ -13,12 +13,16 @@ const route = {
         itemBgColor: "#832c2e",
         textColor: "#ffffff",
       },
+      author: {
+        name: "Yannis Burkhalter",
+        link: "mailto:yannis@burkhalter.dev",
+      },
     },
   },
   children: [
     {
       path: "/access",
-      component: () => import("@/views/access/Menu.vue"),
+      component: () => import("./views/Menu.vue"),
       meta: {
         title: "Menu",
         isIndex: true,
@@ -26,70 +30,70 @@ const route = {
     },
     {
       path: "/access/tables",
-      component: () => import("@/views/access/Tables.vue"),
+      component: () => import("./views/Tables.vue"),
       meta: {
         title: "Les tables",
       },
     },
     {
       path: "/access/relations",
-      component: () => import("@/views/access/Relations.vue"),
+      component: () => import("./views/Relations.vue"),
       meta: {
         title: "Les relations",
       },
     },
     {
       path: "/access/valide-si",
-      component: () => import("@/views/access/ValideSi.vue"),
+      component: () => import("./views/ValideSi.vue"),
       meta: {
         title: "Valide si",
       },
     },
     {
       path: "/access/donnees",
-      component: () => import("@/views/access/Donnees.vue"),
+      component: () => import("./views/Donnees.vue"),
       meta: {
         title: "Ajouter des données",
       },
     },
     {
       path: "/access/listes-deroulantes",
-      component: () => import("@/views/access/ListesDeroulantes.vue"),
+      component: () => import("./views/ListesDeroulantes.vue"),
       meta: {
         title: "Listes déroulantes pour les FK",
       },
     },
     {
       path: "/access/formulaires",
-      component: () => import("@/views/access/Formulaires.vue"),
+      component: () => import("./views/Formulaires.vue"),
       meta: {
         title: "Créer un formulaire",
       },
     },
     {
       path: "/access/boutons",
-      component: () => import("@/views/access/Boutons.vue"),
+      component: () => import("./views/Boutons.vue"),
       meta: {
         title: "Ajouter des boutons aux formulaires",
       },
     },
     {
       path: "/access/vba",
-      component: () => import("@/views/access/Vba.vue"),
+      component: () => import("./views/Vba.vue"),
       meta: {
         title: "Les bases du VBA",
       },
     },
     {
       path: "/access/requetes",
-      component: () => import("@/views/access/Requetes.vue"),
+      component: () => import("./views/Requetes.vue"),
       meta: {
         title: "Afficher une liste avec une requête",
       },
     },
     {
       path: "/access/control-zone-liste",
-      component: () => import("@/views/access/ControlZoneListe.vue"),
+      component: () => import("./views/ControlZoneListe.vue"),
       meta: {
         title:
           "Importer, ajouter, modifier et supprimer des éléments d'une zone de liste (niveau avancé)",
@@ -97,20 +101,30 @@ const route = {
     },
     {
       path: "/access/etiquettes",
-      component: () => import("@/views/access/Etiquettes.vue"),
+      component: () => import("./views/Etiquettes.vue"),
       meta: {
         title: "Imprimer des étiquettes",
       },
     },
     {
       path: "/access/access1",
-      component: () => import("@/views/access/Access1.vue"),
+      component: () => import("./views/Access1.vue"),
       meta: {
         title: "Ma base de données en Access 1.0",
         special: true,
       },
     },
+    {
+      path: "/access/valide_si",
+      redirect: "/access/valide-si",
+    },
+    {
+      path: "/access/listes_deroulantes",
+      redirect: "/access/listes-deroulantes",
+    },
+    {
+      path: "/access/control_zone_liste",
+      redirect: "/access/control-zone-liste",
+    },
   ],
 }
-
-export default route
