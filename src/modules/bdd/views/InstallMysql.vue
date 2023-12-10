@@ -28,11 +28,13 @@
     <img src="/bdd/medias/uwamp.png" alt="Fenêtre UwAmp" />
     <p>
       Vous pouvez cliquer sur le bouton
-      <img
-        src="/bdd/medias/btn_phpmyadmin.png"
-        alt="PHPMyAdmin"
-        class="inline"
-      />
+      <a href="http://localhost/mysql/" target="_blank">
+        <img
+          src="/bdd/medias/btn_phpmyadmin.png"
+          alt="PHPMyAdmin"
+          class="inline"
+        />
+      </a>
       pour ouvrir phpMyAdmin.
     </p>
   </div>
