@@ -33,13 +33,11 @@ import ShowCode from "@/components/ShowCode.vue"
     <hr />
     <p>Résultat :</p>
     <iframe
-      width="560"
-      height="315"
       src="https://www.youtube.com/embed/kJQP7kiw5Fk"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-      class="mx-auto"
-    ></iframe>
+      class="w-full max-w-[560px] mx-auto aspect-video"
+    />
   </div>
 </template>
