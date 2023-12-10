@@ -15,20 +15,14 @@ import ShowCode from "@/components/ShowCode.vue"
       éléments de la liste entre balise
       <ShowCode raw="<li>" lang="html" :inline="true" /> :
     </p>
-    <table>
-      <tr>
-        <td>
-          <ShowCode file="/html/code/ul.html" lang="html" />
-        </td>
-        <td>
-          <ul>
-            <li>Pierre</li>
-            <li>Paul</li>
-            <li>Jacques</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
+    <div class="grid items-center grid-cols-1 gap-x-5 w-fit sm:grid-cols-2">
+      <ShowCode file="/html/code/ul.html" lang="html" />
+      <ul>
+        <li>Pierre</li>
+        <li>Paul</li>
+        <li>Jacques</li>
+      </ul>
+    </div>
 
     <p>
       Pour utiliser une liste ordonnée, simplement utiliser
@@ -36,20 +30,14 @@ import ShowCode from "@/components/ShowCode.vue"
       <ShowCode raw="<ul>" lang="html" :inline="true" />. Les numéros seront
       générés automatiquement :
     </p>
-    <table>
-      <tr>
-        <td>
-          <ShowCode file="/html/code/ol.html" lang="html" />
-        </td>
-        <td>
-          <ol>
-            <li>Pierre</li>
-            <li>Paul</li>
-            <li>Jacques</li>
-          </ol>
-        </td>
-      </tr>
-    </table>
+    <div class="grid items-center grid-cols-1 gap-x-5 w-fit sm:grid-cols-2">
+      <ShowCode file="/html/code/ol.html" lang="html" />
+      <ol>
+        <li>Pierre</li>
+        <li>Paul</li>
+        <li>Jacques</li>
+      </ol>
+    </div>
 
     <h2>Listes imbriquées</h2>
     <p>
@@ -57,24 +45,18 @@ import ShowCode from "@/components/ShowCode.vue"
       <ShowCode raw="<ul>" lang="html" :inline="true" /> dans une autre afin
       d'avoir une liste avec plusieurs niveaux :
     </p>
-    <table>
-      <tr>
-        <td>
-          <ShowCode file="/html/code/ul-lvl2.html" lang="html" />
-        </td>
-        <td>
-          <ul>
-            <li>Titre</li>
-            <li>Menu 1</li>
-            <ul>
-              <li>Sous-menu 1</li>
-              <li>Sous-menu 2</li>
-            </ul>
-            <li>Menu 2</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
+    <div class="grid items-center grid-cols-1 gap-x-5 w-fit sm:grid-cols-2">
+      <ShowCode file="/html/code/ul-lvl2.html" lang="html" />
+      <ul>
+        <li>Titre</li>
+        <li>Menu 1</li>
+        <ul>
+          <li>Sous-menu 1</li>
+          <li>Sous-menu 2</li>
+        </ul>
+        <li>Menu 2</li>
+      </ul>
+    </div>
   </div>
 </template>
 
