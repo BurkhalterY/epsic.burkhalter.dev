@@ -8,7 +8,7 @@
     </p>
     <p>État actuel :</p>
     <img src="/access/medias/liste_deroulante_0.png" alt="État actuel" />
-    <div class="grid grid-cols-2 gap-4 p-4">
+    <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2">
       <ul class="ml-3">
         <li>Ouvrir la table en Mode Création</li>
         <li>Cliquer sur le champ FK</li>
