@@ -1,13 +1,5 @@
+import modules from "@/modules"
 import { createRouter, createWebHistory } from "vue-router"
-import accessRoute from "./access"
-import bddRoute from "./bdd"
-import binRoute from "./bin"
-import htmlRoute from "./html"
-import javaRoute from "./java"
-import networkRoute from "./network"
-import pooRoute from "./poo"
-import redirectRoutes from "./redirects"
-import serverRoute from "./server"
 
 const routes = [
   {
@@ -18,15 +10,7 @@ const routes = [
       title: "Accueil - epsic.burkhalter.dev",
     },
   },
-  accessRoute,
-  htmlRoute,
-  bddRoute,
-  binRoute,
-  networkRoute,
-  serverRoute,
-  javaRoute,
-  pooRoute,
-  ...redirectRoutes,
+  ...modules,
   {
     path: "/:pathMatch(.*)*",
     redirect: () => "404",

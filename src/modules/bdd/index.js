@@ -1,4 +1,4 @@
-const route = {
+export default {
   path: "/bdd",
   component: () => import("@/views/ModuleBaseView.vue"),
   meta: {
@@ -13,12 +13,16 @@ const route = {
         itemBgColor: "#832c2e",
         textColor: "#ffffff",
       },
+      author: {
+        name: "Yannis Burkhalter",
+        link: "mailto:yannis@burkhalter.dev",
+      },
     },
   },
   children: [
     {
       path: "/bdd",
-      component: () => import("@/views/bdd/Menu.vue"),
+      component: () => import("./views/Menu.vue"),
       meta: {
         title: "Menu",
         isIndex: true,
@@ -26,47 +30,45 @@ const route = {
     },
     {
       path: "/bdd/fk_theorie",
-      component: () => import("@/views/bdd/FkTheorie.vue"),
+      component: () => import("./views/FkTheorie.vue"),
       meta: {
         title: "Mieux comprendre les FK",
       },
     },
     {
       path: "/bdd/install_mysql",
-      component: () => import("@/views/bdd/InstallMysql.vue"),
+      component: () => import("./views/InstallMysql.vue"),
       meta: {
         title: "Installer un serveur MySQL",
       },
     },
     {
       path: "/bdd/phpmyadmin",
-      component: () => import("@/views/bdd/Phpmyadmin.vue"),
+      component: () => import("./views/Phpmyadmin.vue"),
       meta: {
         title: "Prise en main de phpMyAdmin",
       },
     },
     {
       path: "/bdd/fk",
-      component: () => import("@/views/bdd/Fk.vue"),
+      component: () => import("./views/Fk.vue"),
       meta: {
         title: "Lier un champ FK_",
       },
     },
     {
       path: "/bdd/sql_select",
-      component: () => import("@/views/bdd/SqlSelect.vue"),
+      component: () => import("./views/SqlSelect.vue"),
       meta: {
         title: "Récuperer des données avec des requêtes SQL",
       },
     },
     {
       path: "/bdd/sql_inner_join",
-      component: () => import("@/views/bdd/SqlInnerJoin.vue"),
+      component: () => import("./views/SqlInnerJoin.vue"),
       meta: {
         title: "Requêtes sur plusieurs tables",
       },
     },
   ],
 }
-
-export default route

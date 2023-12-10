@@ -1,5 +1,5 @@
 <script setup>
-import route from "@/router/access"
+import route from ".."
 
 const routes = route.children
 const access1 = routes.find((r) => r.meta.special)

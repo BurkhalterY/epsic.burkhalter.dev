@@ -1,14 +1,7 @@
 <script setup>
-import access from "@/router/access"
-import bdd from "@/router/bdd"
-import bin from "@/router/bin"
-import html from "@/router/html"
-import java from "@/router/java"
-import network from "@/router/network"
-import poo from "@/router/poo"
-import serverRoute from "@/router/server"
+import { useRouter } from "vue-router"
 
-const routes = [access, html, bdd, bin, network, serverRoute, java, poo]
+const router = useRouter()
 
 const externalLinks = [
   {
@@ -98,10 +91,10 @@ const allNews = [
     <div
       class="grid grid-cols-1 mx-16 sm:grid-cols-2 md:grid-cols-3 gap-x-16 gap-y-6"
     >
-      <div v-for="route of routes">
+      <div v-for="route of router.getRoutes().filter((r) => r.meta.module)">
         <router-link :to="route">
           <img
-            :src="`${route.path}/square.png`"
+            :src="`${route.meta.module.path}/square.png`"
             class="border-4 border-black rounded-xl"
           />
           <figcaption class="mt-1 text-lg text-center">

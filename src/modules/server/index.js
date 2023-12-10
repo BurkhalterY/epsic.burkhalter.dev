@@ -1,8 +1,12 @@
-const route = {
+export default {
   path: "/server",
   component: () => import("@/views/ModuleBaseView.vue"),
   meta: {
     module: {
+      author: {
+        name: "Yannis Burkhalter",
+        link: "mailto:yannis@burkhalter.dev",
+      },
       path: "server",
       numero: 123,
       shortName: "Windows Server",
@@ -13,12 +17,16 @@ const route = {
         itemBgColor: "#0f7ddf",
         textColor: "#ffffff",
       },
+      author: {
+        name: "Yannis Burkhalter",
+        link: "mailto:yannis@burkhalter.dev",
+      },
     },
   },
   children: [
     {
       path: "/server/",
-      component: () => import("@/views/server/Menu.vue"),
+      component: () => import("./views/Menu.vue"),
       meta: {
         title: "Menu",
         isIndex: true,
@@ -26,21 +34,21 @@ const route = {
     },
     {
       path: "/server/dns",
-      component: () => import("@/views/server/Dns.vue"),
+      component: () => import("./views/Dns.vue"),
       meta: {
         title: "Les DNS",
       },
     },
     {
       path: "/server/ad",
-      component: () => import("@/views/server/Ad.vue"),
+      component: () => import("./views/Ad.vue"),
       meta: {
         title: "L'Active Directory (AD)",
       },
     },
     {
       path: "/server/mmc",
-      component: () => import("@/views/server/Mmc.vue"),
+      component: () => import("./views/Mmc.vue"),
       meta: {
         title: "MMC",
         tip: true,
@@ -48,5 +56,3 @@ const route = {
     },
   ],
 }
-
-export default route
