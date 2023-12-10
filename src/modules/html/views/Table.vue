@@ -30,7 +30,7 @@ import ShowCode from "@/components/ShowCode.vue"
       <ShowCode raw="<td>" lang="html" :inline="true" /> lorsqu'on veut indiquer
       qu'une cellule appartient à l'entête.
     </p>
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-1 sm:grid-cols-2">
       <div>
         <ShowCode file="/html/code/table.html" lang="html" />
       </div>
