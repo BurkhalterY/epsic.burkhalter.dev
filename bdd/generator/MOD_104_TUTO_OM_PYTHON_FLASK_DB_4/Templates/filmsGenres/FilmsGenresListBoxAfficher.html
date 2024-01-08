@@ -1,0 +1,76 @@
+{% extends "PagePrincipaleHome.html" %}
+{% block content %}
+<!--
+  OM 2019.04.07 J'UTILISE UN COMPOSANT DISPONIBLE SUR https://www.virtuosoft.eu/code/bootstrap-duallistbox/
+  JE N'AI PAS MODIFIE LES NOMS DES VARIABLES UTILISEES
+  J'AI TELECHARGE LES FICHIERS JS ET CSS UTILISES CORRESPONDANT POUR LA VERSION TELECHARGEE
+-->
+<div>
+  {{ msgHtml }}
+</div>
+<br>
+<table border="1" cellpadding="5" cellspacing="5">
+  <thead>
+      <tr>
+          <th>id</th>
+          <th>Titre</th>
+          <th>Durée</th>
+          <th>Description</th>
+          <th>Affiche</th>
+          <th>Date sortie</th>
+      </tr>
+  </thead>
+  {% for row in dataFilms %}
+      <tr>
+          <td>{{ row.id_film }}</td>
+          <td>{{ row.nom_film }}</td>
+          <td>{{ row.duree_film|default("", True) }}</td>
+          <td>{{ row.description_film|default("", True) }}</td>
+          <td><img src={{ row.cover_link_film|default("", True) }} style="width:auto;max-height: 46px;" alt = "Gilets Jaunes Maccaron mod 104"></td>                                        
+          <td>{{ row.date_sortie_film|default("", True) }}</td>
+          <!-- OM 2019.04.15 CETTE PARTIE DOIT ÊTRE FONCTIONNELLE POUR L'EXAMEN DU MODULE 104 -->
+          <td> <a href="{{ url_for('HoMe.varPyRouteHome', idSCat=row.id_film) }}">Edit</a> </td>
+          <td> <a href="{{ url_for('HoMe.varPyRouteHome', idSCat=row.id_film) }}">Delete</a> </td>
+          <td> <a href="{{ url_for('HoMe.varPyRouteHome') }}">Add</a> </td>
+      </tr>
+
+      <tr>
+
+      </tr>
+  {% endfor %}
+</table>
+
+<form id="demoform" action="{{ url_for('films_genres.varPyRoutefilmsGenresListBoxAfficherUpdate' ) }}" method="POST">
+  <select multiple="multiple" size="10" name="nameTagsIntituleGenreHTMLduallistbox_demo1[]" title="duallistbox_demo1[]">
+      {% set ns = namespace(numGenreHTML = 0) %}
+      {% for row in dataIdGenresNonAttribues %}
+          <option value="{{ row.id_genre }}" name = "nameTagsIntituleGenreHTML[]">{{ row.intitule_genre }}</option>
+          {% set ns.numGenreHTML = ns.numGenreHTML + 1 %}
+      {% endfor %}
+      {% set ns = namespace(numGenreAttribuesHTML = 0) %}      
+      {% for row in dataIdGenresAttribues %}
+          <option value="{{ row.id_genre }}" name = "nameTagsIntitulesGenresAttribuesHTML[]" selected="selected">{{ row.intitule_genre }}</option>
+          {% set ns.numGenreAttribuesHTML = ns.numGenreAttribuesHTML + 1 %}
+      {% endfor %}
+
+  </select>
+  <input name="nameItemsSelectGenreLstBoxHTML[]" type="hidden"/>
+  <br>
+  <button type="submit" class="btn btn-primary btn-block">Confirmer</button>
+</form>
+<script>
+  //  OM 2019.04.07 Voici comment initialiser et configurer le composant "bootstrapDualListbox"
+  // Une liste de paramètres est indiqué sur le site : https://www.virtuosoft.eu/code/bootstrap-duallistbox/
+  var demo1 = $('select[name="nameTagsIntituleGenreHTMLduallistbox_demo1[]"]').bootstrapDualListbox({
+    filterTextClear: 'Je suis beau',
+    filterPlaceHolder: 'Filtrer'
+  });
+
+  $("#demoform").submit(function() {
+    var liste = $('[name="nameTagsIntituleGenreHTMLduallistbox_demo1[]"]').val();
+    $("input[name='nameItemsSelectGenreLstBoxHTML[]']").val(liste);
+    alert($('[name="nameTagsIntituleGenreHTMLduallistbox_demo1[]"]').val());
+    return false;
+  });
+</script>
+{% endblock %}

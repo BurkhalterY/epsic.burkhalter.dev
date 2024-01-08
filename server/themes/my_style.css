@@ -1,0 +1,15 @@
+body {
+	/*background-color: #229AE4;*/
+}
+
+.navbar {
+	background-color: #0F7DDF;
+}
+
+nav a {
+	color: white;
+}
+
+img.thumb {
+	max-width: 50%;
+}
