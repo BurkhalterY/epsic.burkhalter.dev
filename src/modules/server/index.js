@@ -3,10 +3,6 @@ export default {
   component: () => import("@/views/ModuleBaseView.vue"),
   meta: {
     module: {
-      author: {
-        name: "Yannis Burkhalter",
-        link: "mailto:yannis@burkhalter.dev",
-      },
       path: "server",
       numero: 123,
       shortName: "Windows Server",

@@ -27,8 +27,12 @@ const previousPage = computed(() => routes.value[index.value - 1])
             :class="{ 'pr-1': route.meta.isIndex }"
             :to="`/${route.meta.module.path}`"
           >
-            {{ route.meta.module.cie ? "CIE" : "Module" }}
-            {{ route.meta.module.numero }}
+            {{
+              route.meta.module.name ??
+              (route.meta.module.cie ? "CIE" : "Module")
+            }}<template v-if="route.meta.module.numero">{{
+              route.meta.module.numero
+            }}</template>
           </router-link>
         </li>
         <template v-if="!route.meta.isIndex">
@@ -52,7 +56,9 @@ const previousPage = computed(() => routes.value[index.value - 1])
     >
       <h1 v-if="!route.meta.isIndex">{{ route.meta.title }}</h1>
       <h1 v-else>
-        {{ route.meta.module.cie ? "CIE" : "Module" }}
+        {{
+          route.meta.module.name ?? (route.meta.module.cie ? "CIE" : "Module")
+        }}
         {{ route.meta.module.numero }}
       </h1>
       <router-view />

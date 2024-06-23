@@ -6,5 +6,6 @@ import java from "./java"
 import network from "./network"
 import poo from "./poo"
 import server from "./server"
+import tools from "./tools"
 
-export default [access, bdd, html, bin, network, server, java, poo]
+export default [access, bdd, html, bin, network, server, java, poo, tools]

@@ -98,7 +98,10 @@ const allNews = [
             class="border-4 border-black rounded-xl"
           />
           <figcaption class="mt-1 text-lg text-center">
-            {{ route.meta.module.cie ? "CIE" : "Module" }}
+            {{
+              route.meta.module.name ??
+              (route.meta.module.cie ? "CIE" : "Module")
+            }}
             {{ route.meta.module.numero }}
             <div class="text-sm">
               {{ route.meta.module.shortName }}
