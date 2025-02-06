@@ -24,16 +24,16 @@ const externalLinks = [
     url: "https://discord.gg/NejUt35yur",
     icon: "discord",
   },
-  {
+  /*{
     title: "Site de JackTrash",
     url: "https://epsic.jacktrash.ch/",
     icon: "trash",
-  },
-  {
-    title: "Horaires de l'EPSIC (down?)",
+  },*/
+  /*{
+    title: "Horaires de l'EPSIC",
     url: "https://www.portail.vd.ch/formation/hyperplanning/epsic/invite",
     icon: "hyperplanning",
-  },
+  },*/
   {
     title: "etml.burkhalter.dev",
     url: "https://etml.burkhalter.dev/",
