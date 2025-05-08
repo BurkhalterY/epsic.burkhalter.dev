@@ -1,5 +1,6 @@
 <script setup>
 import { useRouter } from "vue-router"
+import BTCPay from "@/components/BTCPay.vue"
 
 const router = useRouter()
 
@@ -123,6 +124,7 @@ const allNews = [
             </a>
           </li>
         </ul>
+        <BTCPay />
       </div>
       <div>
         <h2>Fil d'actualité</h2>
