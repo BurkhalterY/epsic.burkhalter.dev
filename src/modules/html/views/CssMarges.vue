@@ -6,7 +6,7 @@ import ShowCode from "@/components/ShowCode.vue"
   <div>
     <p>
       Les marges permettent de mettre de l'espace entre les balises. Il en
-      existe deux type :
+      existe deux types :
     </p>
     <ul>
       <li>Marges extérieures (margin)</li>
