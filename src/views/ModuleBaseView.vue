@@ -30,7 +30,8 @@ const previousPage = computed(() => routes.value[index.value - 1])
             {{
               route.meta.module.name ??
               (route.meta.module.cie ? "CIE" : "Module")
-            }}<template v-if="route.meta.module.numero">{{
+            }}
+            <template v-if="route.meta.module.numero">{{
               route.meta.module.numero
             }}</template>
           </router-link>
